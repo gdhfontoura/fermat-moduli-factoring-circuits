@@ -1,0 +1,31 @@
+=======================================================
+[2026-05-06 22:58:14] EXECUTION BATCH - N = 51
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 12
+Transpiled Depth = 556
+Total Gates = 947
+Gate Types Breakdown = {"sx": 462, "rz": 248, "cz": 221, "x": 9, "measure": 4, "barrier": 3}
+
+=== Hardware and Execution ===
+Backend = ibm_marrakesh
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-06 22:39:58
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.4948 +/- 0.1467
+Order-Finding Success Rate = 24.22% +/- 7.23%
+Peaks yielding exact 'r' = [2, 6, 10, 14]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Success: 30.0% | Successful Shots: 307/1024]: {"14": 74, "12": 61, "0": 81, "3": 42, "13": 56, "4": 78, "1": 50, "15": 51, "5": 50, "11": 61, "8": 92, "6": 82, "2": 81, "9": 49, "7": 46, "10": 70}
+Run 2 [Success: 23.9% | Successful Shots: 245/1024]: {"7": 61, "4": 75, "11": 50, "14": 64, "9": 80, "10": 50, "12": 81, "1": 56, "15": 76, "13": 55, "2": 65, "3": 63, "5": 58, "6": 66, "8": 62, "0": 62}
+Run 3 [Success: 11.4% | Successful Shots: 117/1024]: {"13": 91, "9": 105, "2": 40, "8": 30, "0": 26, "15": 119, "7": 93, "6": 21, "3": 91, "10": 24, "14": 32, "11": 92, "12": 35, "1": 106, "4": 33, "5": 86}
+Run 4 [Success: 32.2% | Successful Shots: 330/1024]: {"8": 90, "3": 47, "14": 79, "0": 90, "13": 39, "12": 87, "4": 78, "6": 96, "2": 74, "9": 50, "1": 44, "10": 81, "5": 35, "7": 37, "11": 47, "15": 50}
+Run 5 [Success: 23.5% | Successful Shots: 241/1024]: {"4": 69, "11": 78, "2": 60, "9": 82, "0": 56, "15": 71, "6": 57, "14": 62, "3": 64, "10": 62, "1": 65, "13": 66, "8": 53, "7": 59, "12": 63, "5": 57}
+
+
