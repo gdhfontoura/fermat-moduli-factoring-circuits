@@ -106,3 +106,267 @@ Run 4 [Total Success: 41.6% | Expected Peak Accuracy: 47.0%]: {"9": 15, "14": 11
 Run 5 [Total Success: 40.7% | Expected Peak Accuracy: 45.1%]: {"10": 100, "4": 122, "9": 12, "15": 14, "8": 139, "12": 121, "14": 98, "0": 126, "7": 11, "2": 104, "1": 9, "11": 14, "6": 115, "5": 11, "3": 10, "13": 18}
 
 
+=======================================================
+[2026-05-12 18:07:05] EXECUTION BATCH - N = 51
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 12
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 577
+Total Gates = 950
+Gate Types Breakdown = {"sx": 482, "cz": 243, "rz": 209, "x": 9, "measure": 4, "barrier": 3}
+
+=== Hardware and Execution ===
+Backend = ibm_marrakesh
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-12 17:44:54
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.6067 +/- 0.1977
+Total Success Rate = 27.42% +/- 8.57%
+Expected Peak Success Rate = 45.47% +/- 2.46%
+Peaks yielding exact 'r' = [2, 6, 10, 14]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 31.6% | Expected Peak Accuracy: 46.2%]: {"2": 77, "11": 42, "12": 96, "14": 86, "8": 107, "9": 47, "6": 78, "0": 96, "5": 39, "15": 35, "10": 83, "4": 78, "13": 47, "1": 44, "3": 35, "7": 34}
+Run 2 [Total Success: 10.4% | Expected Peak Accuracy: 48.6%]: {"7": 99, "9": 105, "15": 101, "3": 102, "8": 24, "12": 37, "13": 95, "5": 93, "14": 21, "2": 25, "1": 108, "10": 36, "4": 27, "11": 101, "6": 25, "0": 25}
+Run 3 [Total Success: 33.8% | Expected Peak Accuracy: 47.2%]: {"2": 91, "3": 38, "4": 96, "0": 104, "6": 88, "12": 109, "15": 35, "8": 78, "11": 28, "13": 38, "10": 75, "14": 92, "9": 37, "7": 36, "5": 43, "1": 36}
+Run 4 [Total Success: 30.1% | Expected Peak Accuracy: 43.3%]: {"0": 99, "5": 43, "11": 33, "8": 93, "10": 67, "4": 114, "14": 71, "2": 87, "13": 36, "12": 98, "9": 32, "3": 48, "6": 83, "15": 47, "7": 31, "1": 42}
+Run 5 [Total Success: 31.2% | Expected Peak Accuracy: 42.0%]: {"4": 132, "12": 104, "8": 101, "2": 91, "10": 85, "5": 31, "14": 68, "13": 29, "0": 103, "7": 28, "6": 75, "11": 31, "15": 45, "3": 36, "1": 33, "9": 32}
+
+
+=======================================================
+[2026-05-12 18:07:54] EXECUTION BATCH - N = 51
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 12
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 577
+Total Gates = 950
+Gate Types Breakdown = {"sx": 482, "cz": 243, "rz": 209, "x": 9, "measure": 4, "barrier": 3}
+
+=== Hardware and Execution ===
+Backend = ibm_marrakesh
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-12 17:44:54
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.7192 +/- 0.0147
+Total Success Rate = 31.21% +/- 0.69%
+Expected Peak Success Rate = 43.16% +/- 0.89%
+Peaks yielding exact 'r' = [2, 6, 10, 14]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 31.0% | Expected Peak Accuracy: 44.0%]: {"8": 405, "15": 166, "2": 341, "14": 299, "10": 319, "13": 145, "9": 153, "4": 436, "12": 395, "3": 168, "11": 150, "5": 133, "7": 163, "6": 312, "0": 382, "1": 129}
+Run 2 [Total Success: 30.2% | Expected Peak Accuracy: 42.1%]: {"7": 153, "10": 313, "2": 324, "6": 300, "8": 411, "4": 461, "15": 120, "12": 416, "9": 136, "11": 154, "1": 139, "0": 417, "3": 138, "14": 301, "13": 168, "5": 145}
+Run 3 [Total Success: 32.4% | Expected Peak Accuracy: 43.9%]: {"4": 428, "8": 392, "5": 140, "12": 458, "6": 289, "9": 147, "10": 342, "7": 123, "2": 362, "0": 417, "3": 148, "14": 333, "11": 123, "13": 119, "15": 132, "1": 143}
+Run 4 [Total Success: 31.3% | Expected Peak Accuracy: 42.1%]: {"0": 425, "12": 450, "4": 487, "14": 287, "8": 405, "6": 322, "10": 338, "15": 117, "5": 130, "3": 167, "2": 336, "9": 130, "7": 119, "11": 142, "13": 127, "1": 114}
+Run 5 [Total Success: 31.1% | Expected Peak Accuracy: 43.8%]: {"4": 443, "10": 365, "8": 380, "12": 421, "2": 323, "6": 290, "0": 393, "3": 160, "15": 158, "1": 132, "7": 152, "9": 129, "5": 130, "13": 154, "11": 170, "14": 296}
+
+
+=======================================================
+[2026-05-12 18:08:10] EXECUTION BATCH - N = 51
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 12
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 577
+Total Gates = 950
+Gate Types Breakdown = {"sx": 482, "cz": 243, "rz": 209, "x": 9, "measure": 4, "barrier": 3}
+
+=== Hardware and Execution ===
+Backend = ibm_marrakesh
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-12 17:44:54
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.6250 +/- 0.0000
+Total Success Rate = 40.00% +/- 0.00%
+Expected Peak Success Rate = 40.00% +/- 0.00%
+Peaks yielding exact 'r' = [6, 10]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 40.0% | Expected Peak Accuracy: 40.0%]: {"4": 1, "6": 1, "12": 1, "10": 1, "8": 1}
+
+
+=======================================================
+[2026-05-12 18:08:53] EXECUTION BATCH - N = 51
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 5
+Ideal QFT Bits (ideal_qft_size) = 12
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 591
+Total Gates = 1031
+Gate Types Breakdown = {"sx": 502, "rz": 270, "cz": 244, "x": 7, "measure": 5, "barrier": 3}
+
+=== Hardware and Execution ===
+Backend = ibm_marrakesh
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-12 17:44:54
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.6133 +/- 0.0244
+Total Success Rate = 26.89% +/- 1.11%
+Expected Peak Success Rate = 43.56% +/- 1.16%
+Peaks yielding exact 'r' = [4, 12, 20, 28]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 25.1% | Expected Peak Accuracy: 42.8%]: {"24": 79, "12": 67, "0": 74, "25": 16, "16": 109, "20": 62, "4": 60, "21": 7, "30": 34, "8": 81, "28": 68, "7": 10, "6": 21, "10": 32, "14": 23, "15": 17, "3": 7, "1": 20, "19": 9, "9": 18, "22": 23, "27": 9, "13": 20, "2": 16, "26": 30, "23": 11, "5": 18, "29": 13, "18": 22, "17": 22, "11": 15, "31": 11}
+Run 2 [Total Success: 26.2% | Expected Peak Accuracy: 42.7%]: {"28": 70, "0": 100, "24": 83, "14": 18, "20": 71, "15": 11, "23": 6, "4": 55, "13": 15, "5": 16, "19": 18, "8": 92, "30": 32, "21": 13, "7": 10, "16": 85, "10": 35, "25": 20, "2": 27, "26": 26, "12": 72, "11": 6, "18": 22, "22": 27, "17": 8, "29": 10, "9": 12, "31": 13, "1": 16, "27": 13, "6": 15, "3": 7}
+Run 3 [Total Success: 27.4% | Expected Peak Accuracy: 45.8%]: {"26": 30, "0": 80, "24": 98, "12": 65, "21": 14, "19": 7, "29": 21, "14": 30, "4": 68, "2": 28, "16": 77, "18": 18, "20": 76, "8": 78, "17": 13, "9": 14, "10": 23, "28": 72, "6": 27, "22": 26, "1": 13, "15": 12, "30": 26, "27": 12, "25": 22, "7": 10, "3": 9, "23": 10, "11": 10, "31": 11, "5": 14, "13": 10}
+Run 4 [Total Success: 27.6% | Expected Peak Accuracy: 43.7%]: {"1": 19, "3": 11, "8": 91, "12": 79, "14": 20, "17": 15, "9": 23, "4": 64, "24": 95, "28": 77, "16": 76, "0": 103, "20": 63, "26": 30, "29": 24, "22": 26, "25": 20, "6": 12, "15": 12, "11": 9, "13": 13, "27": 7, "7": 13, "30": 16, "23": 14, "19": 6, "18": 16, "5": 12, "10": 12, "31": 14, "21": 15, "2": 17}
+Run 5 [Total Success: 28.1% | Expected Peak Accuracy: 42.9%]: {"8": 84, "0": 93, "28": 62, "9": 26, "3": 9, "18": 22, "15": 7, "4": 67, "31": 11, "24": 95, "20": 79, "16": 112, "25": 16, "13": 18, "30": 20, "23": 16, "12": 80, "17": 17, "29": 20, "11": 5, "10": 19, "14": 11, "5": 24, "21": 17, "6": 17, "26": 9, "1": 18, "2": 12, "22": 15, "27": 10, "7": 6, "19": 7}
+
+
+=======================================================
+[2026-05-12 18:09:41] EXECUTION BATCH - N = 51
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 5
+Ideal QFT Bits (ideal_qft_size) = 12
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 591
+Total Gates = 1031
+Gate Types Breakdown = {"sx": 502, "rz": 270, "cz": 244, "x": 7, "measure": 5, "barrier": 3}
+
+=== Hardware and Execution ===
+Backend = ibm_marrakesh
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-12 17:44:54
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.6917 +/- 0.0088
+Total Success Rate = 30.91% +/- 0.57%
+Expected Peak Success Rate = 44.52% +/- 0.28%
+Peaks yielding exact 'r' = [4, 12, 20, 28]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 29.8% | Expected Peak Accuracy: 44.0%]: {"10": 61, "16": 388, "25": 65, "0": 396, "24": 392, "9": 77, "8": 382, "1": 69, "4": 338, "28": 279, "14": 70, "12": 305, "7": 43, "23": 34, "26": 73, "29": 64, "3": 32, "20": 300, "31": 31, "17": 68, "30": 56, "15": 36, "5": 58, "21": 64, "22": 59, "2": 72, "27": 33, "11": 40, "18": 53, "19": 38, "6": 69, "13": 51}
+Run 2 [Total Success: 31.2% | Expected Peak Accuracy: 44.7%]: {"8": 425, "16": 387, "4": 360, "17": 61, "12": 312, "3": 37, "14": 53, "15": 37, "29": 62, "10": 55, "30": 57, "20": 301, "31": 27, "24": 396, "28": 305, "7": 28, "21": 65, "0": 375, "9": 69, "27": 35, "25": 68, "1": 66, "18": 69, "22": 69, "13": 67, "5": 48, "23": 32, "2": 60, "6": 60, "26": 43, "11": 34, "19": 33}
+Run 3 [Total Success: 31.2% | Expected Peak Accuracy: 44.7%]: {"18": 74, "4": 303, "13": 52, "29": 57, "24": 383, "31": 33, "16": 423, "6": 69, "28": 324, "26": 79, "2": 54, "12": 311, "1": 61, "7": 32, "8": 410, "0": 365, "20": 339, "3": 25, "27": 23, "5": 60, "21": 58, "22": 70, "17": 64, "30": 61, "9": 66, "19": 33, "14": 63, "15": 35, "10": 50, "25": 60, "11": 29, "23": 30}
+Run 4 [Total Success: 31.4% | Expected Peak Accuracy: 44.7%]: {"16": 403, "12": 342, "28": 329, "18": 64, "4": 310, "0": 401, "8": 379, "20": 307, "22": 72, "24": 413, "14": 47, "3": 23, "15": 31, "1": 82, "9": 71, "27": 41, "26": 66, "17": 68, "30": 62, "19": 32, "23": 33, "7": 33, "31": 44, "13": 54, "5": 39, "6": 50, "2": 53, "25": 59, "21": 54, "11": 25, "29": 60, "10": 49}
+Run 5 [Total Success: 30.9% | Expected Peak Accuracy: 44.6%]: {"24": 408, "9": 59, "26": 55, "5": 51, "0": 364, "28": 310, "16": 417, "15": 40, "4": 328, "13": 61, "23": 48, "27": 31, "2": 62, "10": 56, "8": 380, "12": 306, "25": 68, "22": 53, "6": 54, "18": 62, "20": 321, "3": 35, "17": 53, "19": 36, "14": 65, "1": 80, "30": 62, "21": 77, "29": 50, "31": 36, "11": 33, "7": 35}
+
+
+=======================================================
+[2026-05-12 18:19:16] EXECUTION BATCH - N = 51
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 12
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 575
+Total Gates = 948
+Gate Types Breakdown = {"sx": 483, "cz": 243, "rz": 207, "x": 8, "measure": 4, "barrier": 3}
+
+=== Hardware and Execution ===
+Backend = ibm_kingston
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-12 18:04:03
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.7152 +/- 0.0087
+Total Success Rate = 34.88% +/- 1.23%
+Expected Peak Success Rate = 48.55% +/- 1.79%
+Peaks yielding exact 'r' = [2, 6, 10, 14]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 36.1% | Expected Peak Accuracy: 49.7%]: {"6": 82, "10": 86, "3": 37, "14": 101, "11": 39, "12": 80, "4": 92, "2": 101, "8": 103, "15": 29, "0": 100, "1": 38, "7": 40, "5": 33, "13": 25, "9": 38}
+Run 2 [Total Success: 34.7% | Expected Peak Accuracy: 49.0%]: {"4": 98, "13": 40, "12": 74, "9": 36, "6": 101, "15": 24, "2": 98, "11": 40, "3": 48, "1": 41, "8": 106, "14": 79, "0": 91, "5": 39, "7": 32, "10": 77}
+Run 3 [Total Success: 32.6% | Expected Peak Accuracy: 45.0%]: {"10": 84, "0": 119, "12": 89, "2": 94, "8": 97, "1": 38, "11": 31, "9": 37, "14": 82, "4": 103, "6": 74, "5": 37, "3": 40, "7": 48, "13": 22, "15": 29}
+Run 4 [Total Success: 35.4% | Expected Peak Accuracy: 49.7%]: {"6": 103, "10": 73, "5": 46, "2": 98, "8": 93, "12": 66, "1": 32, "7": 39, "4": 89, "14": 88, "9": 40, "11": 27, "13": 29, "3": 47, "15": 36, "0": 118}
+Run 5 [Total Success: 35.6% | Expected Peak Accuracy: 49.3%]: {"1": 42, "12": 89, "10": 86, "6": 87, "0": 121, "3": 37, "7": 43, "5": 35, "2": 108, "13": 29, "8": 76, "14": 84, "4": 89, "9": 30, "15": 35, "11": 33}
+
+
+=======================================================
+[2026-05-12 18:20:12] EXECUTION BATCH - N = 51
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 12
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 575
+Total Gates = 948
+Gate Types Breakdown = {"sx": 483, "cz": 243, "rz": 207, "x": 8, "measure": 4, "barrier": 3}
+
+=== Hardware and Execution ===
+Backend = ibm_kingston
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-12 18:04:03
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.7207 +/- 0.0121
+Total Success Rate = 34.51% +/- 0.58%
+Expected Peak Success Rate = 47.81% +/- 0.68%
+Peaks yielding exact 'r' = [2, 6, 10, 14]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 35.1% | Expected Peak Accuracy: 47.8%]: {"4": 423, "15": 125, "0": 393, "8": 375, "7": 140, "14": 337, "1": 146, "12": 375, "2": 406, "9": 123, "10": 330, "3": 141, "6": 363, "5": 147, "13": 133, "11": 139}
+Run 2 [Total Success: 35.0% | Expected Peak Accuracy: 47.4%]: {"14": 340, "9": 129, "5": 139, "2": 385, "12": 378, "3": 138, "10": 350, "7": 127, "0": 425, "8": 384, "4": 407, "11": 147, "6": 359, "1": 153, "13": 108, "15": 127}
+Run 3 [Total Success: 33.9% | Expected Peak Accuracy: 47.4%]: {"4": 399, "0": 374, "3": 148, "5": 134, "6": 349, "9": 150, "2": 355, "14": 348, "10": 336, "8": 408, "12": 359, "15": 139, "13": 133, "11": 148, "1": 164, "7": 152}
+Run 4 [Total Success: 33.7% | Expected Peak Accuracy: 47.3%]: {"3": 156, "12": 360, "6": 327, "8": 350, "0": 415, "4": 412, "5": 164, "10": 321, "14": 335, "2": 399, "15": 143, "1": 173, "11": 141, "9": 129, "13": 113, "7": 158}
+Run 5 [Total Success: 34.9% | Expected Peak Accuracy: 49.1%]: {"0": 420, "6": 335, "9": 145, "4": 372, "10": 332, "1": 179, "3": 153, "14": 345, "12": 336, "2": 416, "7": 173, "8": 351, "5": 158, "11": 119, "13": 144, "15": 118}
+
+
+=======================================================
+[2026-05-12 18:20:26] EXECUTION BATCH - N = 51
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 12
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 575
+Total Gates = 948
+Gate Types Breakdown = {"sx": 483, "cz": 243, "rz": 207, "x": 8, "measure": 4, "barrier": 3}
+
+=== Hardware and Execution ===
+Backend = ibm_kingston
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-12 18:04:03
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.1457 +/- 0.0000
+Total Success Rate = 0.00% +/- 0.00%
+Expected Peak Success Rate = 0.00% +/- 0.00%
+Peaks yielding exact 'r' = []
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 0.0% | Expected Peak Accuracy: 0.0%]: {"11": 1, "3": 1, "0": 2, "8": 1}
+
+

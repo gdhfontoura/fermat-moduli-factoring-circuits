@@ -18,3 +18,4 @@ notebook>=7.0.0
 
 # Environment Variables
 python-dotenv>=1.0.0
+papermill>=2.5.0
