@@ -223,3 +223,1473 @@ Peaks yielding exact 'r' = [2]
 Run 1 [Total Success: 20.0% | Expected Peak Accuracy: 20.0%]: {"8": 2, "2": 1, "4": 1, "12": 1}
 
 
+=======================================================
+[2026-05-15 08:27:47] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 308
+Total Gates = 553
+Gate Types Breakdown = {"sx": 251, "rz": 170, "cz": 123, "barrier": 4, "measure": 4, "x": 1}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-15 07:10:43
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.8183 +/- 0.0117
+Total Success Rate = 40.51% +/- 1.15%
+Expected Peak Success Rate = 49.36% +/- 0.86%
+Peaks yielding exact 'r' = [2, 6, 10, 14]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 39.8% | Expected Peak Accuracy: 48.7%]: {"4": 108, "8": 111, "14": 105, "0": 126, "12": 85, "2": 89, "5": 33, "10": 103, "15": 31, "6": 111, "3": 23, "13": 25, "9": 19, "7": 22, "11": 15, "1": 18}
+Run 2 [Total Success: 41.4% | Expected Peak Accuracy: 49.7%]: {"6": 98, "4": 94, "10": 119, "5": 24, "2": 85, "12": 101, "14": 122, "8": 124, "0": 110, "1": 19, "11": 25, "9": 22, "3": 21, "13": 26, "7": 20, "15": 14}
+Run 3 [Total Success: 40.1% | Expected Peak Accuracy: 49.9%]: {"3": 16, "6": 95, "0": 108, "2": 105, "4": 93, "15": 19, "12": 97, "11": 28, "8": 114, "14": 102, "10": 109, "13": 26, "5": 31, "9": 31, "1": 25, "7": 25}
+Run 4 [Total Success: 39.0% | Expected Peak Accuracy: 48.1%]: {"14": 106, "4": 117, "6": 96, "13": 23, "10": 101, "8": 106, "0": 110, "12": 98, "2": 96, "3": 30, "15": 33, "1": 24, "11": 18, "7": 30, "5": 14, "9": 22}
+Run 5 [Total Success: 42.2% | Expected Peak Accuracy: 50.4%]: {"8": 115, "1": 25, "0": 128, "4": 94, "12": 88, "3": 17, "10": 123, "6": 95, "13": 20, "14": 105, "2": 109, "15": 19, "11": 21, "7": 16, "5": 24, "9": 25}
+
+
+=======================================================
+[2026-05-15 08:28:35] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 302
+Total Gates = 533
+Gate Types Breakdown = {"sx": 233, "rz": 169, "cz": 117, "x": 6, "barrier": 4, "measure": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-15 07:10:43
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.9282 +/- 0.0094
+Total Success Rate = 45.84% +/- 0.80%
+Expected Peak Success Rate = 49.33% +/- 0.57%
+Peaks yielding exact 'r' = [2, 6, 10, 14]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 47.0% | Expected Peak Accuracy: 49.7%]: {"6": 488, "4": 523, "14": 470, "12": 501, "10": 472, "2": 496, "0": 473, "8": 455, "13": 20, "15": 38, "5": 20, "3": 29, "9": 30, "11": 30, "1": 19, "7": 32}
+Run 2 [Total Success: 44.9% | Expected Peak Accuracy: 48.8%]: {"8": 418, "10": 489, "2": 483, "14": 418, "12": 501, "6": 451, "4": 501, "3": 55, "5": 42, "0": 514, "1": 34, "9": 39, "13": 30, "15": 53, "7": 33, "11": 35}
+Run 3 [Total Success: 45.8% | Expected Peak Accuracy: 49.3%]: {"2": 511, "4": 525, "6": 440, "10": 473, "3": 30, "5": 34, "9": 32, "14": 451, "12": 504, "0": 460, "8": 440, "11": 39, "13": 38, "7": 41, "15": 41, "1": 37}
+Run 4 [Total Success: 46.4% | Expected Peak Accuracy: 50.2%]: {"12": 520, "6": 471, "0": 408, "4": 515, "14": 475, "8": 442, "13": 31, "10": 476, "2": 480, "1": 34, "9": 44, "15": 41, "7": 33, "5": 41, "3": 45, "11": 40}
+Run 5 [Total Success: 45.0% | Expected Peak Accuracy: 48.7%]: {"11": 52, "8": 457, "6": 463, "2": 484, "10": 463, "12": 529, "0": 449, "4": 507, "15": 42, "1": 34, "14": 434, "3": 36, "5": 41, "9": 41, "7": 32, "13": 32}
+
+
+=======================================================
+[2026-05-15 08:28:56] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 277
+Total Gates = 502
+Gate Types Breakdown = {"sx": 224, "rz": 160, "cz": 105, "x": 5, "barrier": 4, "measure": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-15 07:10:43
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.4871 +/- 0.0000
+Total Success Rate = 80.00% +/- 0.00%
+Expected Peak Success Rate = 80.00% +/- 0.00%
+Peaks yielding exact 'r' = [6, 10, 14]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 80.0% | Expected Peak Accuracy: 80.0%]: {"4": 1, "6": 1, "10": 2, "14": 1}
+
+
+=======================================================
+[2026-05-15 09:44:30] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 241
+Total Gates = 416
+Gate Types Breakdown = {"sx": 183, "rz": 131, "cz": 89, "x": 5, "barrier": 4, "measure": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-15 07:34:45
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.6997 +/- 0.1427
+Total Success Rate = 34.94% +/- 6.69%
+Expected Peak Success Rate = 50.03% +/- 1.88%
+Peaks yielding exact 'r' = [2, 6, 10, 14]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 28.4% | Expected Peak Accuracy: 51.2%]: {"6": 66, "10": 69, "0": 65, "9": 57, "2": 81, "1": 58, "8": 76, "4": 69, "15": 55, "13": 71, "11": 56, "3": 51, "5": 58, "7": 50, "12": 67, "14": 75}
+Run 2 [Total Success: 31.9% | Expected Peak Accuracy: 47.1%]: {"15": 54, "3": 34, "9": 43, "6": 86, "12": 91, "4": 89, "2": 76, "0": 86, "7": 42, "8": 101, "14": 79, "13": 34, "11": 48, "1": 39, "10": 86, "5": 36}
+Run 3 [Total Success: 28.7% | Expected Peak Accuracy: 52.7%]: {"3": 62, "2": 87, "14": 68, "10": 70, "0": 70, "12": 69, "1": 51, "11": 56, "8": 57, "7": 56, "15": 57, "9": 61, "6": 69, "5": 56, "4": 68, "13": 67}
+Run 4 [Total Success: 40.7% | Expected Peak Accuracy: 49.2%]: {"0": 104, "8": 113, "10": 115, "12": 122, "2": 103, "6": 107, "4": 91, "5": 22, "14": 92, "9": 25, "13": 21, "7": 21, "1": 23, "11": 19, "15": 23, "3": 23}
+Run 5 [Total Success: 44.9% | Expected Peak Accuracy: 49.9%]: {"12": 109, "6": 104, "11": 15, "4": 113, "8": 109, "14": 121, "2": 116, "10": 119, "0": 131, "5": 14, "1": 10, "13": 12, "7": 16, "9": 19, "15": 6, "3": 10}
+
+
+=======================================================
+[2026-05-15 09:57:48] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 263
+Total Gates = 420
+Gate Types Breakdown = {"sx": 181, "rz": 130, "cz": 94, "x": 7, "barrier": 4, "measure": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-15 08:56:01
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.8753 +/- 0.0070
+Total Success Rate = 41.85% +/- 0.59%
+Expected Peak Success Rate = 47.76% +/- 0.48%
+Peaks yielding exact 'r' = [2, 6, 10, 14]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 41.0% | Expected Peak Accuracy: 47.2%]: {"8": 422, "10": 426, "1": 56, "7": 55, "14": 419, "6": 408, "4": 476, "13": 66, "2": 428, "12": 461, "3": 67, "0": 519, "5": 69, "15": 75, "9": 73, "11": 76}
+Run 2 [Total Success: 41.5% | Expected Peak Accuracy: 47.8%]: {"0": 432, "5": 73, "2": 419, "3": 67, "8": 466, "10": 461, "12": 480, "6": 408, "4": 480, "1": 61, "14": 412, "15": 67, "9": 58, "7": 58, "13": 81, "11": 73}
+Run 3 [Total Success: 42.2% | Expected Peak Accuracy: 47.6%]: {"10": 410, "12": 482, "14": 425, "4": 442, "2": 466, "8": 490, "0": 491, "6": 428, "1": 59, "3": 65, "5": 53, "11": 52, "13": 60, "9": 48, "15": 54, "7": 71}
+Run 4 [Total Success: 42.7% | Expected Peak Accuracy: 48.7%]: {"2": 442, "4": 461, "8": 475, "14": 444, "12": 434, "10": 447, "13": 64, "6": 418, "1": 58, "0": 478, "15": 59, "7": 65, "3": 58, "11": 63, "9": 76, "5": 54}
+Run 5 [Total Success: 41.7% | Expected Peak Accuracy: 47.6%]: {"11": 67, "1": 65, "4": 465, "3": 73, "0": 508, "14": 400, "12": 453, "8": 459, "2": 439, "6": 429, "10": 441, "5": 69, "13": 68, "15": 54, "9": 49, "7": 57}
+
+
+=======================================================
+[2026-05-15 09:58:09] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 243
+Total Gates = 421
+Gate Types Breakdown = {"sx": 181, "rz": 132, "cz": 95, "x": 5, "barrier": 4, "measure": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-15 08:56:01
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.4000 +/- 0.0000
+Total Success Rate = 60.00% +/- 0.00%
+Expected Peak Success Rate = 75.00% +/- 0.00%
+Peaks yielding exact 'r' = [2, 6, 10]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 60.0% | Expected Peak Accuracy: 75.0%]: {"10": 1, "2": 1, "6": 1, "13": 1, "12": 1}
+
+
+=======================================================
+[2026-05-15 21:39:14] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 294
+Total Gates = 523
+Gate Types Breakdown = {"sx": 234, "rz": 164, "cz": 115, "barrier": 4, "measure": 4, "x": 2}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-15 09:21:29
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.9455 +/- 0.0128
+Total Success Rate = 48.57% +/- 1.50%
+Expected Peak Success Rate = 51.30% +/- 1.26%
+Peaks yielding exact 'r' = [2, 6, 10, 14]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 50.0% | Expected Peak Accuracy: 52.4%]: {"14": 115, "12": 103, "0": 118, "10": 133, "2": 132, "6": 132, "4": 130, "8": 114, "9": 6, "15": 11, "3": 5, "1": 4, "13": 8, "11": 7, "5": 6}
+Run 2 [Total Success: 47.7% | Expected Peak Accuracy: 51.4%]: {"0": 117, "12": 116, "14": 119, "4": 118, "6": 123, "2": 135, "10": 111, "11": 8, "8": 110, "3": 10, "15": 11, "7": 8, "9": 8, "5": 7, "13": 13, "1": 10}
+Run 3 [Total Success: 46.2% | Expected Peak Accuracy: 48.9%]: {"10": 111, "12": 127, "4": 127, "6": 113, "0": 121, "8": 120, "2": 131, "14": 118, "1": 5, "13": 9, "5": 13, "7": 7, "11": 6, "9": 6, "15": 4, "3": 6}
+Run 4 [Total Success: 48.8% | Expected Peak Accuracy: 51.8%]: {"14": 115, "4": 118, "2": 147, "12": 127, "0": 108, "10": 121, "8": 112, "6": 117, "7": 6, "3": 5, "1": 6, "15": 8, "5": 10, "9": 8, "11": 10, "13": 6}
+Run 5 [Total Success: 50.2% | Expected Peak Accuracy: 52.0%]: {"2": 143, "10": 130, "6": 121, "12": 114, "4": 130, "0": 116, "8": 115, "14": 120, "1": 9, "7": 2, "9": 2, "13": 5, "15": 7, "5": 4, "11": 4, "3": 2}
+
+
+=======================================================
+[2026-05-16 07:38:46] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 294
+Total Gates = 535
+Gate Types Breakdown = {"sx": 238, "rz": 162, "cz": 118, "x": 9, "barrier": 4, "measure": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-15 21:24:53
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.9225 +/- 0.0234
+Total Success Rate = 45.78% +/- 1.03%
+Expected Peak Success Rate = 49.45% +/- 0.84%
+Peaks yielding exact 'r' = [2, 6, 10, 14]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 44.9% | Expected Peak Accuracy: 48.0%]: {"8": 426, "14": 479, "2": 465, "12": 563, "6": 455, "0": 379, "10": 442, "4": 630, "11": 28, "1": 24, "5": 37, "13": 49, "7": 24, "9": 25, "3": 31, "15": 39}
+Run 2 [Total Success: 46.0% | Expected Peak Accuracy: 49.6%]: {"10": 473, "6": 456, "0": 382, "8": 421, "2": 465, "14": 492, "12": 566, "9": 45, "4": 544, "15": 27, "5": 35, "13": 41, "3": 39, "7": 33, "1": 37, "11": 40}
+Run 3 [Total Success: 46.6% | Expected Peak Accuracy: 49.2%]: {"0": 407, "8": 431, "2": 447, "4": 521, "6": 485, "1": 24, "10": 453, "14": 523, "12": 608, "5": 34, "11": 33, "13": 29, "7": 26, "3": 34, "15": 22, "9": 19}
+Run 4 [Total Success: 44.3% | Expected Peak Accuracy: 50.3%]: {"14": 444, "4": 486, "2": 482, "10": 479, "6": 408, "7": 46, "12": 504, "8": 362, "0": 437, "3": 70, "9": 67, "1": 48, "15": 62, "5": 80, "11": 62, "13": 59}
+Run 5 [Total Success: 47.0% | Expected Peak Accuracy: 50.1%]: {"6": 459, "2": 519, "10": 473, "15": 38, "12": 553, "4": 547, "0": 394, "11": 25, "8": 427, "14": 476, "13": 46, "5": 32, "1": 32, "3": 30, "9": 30, "7": 15}
+
+
+=======================================================
+[2026-05-16 08:01:39] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 4
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 286
+Total Gates = 503
+Gate Types Breakdown = {"sx": 225, "rz": 145, "cz": 118, "x": 7, "barrier": 4, "measure": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-16 07:15:55
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.4871 +/- 0.0000
+Total Success Rate = 40.00% +/- 0.00%
+Expected Peak Success Rate = 40.00% +/- 0.00%
+Peaks yielding exact 'r' = [2, 10]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 40.0% | Expected Peak Accuracy: 40.0%]: {"8": 2, "10": 1, "0": 1, "2": 1}
+
+
+=======================================================
+[2026-05-16 14:21:10] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 5
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 373
+Total Gates = 627
+Gate Types Breakdown = {"sx": 278, "rz": 193, "cz": 140, "x": 7, "measure": 5, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-16 13:22:43
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.5233 +/- 0.0243
+Total Success Rate = 25.35% +/- 1.60%
+Expected Peak Success Rate = 48.27% +/- 1.40%
+Peaks yielding exact 'r' = [4, 12, 20, 28]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 24.9% | Expected Peak Accuracy: 46.7%]: {"30": 28, "3": 36, "2": 33, "28": 56, "12": 67, "24": 81, "0": 70, "23": 19, "10": 31, "26": 17, "8": 73, "15": 23, "18": 30, "19": 31, "27": 26, "14": 26, "4": 60, "20": 72, "16": 67, "7": 34, "6": 24, "22": 29, "31": 27, "13": 5, "1": 7, "17": 8, "25": 2, "5": 6, "9": 7, "11": 21, "29": 3, "21": 5}
+Run 2 [Total Success: 24.1% | Expected Peak Accuracy: 48.1%]: {"20": 51, "30": 27, "16": 63, "14": 41, "0": 81, "28": 69, "3": 24, "19": 28, "2": 36, "11": 26, "15": 40, "12": 63, "27": 17, "13": 2, "1": 9, "8": 65, "5": 9, "6": 28, "26": 31, "24": 58, "18": 25, "31": 25, "10": 28, "22": 20, "4": 64, "23": 27, "7": 33, "29": 10, "25": 6, "9": 4, "21": 4, "17": 10}
+Run 3 [Total Success: 28.5% | Expected Peak Accuracy: 50.3%]: {"3": 35, "28": 66, "11": 18, "31": 25, "20": 77, "24": 66, "4": 68, "12": 81, "14": 23, "0": 78, "29": 6, "19": 31, "6": 16, "27": 24, "16": 72, "7": 25, "30": 33, "8": 72, "10": 24, "23": 27, "9": 13, "18": 21, "22": 19, "15": 26, "17": 8, "2": 20, "13": 8, "26": 18, "25": 8, "5": 6, "1": 3, "21": 7}
+Run 4 [Total Success: 24.5% | Expected Peak Accuracy: 46.9%]: {"31": 21, "3": 29, "23": 21, "12": 79, "20": 48, "27": 27, "13": 7, "28": 56, "2": 27, "24": 76, "4": 68, "16": 81, "11": 35, "6": 34, "30": 17, "7": 27, "0": 67, "19": 31, "8": 60, "29": 6, "14": 36, "18": 28, "26": 21, "15": 41, "10": 30, "22": 31, "5": 3, "25": 6, "21": 4, "9": 6, "1": 1}
+Run 5 [Total Success: 24.7% | Expected Peak Accuracy: 49.3%]: {"0": 63, "10": 24, "25": 6, "4": 62, "8": 62, "18": 36, "27": 31, "26": 30, "12": 65, "28": 67, "19": 37, "20": 59, "6": 24, "1": 8, "3": 27, "31": 29, "16": 63, "17": 11, "23": 23, "2": 33, "24": 72, "14": 24, "22": 22, "7": 30, "30": 27, "15": 27, "11": 28, "5": 7, "9": 6, "29": 5, "13": 10, "21": 6}
+
+
+=======================================================
+[2026-05-16 14:21:58] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 5
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 335
+Total Gates = 620
+Gate Types Breakdown = {"sx": 275, "rz": 188, "cz": 142, "x": 6, "measure": 5, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-16 13:22:43
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.6330 +/- 0.0218
+Total Success Rate = 31.09% +/- 1.28%
+Expected Peak Success Rate = 49.08% +/- 0.77%
+Peaks yielding exact 'r' = [4, 12, 20, 28]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 28.9% | Expected Peak Accuracy: 48.5%]: {"6": 167, "4": 308, "30": 161, "20": 284, "0": 319, "28": 308, "16": 302, "24": 314, "26": 178, "10": 158, "14": 158, "12": 283, "2": 172, "7": 26, "8": 323, "22": 152, "27": 32, "29": 21, "18": 178, "31": 25, "9": 21, "3": 23, "1": 18, "19": 22, "21": 18, "23": 18, "11": 22, "13": 23, "5": 19, "15": 25, "25": 5, "17": 13}
+Run 2 [Total Success: 31.2% | Expected Peak Accuracy: 50.0%]: {"21": 23, "24": 315, "0": 320, "18": 155, "8": 326, "12": 303, "10": 154, "31": 24, "4": 353, "2": 141, "7": 25, "17": 17, "28": 309, "19": 28, "16": 314, "22": 139, "15": 16, "20": 312, "6": 149, "26": 131, "25": 20, "30": 150, "14": 178, "27": 31, "23": 40, "13": 19, "5": 17, "29": 23, "3": 19, "1": 18, "9": 10, "11": 17}
+Run 3 [Total Success: 31.4% | Expected Peak Accuracy: 48.7%]: {"16": 353, "12": 327, "2": 126, "19": 23, "20": 321, "8": 346, "4": 321, "24": 331, "3": 16, "30": 142, "18": 138, "22": 131, "28": 316, "0": 325, "10": 138, "26": 131, "21": 21, "9": 19, "31": 27, "27": 24, "17": 21, "11": 30, "14": 140, "15": 21, "6": 156, "29": 20, "13": 26, "25": 26, "1": 21, "23": 14, "5": 18, "7": 27}
+Run 4 [Total Success: 31.1% | Expected Peak Accuracy: 48.3%]: {"14": 143, "20": 326, "10": 151, "18": 136, "12": 321, "0": 364, "8": 329, "6": 155, "28": 311, "2": 142, "24": 318, "4": 317, "30": 136, "16": 356, "22": 149, "19": 28, "27": 14, "13": 16, "25": 17, "15": 23, "29": 21, "1": 24, "21": 19, "11": 25, "3": 17, "26": 119, "5": 18, "9": 26, "31": 17, "23": 24, "17": 14, "7": 20}
+Run 5 [Total Success: 32.9% | Expected Peak Accuracy: 50.0%]: {"30": 117, "8": 317, "22": 125, "28": 321, "16": 359, "0": 356, "20": 353, "18": 125, "4": 341, "19": 16, "24": 316, "2": 145, "14": 117, "15": 30, "12": 332, "6": 146, "10": 148, "26": 135, "11": 29, "3": 24, "9": 19, "31": 17, "5": 13, "21": 20, "23": 14, "17": 17, "29": 18, "13": 26, "27": 32, "1": 16, "7": 26, "25": 26}
+
+
+=======================================================
+[2026-05-16 14:22:22] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 5
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 323
+Total Gates = 621
+Gate Types Breakdown = {"sx": 278, "rz": 197, "cz": 131, "x": 6, "measure": 5, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-16 13:22:43
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.3664 +/- 0.0000
+Total Success Rate = 60.00% +/- 0.00%
+Expected Peak Success Rate = 60.00% +/- 0.00%
+Peaks yielding exact 'r' = [12, 28]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 60.0% | Expected Peak Accuracy: 60.0%]: {"0": 2, "12": 2, "28": 1}
+
+
+=======================================================
+[2026-05-16 14:51:00] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 5
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 276
+Total Gates = 476
+Gate Types Breakdown = {"sx": 207, "rz": 155, "cz": 101, "measure": 5, "x": 4, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-16 13:53:19
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.7422 +/- 0.0220
+Total Success Rate = 36.43% +/- 1.84%
+Expected Peak Success Rate = 48.91% +/- 1.15%
+Peaks yielding exact 'r' = [4, 12, 20, 28]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 38.1% | Expected Peak Accuracy: 50.5%]: {"24": 84, "28": 96, "29": 7, "16": 102, "8": 93, "3": 7, "0": 104, "2": 16, "12": 95, "4": 101, "20": 98, "6": 22, "11": 3, "14": 23, "9": 5, "18": 28, "26": 24, "30": 22, "10": 16, "22": 18, "21": 7, "13": 8, "5": 8, "19": 5, "1": 5, "15": 4, "17": 6, "27": 3, "7": 7, "23": 6, "25": 1}
+Run 2 [Total Success: 37.1% | Expected Peak Accuracy: 49.2%]: {"0": 97, "4": 105, "28": 100, "12": 95, "13": 7, "16": 93, "24": 91, "7": 8, "8": 112, "22": 21, "20": 80, "2": 15, "29": 6, "6": 21, "9": 8, "10": 15, "30": 26, "18": 23, "26": 19, "27": 4, "25": 4, "14": 18, "31": 8, "1": 8, "19": 6, "17": 3, "5": 5, "15": 9, "11": 5, "23": 4, "3": 4, "21": 4}
+Run 3 [Total Success: 38.4% | Expected Peak Accuracy: 49.7%]: {"4": 110, "6": 20, "16": 107, "0": 100, "12": 79, "20": 116, "10": 16, "24": 85, "30": 17, "31": 7, "28": 88, "26": 13, "29": 7, "2": 22, "19": 5, "8": 105, "5": 10, "22": 21, "1": 7, "18": 20, "23": 11, "11": 6, "3": 3, "14": 21, "17": 4, "27": 7, "21": 5, "9": 2, "15": 3, "13": 1, "7": 4, "25": 2}
+Run 4 [Total Success: 34.9% | Expected Peak Accuracy: 47.7%]: {"27": 4, "12": 79, "16": 106, "10": 29, "28": 88, "0": 107, "20": 92, "24": 92, "3": 8, "6": 23, "7": 8, "8": 86, "30": 20, "4": 98, "14": 22, "11": 4, "26": 25, "2": 29, "22": 21, "25": 10, "5": 8, "18": 18, "23": 4, "17": 5, "29": 8, "31": 3, "13": 5, "21": 5, "9": 7, "1": 2, "19": 3, "15": 5}
+Run 5 [Total Success: 33.7% | Expected Peak Accuracy: 47.5%]: {"16": 108, "12": 91, "14": 24, "24": 78, "28": 88, "8": 80, "31": 11, "6": 32, "30": 27, "0": 116, "18": 20, "21": 8, "1": 6, "2": 22, "20": 90, "22": 20, "3": 6, "13": 13, "26": 18, "4": 76, "5": 5, "17": 5, "9": 8, "11": 7, "25": 6, "10": 28, "7": 4, "29": 8, "15": 10, "19": 4, "27": 3, "23": 2}
+
+
+=======================================================
+[2026-05-16 14:53:07] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 5
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 266
+Total Gates = 480
+Gate Types Breakdown = {"sx": 206, "rz": 151, "cz": 106, "x": 8, "measure": 5, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-16 13:53:19
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.4968 +/- 0.0225
+Total Success Rate = 24.16% +/- 1.28%
+Expected Peak Success Rate = 48.52% +/- 1.12%
+Peaks yielding exact 'r' = [4, 12, 20, 28]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 25.6% | Expected Peak Accuracy: 50.5%]: {"12": 291, "31": 132, "0": 252, "3": 128, "9": 90, "20": 235, "4": 252, "16": 291, "8": 242, "23": 128, "26": 56, "2": 55, "28": 271, "10": 44, "13": 93, "15": 109, "30": 68, "19": 118, "11": 114, "24": 245, "1": 73, "17": 85, "27": 104, "21": 82, "29": 74, "7": 110, "5": 80, "14": 57, "18": 54, "22": 33, "25": 78, "6": 52}
+Run 2 [Total Success: 25.5% | Expected Peak Accuracy: 47.6%]: {"20": 223, "29": 75, "28": 299, "11": 96, "14": 57, "24": 263, "16": 276, "5": 84, "27": 95, "8": 278, "7": 116, "17": 81, "21": 73, "0": 335, "23": 87, "4": 253, "22": 65, "19": 90, "31": 121, "13": 85, "18": 52, "6": 45, "15": 130, "12": 271, "3": 88, "25": 75, "10": 71, "1": 104, "2": 50, "26": 29, "9": 76, "30": 53}
+Run 3 [Total Success: 24.0% | Expected Peak Accuracy: 48.9%]: {"0": 268, "3": 105, "5": 102, "19": 113, "8": 241, "15": 150, "16": 274, "12": 264, "20": 232, "21": 93, "6": 42, "13": 92, "24": 245, "28": 239, "4": 250, "26": 49, "30": 52, "29": 107, "23": 118, "9": 78, "18": 54, "27": 106, "2": 60, "31": 137, "14": 53, "1": 65, "22": 42, "11": 104, "10": 63, "25": 91, "17": 85, "7": 122}
+Run 4 [Total Success: 23.2% | Expected Peak Accuracy: 48.3%]: {"11": 118, "4": 237, "0": 279, "3": 95, "10": 46, "15": 145, "16": 266, "24": 229, "23": 123, "29": 98, "8": 246, "31": 121, "7": 130, "27": 125, "13": 101, "25": 78, "21": 86, "18": 53, "1": 85, "12": 246, "20": 218, "9": 81, "19": 132, "28": 251, "22": 49, "30": 52, "5": 105, "14": 55, "17": 92, "2": 47, "26": 54, "6": 53}
+Run 5 [Total Success: 22.3% | Expected Peak Accuracy: 47.3%]: {"26": 50, "19": 118, "15": 143, "24": 217, "8": 234, "12": 247, "9": 91, "16": 273, "17": 92, "20": 210, "0": 294, "28": 223, "4": 235, "11": 100, "13": 112, "23": 112, "27": 118, "2": 54, "25": 94, "21": 110, "7": 158, "30": 63, "1": 76, "31": 130, "5": 91, "29": 97, "14": 66, "6": 38, "18": 49, "22": 41, "10": 40, "3": 120}
+
+
+=======================================================
+[2026-05-16 14:53:24] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 5
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 270
+Total Gates = 505
+Gate Types Breakdown = {"sx": 218, "rz": 161, "cz": 110, "x": 7, "measure": 5, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-16 13:53:19
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.3482 +/- 0.0000
+Total Success Rate = 20.00% +/- 0.00%
+Expected Peak Success Rate = 20.00% +/- 0.00%
+Peaks yielding exact 'r' = [20]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 20.0% | Expected Peak Accuracy: 20.0%]: {"24": 3, "16": 1, "20": 1}
+
+
+=======================================================
+[2026-05-16 14:57:29] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 5
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 331
+Total Gates = 630
+Gate Types Breakdown = {"sx": 283, "rz": 205, "cz": 124, "x": 9, "measure": 5, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-16 14:44:42
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.8886 +/- 0.0133
+Total Success Rate = 44.88% +/- 1.04%
+Expected Peak Success Rate = 50.42% +/- 1.15%
+Peaks yielding exact 'r' = [4, 12, 20, 28]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 44.8% | Expected Peak Accuracy: 50.8%]: {"8": 108, "4": 113, "0": 99, "28": 110, "12": 130, "20": 106, "16": 117, "24": 121, "17": 6, "2": 13, "9": 5, "26": 9, "18": 8, "14": 9, "29": 6, "22": 6, "21": 1, "10": 5, "11": 3, "30": 6, "6": 13, "25": 5, "27": 1, "23": 4, "15": 3, "31": 2, "7": 3, "3": 1, "5": 5, "1": 3, "13": 1, "19": 2}
+Run 2 [Total Success: 43.8% | Expected Peak Accuracy: 49.5%]: {"16": 119, "24": 112, "12": 95, "0": 119, "20": 129, "8": 107, "28": 105, "4": 119, "23": 4, "3": 4, "29": 6, "17": 4, "27": 3, "26": 10, "7": 3, "6": 5, "22": 7, "30": 8, "14": 9, "25": 7, "18": 6, "9": 7, "1": 3, "10": 10, "5": 4, "13": 4, "2": 6, "19": 2, "11": 1, "15": 5, "21": 1}
+Run 3 [Total Success: 44.1% | Expected Peak Accuracy: 50.3%]: {"12": 135, "28": 101, "6": 9, "0": 96, "24": 129, "21": 7, "20": 108, "25": 3, "16": 122, "3": 1, "8": 100, "4": 108, "30": 11, "29": 5, "17": 7, "22": 10, "18": 10, "31": 4, "14": 9, "10": 8, "5": 7, "9": 2, "13": 4, "2": 7, "1": 7, "26": 8, "19": 1, "11": 2, "7": 2, "15": 1}
+Run 4 [Total Success: 46.8% | Expected Peak Accuracy: 52.4%]: {"8": 105, "24": 115, "4": 115, "28": 127, "12": 119, "2": 5, "0": 106, "20": 118, "16": 109, "29": 3, "15": 3, "6": 9, "26": 10, "13": 4, "1": 9, "5": 4, "9": 3, "22": 9, "30": 4, "10": 7, "25": 2, "14": 5, "18": 6, "3": 2, "7": 3, "19": 3, "17": 3, "23": 5, "21": 5, "27": 2, "31": 4}
+Run 5 [Total Success: 44.9% | Expected Peak Accuracy: 49.1%]: {"24": 108, "28": 100, "16": 120, "20": 127, "0": 124, "29": 2, "8": 124, "26": 7, "4": 116, "12": 117, "1": 7, "5": 6, "18": 4, "9": 5, "30": 4, "21": 4, "3": 4, "2": 5, "14": 4, "7": 5, "31": 3, "15": 2, "17": 4, "27": 2, "19": 6, "13": 3, "25": 3, "22": 1, "10": 2, "23": 3, "6": 2}
+
+
+=======================================================
+[2026-05-16 14:59:19] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 5
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 342
+Total Gates = 608
+Gate Types Breakdown = {"sx": 270, "rz": 187, "cz": 133, "x": 9, "measure": 5, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-16 14:44:42
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.8171 +/- 0.0425
+Total Success Rate = 38.79% +/- 2.34%
+Expected Peak Success Rate = 47.41% +/- 1.01%
+Peaks yielding exact 'r' = [4, 12, 20, 28]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 36.0% | Expected Peak Accuracy: 47.3%]: {"16": 439, "6": 108, "20": 381, "4": 358, "24": 396, "28": 355, "12": 382, "8": 405, "0": 406, "10": 86, "22": 87, "30": 114, "14": 99, "29": 21, "18": 94, "26": 84, "2": 102, "11": 8, "9": 16, "25": 17, "1": 17, "21": 19, "23": 12, "5": 16, "19": 6, "27": 8, "15": 8, "13": 18, "3": 7, "31": 7, "17": 16, "7": 4}
+Run 2 [Total Success: 36.0% | Expected Peak Accuracy: 46.8%]: {"26": 81, "28": 359, "8": 440, "0": 414, "20": 399, "12": 366, "14": 89, "16": 422, "4": 352, "17": 32, "18": 115, "6": 98, "10": 77, "27": 13, "24": 404, "2": 103, "22": 71, "29": 18, "9": 17, "5": 22, "15": 8, "30": 89, "25": 25, "21": 21, "3": 7, "31": 3, "13": 12, "19": 6, "11": 6, "1": 14, "7": 3, "23": 10}
+Run 3 [Total Success: 41.6% | Expected Peak Accuracy: 48.9%]: {"0": 468, "5": 19, "4": 406, "8": 387, "28": 431, "16": 481, "23": 9, "20": 460, "12": 405, "24": 445, "1": 27, "26": 64, "18": 56, "2": 49, "29": 16, "14": 57, "30": 46, "6": 57, "10": 45, "22": 45, "25": 21, "13": 15, "3": 4, "19": 5, "21": 22, "31": 7, "9": 12, "15": 5, "11": 6, "17": 18, "7": 5, "27": 3}
+Run 4 [Total Success: 39.6% | Expected Peak Accuracy: 46.0%]: {"5": 19, "24": 452, "16": 496, "0": 488, "20": 404, "8": 469, "4": 427, "28": 408, "12": 383, "15": 9, "13": 19, "27": 5, "26": 33, "18": 56, "14": 47, "30": 43, "10": 59, "2": 50, "23": 5, "6": 43, "9": 13, "31": 5, "22": 47, "7": 5, "17": 19, "21": 22, "11": 7, "19": 5, "1": 23, "29": 13, "25": 16, "3": 6}
+Run 5 [Total Success: 40.7% | Expected Peak Accuracy: 48.1%]: {"20": 427, "24": 447, "4": 398, "28": 423, "16": 466, "8": 445, "1": 18, "0": 441, "26": 49, "12": 421, "25": 22, "30": 54, "21": 19, "14": 49, "6": 53, "7": 11, "2": 50, "15": 10, "18": 63, "22": 56, "13": 17, "10": 57, "29": 15, "5": 17, "19": 5, "3": 3, "23": 9, "17": 20, "9": 18, "31": 6, "27": 3, "11": 4}
+
+
+=======================================================
+[2026-05-16 14:59:38] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 5
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 337
+Total Gates = 617
+Gate Types Breakdown = {"sx": 271, "rz": 200, "cz": 127, "x": 10, "measure": 5, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-16 14:44:42
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.4871 +/- 0.0000
+Total Success Rate = 20.00% +/- 0.00%
+Expected Peak Success Rate = 20.00% +/- 0.00%
+Peaks yielding exact 'r' = [12]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 20.0% | Expected Peak Accuracy: 20.0%]: {"24": 1, "12": 1, "16": 2, "8": 1}
+
+
+=======================================================
+[2026-05-16 16:15:08] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 6
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 353
+Total Gates = 708
+Gate Types Breakdown = {"sx": 317, "rz": 224, "cz": 147, "x": 10, "measure": 6, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-16 15:44:51
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.6990 +/- 0.0186
+Total Success Rate = 33.75% +/- 0.97%
+Expected Peak Success Rate = 48.17% +/- 1.23%
+Peaks yielding exact 'r' = [8, 24, 40, 56]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 34.4% | Expected Peak Accuracy: 49.5%]: {"49": 2, "24": 77, "0": 95, "40": 102, "16": 86, "54": 6, "48": 84, "8": 98, "32": 94, "28": 19, "2": 10, "30": 14, "18": 14, "26": 8, "10": 10, "38": 5, "33": 1, "29": 1, "34": 12, "47": 3, "46": 6, "14": 6, "50": 10, "56": 75, "58": 11, "44": 14, "6": 8, "62": 9, "51": 4, "4": 20, "35": 4, "9": 4, "57": 6, "42": 10, "63": 2, "19": 1, "22": 6, "52": 9, "60": 10, "43": 5, "20": 17, "12": 7, "27": 3, "15": 3, "41": 2, "37": 2, "36": 7, "17": 1, "59": 2, "11": 3, "21": 2, "25": 1, "31": 1, "1": 3, "23": 1, "39": 2, "7": 4, "55": 1, "45": 1}
+Run 2 [Total Success: 33.4% | Expected Peak Accuracy: 49.5%]: {"32": 88, "56": 83, "28": 25, "16": 81, "4": 21, "12": 7, "24": 82, "8": 85, "40": 92, "31": 1, "48": 76, "20": 14, "58": 10, "18": 11, "0": 104, "60": 15, "10": 8, "52": 11, "44": 18, "36": 14, "34": 14, "63": 5, "50": 11, "26": 12, "2": 13, "14": 8, "15": 2, "19": 1, "23": 1, "43": 3, "39": 4, "53": 3, "6": 11, "22": 3, "33": 5, "46": 6, "49": 1, "35": 1, "37": 1, "30": 11, "38": 8, "5": 1, "27": 3, "13": 2, "47": 2, "57": 2, "62": 9, "29": 2, "3": 3, "54": 4, "17": 3, "41": 2, "42": 7, "1": 3, "11": 4, "55": 3, "25": 2, "59": 1, "9": 1}
+Run 3 [Total Success: 32.0% | Expected Peak Accuracy: 46.4%]: {"40": 80, "8": 86, "4": 17, "16": 84, "24": 84, "32": 106, "36": 22, "48": 87, "20": 10, "56": 78, "60": 15, "9": 3, "49": 2, "0": 102, "52": 16, "63": 3, "10": 11, "17": 2, "12": 19, "46": 8, "44": 14, "6": 7, "42": 13, "47": 2, "1": 2, "55": 1, "57": 2, "38": 3, "7": 1, "26": 12, "31": 2, "2": 15, "34": 11, "14": 9, "58": 7, "5": 1, "18": 11, "28": 15, "22": 10, "35": 2, "62": 8, "25": 2, "50": 7, "19": 2, "23": 4, "41": 3, "15": 1, "21": 1, "30": 3, "29": 2, "54": 7, "11": 1, "3": 1, "33": 1, "39": 2, "53": 1, "61": 1, "13": 1, "59": 1}
+Run 4 [Total Success: 34.2% | Expected Peak Accuracy: 47.2%]: {"16": 91, "58": 12, "32": 101, "0": 107, "8": 92, "17": 4, "18": 8, "56": 83, "44": 13, "49": 3, "59": 5, "54": 11, "26": 15, "42": 8, "60": 8, "24": 84, "10": 9, "40": 91, "20": 13, "55": 3, "4": 10, "48": 92, "52": 12, "36": 11, "14": 5, "22": 6, "30": 11, "51": 2, "2": 15, "11": 2, "25": 2, "46": 6, "62": 3, "50": 12, "12": 8, "19": 3, "21": 1, "38": 8, "28": 9, "9": 5, "37": 3, "15": 2, "34": 8, "33": 4, "43": 3, "23": 3, "3": 2, "1": 2, "6": 2, "63": 1, "27": 2, "7": 1, "13": 1, "57": 2, "5": 1, "31": 2, "29": 1}
+Run 5 [Total Success: 34.8% | Expected Peak Accuracy: 48.2%]: {"40": 93, "48": 89, "50": 12, "20": 12, "56": 100, "32": 101, "53": 4, "2": 8, "8": 72, "28": 15, "0": 109, "30": 7, "18": 10, "36": 15, "4": 9, "24": 91, "12": 12, "42": 12, "44": 11, "16": 83, "61": 1, "54": 8, "11": 3, "33": 3, "10": 16, "49": 3, "22": 6, "60": 15, "58": 8, "46": 5, "52": 10, "1": 3, "62": 7, "6": 5, "38": 6, "15": 4, "31": 4, "26": 13, "3": 1, "29": 2, "34": 7, "47": 2, "59": 2, "13": 1, "39": 1, "14": 2, "63": 3, "27": 2, "35": 2, "17": 2, "5": 1, "41": 2, "37": 1, "25": 2, "43": 3, "23": 1, "55": 1, "51": 1}
+
+
+=======================================================
+[2026-05-16 16:15:56] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 6
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 358
+Total Gates = 702
+Gate Types Breakdown = {"sx": 319, "rz": 212, "cz": 154, "x": 7, "measure": 6, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-16 15:44:51
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.3907 +/- 0.0124
+Total Success Rate = 19.06% +/- 0.74%
+Expected Peak Success Rate = 48.70% +/- 0.52%
+Peaks yielding exact 'r' = [8, 24, 40, 56]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 20.2% | Expected Peak Accuracy: 49.2%]: {"48": 218, "22": 60, "5": 30, "29": 16, "60": 148, "0": 211, "33": 19, "32": 203, "57": 22, "52": 167, "44": 126, "61": 23, "16": 222, "36": 147, "40": 213, "24": 207, "20": 137, "30": 67, "21": 32, "14": 60, "26": 25, "4": 113, "8": 196, "17": 20, "9": 13, "56": 212, "28": 146, "12": 127, "3": 11, "25": 17, "13": 31, "6": 67, "53": 29, "10": 35, "50": 28, "43": 6, "18": 25, "2": 36, "34": 24, "46": 66, "62": 65, "42": 28, "38": 62, "58": 31, "47": 18, "1": 21, "54": 65, "23": 14, "31": 17, "41": 22, "37": 28, "35": 11, "59": 7, "45": 29, "55": 9, "15": 18, "49": 25, "39": 13, "7": 20, "27": 9, "63": 11, "11": 8, "51": 5, "19": 5}
+Run 2 [Total Success: 19.6% | Expected Peak Accuracy: 48.9%]: {"60": 167, "20": 151, "44": 121, "24": 201, "16": 223, "36": 160, "12": 131, "4": 160, "8": 189, "25": 25, "45": 21, "38": 70, "48": 185, "32": 229, "40": 195, "18": 37, "0": 200, "52": 138, "56": 217, "28": 145, "14": 66, "58": 20, "62": 66, "17": 19, "49": 20, "26": 21, "15": 16, "63": 8, "22": 65, "29": 25, "30": 56, "2": 42, "41": 18, "13": 31, "39": 22, "34": 27, "54": 55, "50": 30, "59": 7, "42": 26, "57": 13, "1": 28, "61": 24, "46": 63, "55": 15, "35": 9, "21": 29, "3": 8, "6": 57, "31": 20, "33": 20, "37": 31, "5": 27, "53": 25, "19": 5, "47": 18, "11": 8, "9": 16, "51": 10, "7": 11, "23": 15, "10": 21, "27": 10, "43": 8}
+Run 3 [Total Success: 18.2% | Expected Peak Accuracy: 48.2%]: {"48": 167, "4": 153, "56": 185, "52": 142, "55": 25, "2": 33, "14": 92, "8": 183, "36": 131, "34": 34, "29": 26, "0": 235, "40": 198, "43": 10, "46": 69, "28": 152, "42": 32, "17": 18, "12": 109, "37": 27, "62": 93, "16": 211, "50": 37, "24": 181, "49": 16, "1": 17, "60": 120, "39": 14, "20": 139, "32": 189, "30": 94, "53": 27, "38": 71, "41": 12, "22": 94, "33": 21, "26": 30, "25": 18, "44": 128, "6": 66, "5": 24, "54": 88, "13": 27, "58": 48, "23": 16, "61": 24, "18": 30, "45": 28, "59": 11, "51": 7, "9": 18, "35": 12, "10": 29, "21": 24, "63": 17, "27": 7, "57": 19, "47": 13, "15": 13, "31": 16, "7": 16, "3": 5, "11": 2, "19": 3}
+Run 4 [Total Success: 18.4% | Expected Peak Accuracy: 47.9%]: {"0": 200, "40": 176, "60": 147, "46": 63, "20": 149, "24": 197, "62": 93, "28": 152, "36": 147, "14": 73, "29": 26, "54": 72, "4": 147, "38": 63, "32": 222, "16": 220, "42": 25, "48": 176, "6": 65, "8": 214, "58": 24, "12": 142, "30": 81, "44": 136, "50": 41, "45": 16, "52": 147, "1": 19, "49": 16, "10": 18, "5": 27, "57": 22, "13": 27, "56": 166, "26": 36, "53": 24, "63": 21, "61": 25, "15": 13, "33": 20, "2": 31, "19": 9, "37": 26, "22": 75, "7": 10, "27": 5, "39": 25, "41": 21, "18": 34, "47": 13, "21": 36, "17": 14, "35": 6, "59": 10, "23": 21, "51": 5, "11": 7, "3": 11, "55": 9, "34": 27, "9": 12, "25": 13, "31": 18, "43": 10}
+Run 5 [Total Success: 18.9% | Expected Peak Accuracy: 49.2%]: {"32": 198, "6": 84, "24": 193, "22": 70, "48": 193, "54": 95, "36": 127, "56": 189, "52": 150, "12": 155, "8": 207, "40": 184, "57": 24, "30": 79, "28": 133, "4": 129, "0": 202, "2": 29, "44": 131, "62": 95, "45": 22, "58": 38, "7": 13, "41": 26, "38": 80, "20": 119, "60": 128, "10": 28, "53": 25, "14": 101, "37": 25, "26": 36, "16": 206, "50": 24, "42": 26, "25": 18, "21": 18, "13": 25, "29": 27, "27": 6, "18": 29, "46": 71, "51": 8, "34": 42, "47": 19, "15": 12, "23": 12, "9": 17, "61": 26, "5": 19, "49": 17, "1": 14, "63": 17, "33": 17, "39": 20, "3": 7, "17": 12, "59": 11, "43": 8, "55": 16, "31": 20, "19": 8, "35": 9, "11": 7}
+
+
+=======================================================
+[2026-05-16 16:16:15] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 6
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 389
+Total Gates = 690
+Gate Types Breakdown = {"sx": 307, "rz": 220, "cz": 145, "x": 8, "measure": 6, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-16 15:44:51
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.1457 +/- 0.0000
+Total Success Rate = 40.00% +/- 0.00%
+Expected Peak Success Rate = 66.67% +/- 0.00%
+Peaks yielding exact 'r' = [24]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 40.0% | Expected Peak Accuracy: 66.7%]: {"9": 1, "53": 1, "32": 1, "24": 2}
+
+
+=======================================================
+[2026-05-16 16:17:15] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 6
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 292
+Total Gates = 555
+Gate Types Breakdown = {"sx": 236, "rz": 189, "cz": 113, "x": 7, "measure": 6, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-16 15:47:39
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.2908 +/- 0.0196
+Total Success Rate = 14.20% +/- 1.20%
+Expected Peak Success Rate = 48.60% +/- 1.99%
+Peaks yielding exact 'r' = [8, 24, 40, 56]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 14.2% | Expected Peak Accuracy: 47.2%]: {"24": 37, "45": 6, "41": 2, "48": 34, "16": 47, "32": 39, "56": 41, "7": 32, "8": 30, "47": 36, "19": 3, "49": 7, "55": 36, "6": 24, "62": 30, "39": 45, "44": 11, "42": 9, "40": 37, "46": 33, "31": 31, "54": 20, "30": 24, "0": 42, "13": 3, "22": 23, "63": 29, "61": 5, "51": 2, "53": 6, "3": 4, "50": 6, "23": 42, "38": 22, "14": 35, "52": 9, "21": 6, "27": 2, "18": 7, "26": 6, "17": 8, "28": 6, "12": 13, "35": 5, "1": 6, "60": 7, "4": 14, "2": 3, "20": 7, "11": 1, "43": 5, "58": 1, "10": 5, "15": 38, "59": 7, "33": 6, "34": 5, "25": 4, "37": 6, "36": 5, "9": 2, "29": 3, "57": 4}
+Run 2 [Total Success: 11.9% | Expected Peak Accuracy: 46.2%]: {"38": 19, "26": 6, "63": 48, "22": 26, "48": 37, "24": 29, "55": 50, "31": 29, "54": 27, "23": 41, "56": 26, "16": 37, "15": 47, "7": 42, "32": 34, "37": 7, "12": 9, "2": 4, "6": 20, "62": 31, "9": 4, "46": 30, "47": 34, "34": 5, "28": 10, "59": 6, "41": 6, "17": 3, "11": 5, "52": 8, "39": 34, "8": 34, "14": 25, "0": 34, "50": 6, "18": 7, "40": 33, "44": 8, "53": 6, "35": 4, "58": 6, "19": 8, "42": 3, "60": 11, "25": 3, "57": 7, "13": 6, "30": 23, "61": 5, "5": 5, "4": 10, "27": 4, "36": 7, "3": 3, "43": 4, "20": 8, "1": 2, "33": 5, "21": 4, "49": 4, "10": 7, "45": 7, "29": 6, "51": 5}
+Run 3 [Total Success: 14.9% | Expected Peak Accuracy: 49.0%]: {"7": 34, "15": 33, "8": 32, "40": 38, "39": 39, "32": 53, "23": 35, "63": 46, "55": 29, "24": 51, "28": 5, "14": 31, "4": 7, "31": 39, "38": 18, "26": 9, "45": 5, "0": 37, "62": 29, "22": 20, "46": 18, "20": 14, "54": 23, "47": 43, "56": 32, "6": 27, "58": 9, "37": 2, "27": 3, "30": 26, "1": 5, "52": 10, "9": 4, "16": 35, "44": 9, "2": 6, "48": 34, "13": 7, "36": 10, "60": 5, "17": 4, "25": 7, "5": 3, "50": 1, "21": 3, "59": 8, "3": 3, "29": 8, "35": 5, "41": 6, "11": 4, "53": 8, "18": 4, "42": 5, "57": 1, "12": 10, "51": 3, "49": 4, "10": 5, "61": 8, "33": 2, "34": 4, "19": 5, "43": 1}
+Run 4 [Total Success: 14.7% | Expected Peak Accuracy: 52.1%]: {"15": 28, "39": 37, "58": 8, "54": 27, "8": 36, "24": 42, "32": 34, "63": 30, "22": 13, "44": 9, "7": 52, "23": 40, "30": 29, "47": 33, "38": 24, "42": 8, "55": 30, "33": 5, "19": 6, "5": 7, "27": 9, "20": 8, "52": 18, "40": 37, "2": 6, "56": 36, "31": 39, "14": 21, "50": 7, "16": 35, "34": 4, "36": 10, "6": 21, "62": 37, "46": 26, "61": 6, "0": 33, "4": 7, "51": 5, "53": 3, "48": 37, "29": 6, "12": 5, "18": 2, "1": 6, "28": 11, "37": 4, "9": 7, "10": 4, "17": 6, "57": 3, "60": 7, "49": 6, "11": 7, "13": 6, "41": 6, "59": 8, "26": 6, "43": 4, "3": 3, "25": 6, "45": 4, "35": 1, "21": 3}
+Run 5 [Total Success: 15.2% | Expected Peak Accuracy: 48.4%]: {"31": 38, "42": 3, "22": 20, "55": 36, "7": 35, "54": 27, "0": 36, "24": 35, "40": 39, "15": 43, "38": 25, "14": 23, "50": 9, "47": 24, "27": 5, "56": 42, "16": 44, "6": 20, "33": 9, "8": 40, "48": 39, "63": 38, "32": 47, "5": 5, "44": 10, "4": 18, "39": 33, "59": 4, "46": 22, "25": 6, "23": 39, "10": 9, "62": 29, "30": 32, "26": 6, "29": 10, "20": 13, "19": 6, "17": 6, "52": 6, "41": 7, "11": 2, "18": 6, "13": 3, "57": 4, "60": 6, "43": 4, "49": 3, "36": 3, "28": 11, "35": 6, "21": 2, "2": 3, "34": 5, "37": 3, "12": 8, "3": 3, "9": 4, "58": 2, "53": 2, "1": 2, "45": 2, "61": 2}
+
+
+=======================================================
+[2026-05-16 16:19:20] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 6
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 316
+Total Gates = 584
+Gate Types Breakdown = {"sx": 259, "rz": 183, "cz": 126, "x": 6, "measure": 6, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-16 15:47:39
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.5100 +/- 0.0047
+Total Success Rate = 24.71% +/- 0.72%
+Expected Peak Success Rate = 48.39% +/- 1.26%
+Peaks yielding exact 'r' = [8, 24, 40, 56]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 25.4% | Expected Peak Accuracy: 49.8%]: {"16": 273, "8": 263, "46": 74, "56": 263, "53": 6, "32": 275, "60": 41, "48": 252, "40": 274, "22": 79, "36": 53, "7": 34, "52": 30, "2": 55, "57": 16, "30": 91, "4": 37, "18": 56, "33": 15, "62": 82, "50": 59, "44": 58, "14": 88, "63": 36, "23": 26, "26": 51, "19": 10, "24": 241, "25": 6, "0": 248, "20": 50, "35": 13, "34": 73, "10": 59, "15": 42, "42": 48, "59": 15, "54": 78, "6": 82, "31": 42, "13": 11, "9": 18, "28": 33, "5": 12, "27": 16, "55": 36, "43": 14, "58": 59, "12": 45, "3": 16, "51": 6, "38": 67, "45": 6, "21": 10, "47": 30, "29": 5, "1": 20, "39": 43, "41": 8, "37": 7, "11": 10, "49": 11, "17": 10, "61": 9}
+Run 2 [Total Success: 24.3% | Expected Peak Accuracy: 48.3%]: {"14": 75, "48": 255, "13": 10, "56": 242, "28": 32, "63": 34, "16": 272, "0": 271, "12": 38, "8": 268, "1": 12, "20": 36, "62": 88, "2": 66, "38": 93, "18": 77, "32": 265, "24": 235, "34": 58, "40": 250, "55": 36, "58": 56, "50": 59, "54": 70, "30": 77, "46": 75, "39": 32, "9": 10, "52": 50, "47": 49, "4": 49, "22": 73, "31": 43, "25": 13, "36": 44, "6": 88, "23": 53, "10": 45, "29": 13, "42": 53, "60": 36, "44": 40, "3": 18, "35": 13, "51": 18, "59": 14, "26": 54, "15": 37, "53": 8, "57": 9, "33": 16, "45": 11, "19": 14, "7": 38, "43": 9, "27": 18, "5": 11, "17": 14, "11": 14, "41": 11, "61": 7, "37": 6, "21": 5, "49": 10}
+Run 3 [Total Success: 25.7% | Expected Peak Accuracy: 49.7%]: {"62": 71, "36": 45, "56": 260, "32": 268, "48": 252, "24": 245, "10": 51, "20": 39, "22": 68, "16": 250, "15": 41, "40": 286, "0": 294, "53": 7, "18": 56, "47": 45, "31": 38, "8": 261, "39": 40, "17": 17, "55": 34, "23": 30, "14": 94, "50": 55, "28": 46, "51": 15, "1": 17, "34": 56, "63": 37, "2": 61, "46": 79, "4": 52, "6": 85, "12": 47, "58": 54, "19": 8, "26": 71, "60": 42, "38": 57, "44": 46, "30": 80, "54": 72, "57": 7, "43": 15, "11": 6, "49": 9, "5": 7, "35": 17, "52": 43, "42": 54, "21": 10, "7": 44, "13": 12, "33": 18, "9": 10, "3": 14, "27": 7, "59": 7, "61": 8, "41": 9, "29": 5, "25": 14, "37": 3, "45": 5}
+Run 4 [Total Success: 24.4% | Expected Peak Accuracy: 47.4%]: {"31": 40, "30": 68, "11": 18, "16": 242, "34": 65, "44": 39, "24": 267, "12": 45, "32": 295, "58": 53, "48": 282, "6": 72, "57": 15, "14": 82, "8": 248, "55": 37, "0": 289, "40": 241, "63": 33, "10": 47, "56": 242, "2": 52, "4": 49, "37": 7, "42": 59, "38": 81, "22": 67, "54": 81, "26": 59, "62": 85, "45": 7, "28": 49, "60": 45, "35": 14, "50": 51, "27": 16, "18": 67, "23": 40, "36": 58, "47": 34, "13": 11, "39": 37, "52": 47, "43": 12, "46": 75, "19": 15, "7": 30, "20": 36, "33": 13, "25": 6, "21": 6, "59": 12, "61": 9, "5": 9, "49": 10, "15": 43, "53": 12, "3": 14, "41": 14, "1": 14, "17": 7, "9": 9, "29": 6, "51": 8}
+Run 5 [Total Success: 23.8% | Expected Peak Accuracy: 46.6%]: {"43": 9, "48": 258, "56": 271, "32": 294, "2": 46, "24": 229, "63": 32, "40": 225, "30": 86, "8": 249, "16": 273, "47": 31, "62": 82, "0": 289, "20": 45, "60": 35, "58": 54, "54": 70, "22": 73, "55": 34, "28": 39, "49": 15, "38": 90, "7": 33, "44": 45, "12": 45, "52": 46, "50": 64, "33": 13, "6": 81, "57": 18, "35": 12, "36": 48, "45": 5, "10": 53, "42": 62, "37": 14, "14": 78, "34": 83, "27": 14, "9": 14, "31": 46, "46": 72, "51": 13, "19": 14, "26": 58, "21": 10, "61": 12, "1": 14, "41": 20, "39": 35, "3": 14, "23": 35, "13": 8, "4": 35, "18": 63, "15": 33, "17": 12, "59": 10, "11": 5, "5": 7, "25": 13, "29": 5, "53": 5}
+
+
+=======================================================
+[2026-05-16 16:19:38] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 6
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 316
+Total Gates = 578
+Gate Types Breakdown = {"sx": 251, "rz": 184, "cz": 123, "x": 10, "measure": 6, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-16 15:47:39
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.0000 +/- 0.0000
+Total Success Rate = 0.00% +/- 0.00%
+Expected Peak Success Rate = 0.00% +/- 0.00%
+Peaks yielding exact 'r' = []
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 0.0% | Expected Peak Accuracy: 0.0%]: {"17": 1, "63": 1, "15": 1, "54": 1, "14": 1}
+
+
+=======================================================
+[2026-05-16 16:21:04] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 6
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 431
+Total Gates = 685
+Gate Types Breakdown = {"sx": 311, "rz": 202, "cz": 156, "x": 6, "measure": 6, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-16 15:45:08
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.5135 +/- 0.0243
+Total Success Rate = 24.98% +/- 1.87%
+Expected Peak Success Rate = 48.40% +/- 2.52%
+Peaks yielding exact 'r' = [8, 24, 40, 56]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 23.0% | Expected Peak Accuracy: 48.9%]: {"28": 11, "56": 50, "10": 13, "32": 77, "54": 28, "43": 1, "50": 14, "40": 64, "18": 11, "24": 60, "12": 21, "16": 66, "22": 22, "36": 16, "46": 36, "31": 4, "60": 18, "4": 18, "2": 13, "52": 19, "39": 3, "26": 19, "48": 56, "63": 4, "8": 62, "58": 14, "14": 29, "0": 48, "38": 24, "6": 20, "7": 6, "49": 2, "42": 14, "20": 28, "29": 1, "30": 20, "44": 18, "11": 3, "21": 3, "62": 27, "45": 2, "3": 3, "53": 2, "15": 4, "25": 1, "37": 2, "34": 10, "51": 1, "61": 3, "47": 7, "23": 4, "9": 3, "59": 3, "5": 2, "33": 4, "55": 4, "19": 1, "41": 2, "57": 1, "17": 2}
+Run 2 [Total Success: 25.2% | Expected Peak Accuracy: 46.9%]: {"24": 76, "40": 58, "46": 18, "32": 86, "56": 69, "62": 15, "27": 2, "6": 18, "54": 26, "0": 67, "4": 12, "16": 82, "20": 14, "34": 14, "52": 12, "47": 10, "48": 57, "36": 14, "42": 13, "43": 4, "22": 19, "2": 21, "41": 3, "8": 55, "58": 10, "44": 6, "30": 14, "60": 12, "18": 12, "51": 6, "38": 17, "39": 11, "57": 2, "10": 11, "63": 8, "7": 7, "33": 6, "55": 8, "35": 1, "26": 11, "31": 8, "17": 5, "14": 22, "50": 13, "28": 15, "12": 13, "61": 1, "21": 3, "13": 2, "9": 5, "15": 6, "37": 2, "25": 1, "49": 1, "23": 9, "1": 2, "11": 1, "3": 2, "19": 2, "29": 1, "5": 1, "45": 1, "59": 1}
+Run 3 [Total Success: 26.9% | Expected Peak Accuracy: 51.3%]: {"16": 65, "24": 77, "44": 11, "54": 23, "32": 71, "12": 22, "0": 68, "56": 62, "36": 15, "28": 19, "48": 57, "40": 61, "60": 15, "14": 28, "4": 14, "38": 29, "30": 29, "8": 75, "6": 26, "45": 2, "18": 10, "37": 1, "62": 23, "25": 2, "34": 9, "15": 3, "22": 25, "47": 5, "42": 18, "52": 15, "2": 8, "43": 2, "39": 3, "20": 15, "17": 2, "26": 15, "10": 13, "49": 1, "50": 15, "59": 1, "58": 11, "46": 21, "51": 1, "33": 3, "63": 1, "27": 1, "9": 1, "35": 1, "53": 2, "11": 2, "21": 2, "57": 3, "41": 1, "19": 1, "7": 5, "29": 1, "13": 3, "1": 3, "5": 2, "61": 1, "3": 1, "23": 2}
+Run 4 [Total Success: 27.1% | Expected Peak Accuracy: 50.5%]: {"8": 81, "36": 15, "56": 53, "24": 72, "52": 27, "40": 72, "0": 67, "16": 65, "54": 29, "32": 72, "4": 11, "44": 19, "34": 12, "48": 68, "50": 15, "14": 20, "30": 26, "2": 14, "13": 1, "60": 13, "38": 21, "43": 3, "25": 4, "51": 1, "62": 28, "7": 5, "22": 26, "42": 15, "20": 14, "46": 23, "12": 15, "18": 14, "6": 26, "47": 3, "31": 4, "53": 2, "10": 8, "27": 4, "28": 15, "37": 4, "55": 3, "58": 10, "17": 3, "21": 1, "61": 1, "26": 6, "1": 1, "9": 1, "35": 2, "59": 3, "63": 1, "3": 1, "19": 1, "15": 1, "23": 1, "41": 1}
+Run 5 [Total Success: 22.7% | Expected Peak Accuracy: 44.4%]: {"34": 11, "54": 31, "8": 43, "16": 77, "40": 59, "24": 67, "28": 16, "44": 21, "32": 72, "56": 63, "36": 12, "22": 24, "0": 78, "42": 19, "26": 12, "46": 27, "39": 3, "48": 64, "52": 14, "62": 20, "20": 15, "14": 29, "50": 13, "6": 29, "10": 7, "4": 11, "58": 18, "30": 25, "18": 14, "5": 3, "35": 3, "23": 1, "60": 13, "38": 21, "17": 2, "47": 8, "2": 16, "57": 1, "27": 1, "55": 2, "12": 21, "25": 5, "7": 2, "33": 3, "53": 3, "37": 1, "15": 3, "31": 2, "63": 5, "49": 1, "13": 2, "11": 2, "19": 1, "21": 3, "51": 1, "41": 1, "59": 1, "3": 1, "9": 1}
+
+
+=======================================================
+[2026-05-16 16:22:02] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 6
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 351
+Total Gates = 674
+Gate Types Breakdown = {"sx": 292, "rz": 220, "cz": 141, "x": 11, "measure": 6, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-16 15:45:08
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.8002 +/- 0.0080
+Total Success Rate = 38.54% +/- 0.53%
+Expected Peak Success Rate = 48.11% +/- 0.32%
+Peaks yielding exact 'r' = [8, 24, 40, 56]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 38.6% | Expected Peak Accuracy: 47.7%]: {"24": 364, "16": 477, "8": 416, "0": 437, "32": 385, "40": 396, "56": 406, "48": 435, "23": 27, "1": 25, "57": 34, "41": 17, "30": 8, "9": 30, "47": 24, "45": 11, "4": 12, "11": 6, "34": 12, "33": 27, "26": 8, "39": 17, "10": 19, "2": 11, "38": 8, "49": 30, "55": 24, "21": 10, "61": 5, "62": 13, "22": 9, "17": 34, "13": 7, "51": 11, "5": 8, "18": 9, "44": 8, "12": 12, "53": 8, "25": 31, "63": 14, "29": 7, "42": 18, "15": 28, "31": 21, "50": 17, "37": 10, "7": 20, "14": 9, "52": 10, "54": 11, "35": 3, "28": 13, "6": 9, "36": 8, "27": 4, "46": 9, "60": 11, "3": 5, "59": 8, "58": 14, "20": 8, "19": 4, "43": 4}
+Run 2 [Total Success: 38.1% | Expected Peak Accuracy: 47.9%]: {"14": 6, "40": 371, "56": 380, "16": 440, "1": 28, "49": 29, "32": 409, "48": 434, "8": 407, "46": 14, "0": 413, "18": 14, "34": 19, "47": 27, "31": 21, "7": 22, "17": 37, "24": 404, "21": 9, "58": 14, "41": 26, "23": 23, "36": 18, "52": 13, "33": 44, "57": 24, "15": 25, "63": 19, "42": 10, "6": 13, "55": 17, "39": 32, "20": 11, "10": 16, "51": 10, "19": 12, "62": 9, "43": 12, "5": 10, "53": 7, "25": 28, "22": 8, "9": 24, "13": 8, "35": 9, "44": 16, "29": 3, "54": 13, "45": 4, "26": 14, "61": 9, "50": 14, "4": 14, "3": 7, "37": 9, "2": 12, "27": 7, "38": 8, "28": 9, "59": 7, "30": 7, "60": 5, "12": 8, "11": 4}
+Run 3 [Total Success: 39.5% | Expected Peak Accuracy: 48.6%]: {"24": 389, "0": 421, "32": 393, "48": 448, "56": 384, "14": 11, "40": 409, "16": 446, "17": 31, "8": 435, "22": 7, "37": 8, "25": 35, "51": 7, "35": 5, "43": 11, "3": 7, "12": 17, "50": 7, "46": 6, "57": 24, "20": 10, "28": 14, "63": 22, "47": 19, "44": 12, "45": 10, "49": 27, "38": 6, "41": 27, "19": 7, "53": 7, "7": 20, "1": 29, "21": 4, "36": 11, "4": 14, "34": 9, "30": 10, "33": 32, "10": 14, "62": 3, "23": 26, "61": 9, "42": 15, "6": 13, "26": 16, "15": 16, "31": 13, "55": 22, "13": 5, "18": 17, "27": 8, "9": 23, "60": 9, "11": 10, "58": 11, "39": 15, "52": 21, "59": 8, "29": 2, "2": 16, "54": 6, "5": 7}
+Run 4 [Total Success: 38.0% | Expected Peak Accuracy: 48.0%]: {"0": 408, "48": 433, "28": 11, "10": 17, "8": 396, "24": 407, "32": 422, "16": 422, "7": 22, "62": 9, "1": 37, "56": 373, "40": 379, "17": 49, "63": 28, "39": 23, "51": 5, "25": 25, "55": 22, "58": 9, "9": 31, "23": 25, "20": 14, "31": 25, "22": 12, "57": 35, "50": 8, "30": 8, "33": 37, "27": 5, "49": 41, "4": 13, "60": 14, "42": 15, "46": 10, "47": 28, "18": 13, "15": 24, "41": 32, "43": 6, "34": 11, "14": 14, "12": 11, "36": 13, "44": 10, "54": 5, "6": 11, "26": 6, "11": 8, "52": 10, "45": 6, "2": 12, "13": 7, "21": 7, "3": 7, "53": 8, "19": 4, "37": 9, "29": 9, "5": 8, "61": 10, "59": 6, "35": 6, "38": 5}
+Run 5 [Total Success: 38.5% | Expected Peak Accuracy: 48.3%]: {"16": 440, "56": 361, "28": 5, "32": 402, "8": 417, "40": 446, "48": 452, "24": 354, "0": 396, "46": 10, "52": 13, "20": 6, "7": 21, "19": 10, "41": 26, "9": 33, "15": 37, "13": 8, "2": 14, "59": 8, "25": 33, "36": 17, "42": 12, "10": 11, "14": 7, "39": 25, "62": 11, "49": 42, "23": 22, "44": 14, "50": 15, "33": 31, "57": 28, "55": 18, "17": 29, "61": 6, "5": 7, "4": 10, "21": 9, "27": 10, "1": 28, "54": 15, "60": 11, "58": 15, "34": 13, "31": 20, "63": 23, "38": 10, "3": 12, "45": 8, "37": 5, "53": 6, "12": 10, "6": 9, "29": 7, "35": 11, "30": 10, "47": 27, "11": 5, "18": 11, "26": 4, "51": 7, "43": 7, "22": 6}
+
+
+=======================================================
+[2026-05-16 16:22:21] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 6
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 396
+Total Gates = 705
+Gate Types Breakdown = {"sx": 319, "rz": 208, "cz": 161, "x": 7, "measure": 6, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-16 15:45:08
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.2914 +/- 0.0000
+Total Success Rate = 60.00% +/- 0.00%
+Expected Peak Success Rate = 75.00% +/- 0.00%
+Peaks yielding exact 'r' = [8, 24]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 60.0% | Expected Peak Accuracy: 75.0%]: {"24": 2, "18": 1, "32": 1, "8": 1}
+
+
+=======================================================
+[2026-05-16 16:58:12] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 7
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 479
+Total Gates = 856
+Gate Types Breakdown = {"sx": 384, "rz": 259, "cz": 192, "x": 10, "measure": 7, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-16 16:07:21
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.4395 +/- 0.0143
+Total Success Rate = 21.52% +/- 1.16%
+Expected Peak Success Rate = 48.80% +/- 1.85%
+Peaks yielding exact 'r' = [16, 48, 80, 112]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 23.4% | Expected Peak Accuracy: 51.9%]: {"72": 27, "94": 17, "12": 21, "0": 60, "104": 16, "109": 3, "30": 15, "16": 59, "48": 62, "80": 59, "64": 60, "56": 17, "93": 3, "126": 10, "74": 6, "112": 60, "62": 13, "55": 4, "120": 17, "92": 20, "8": 20, "79": 3, "76": 18, "101": 1, "66": 6, "14": 14, "24": 13, "107": 1, "40": 17, "108": 13, "32": 51, "127": 3, "96": 51, "22": 1, "31": 6, "44": 12, "52": 8, "115": 1, "13": 3, "110": 21, "4": 5, "28": 22, "18": 2, "26": 2, "36": 3, "60": 12, "20": 4, "42": 4, "88": 11, "70": 1, "19": 3, "114": 4, "2": 7, "46": 13, "82": 5, "10": 5, "63": 3, "100": 4, "84": 7, "61": 2, "27": 3, "7": 1, "29": 1, "58": 2, "50": 8, "41": 2, "65": 2, "124": 11, "87": 1, "119": 1, "51": 2, "106": 5, "78": 9, "98": 1, "122": 3, "6": 3, "89": 2, "17": 2, "34": 1, "71": 1, "38": 2, "3": 1, "75": 1, "111": 3, "118": 1, "33": 3, "99": 2, "95": 1, "103": 2, "90": 2, "1": 1, "45": 2, "9": 1, "69": 2, "116": 1, "15": 1, "68": 1, "35": 3, "97": 1, "23": 1}
+Run 2 [Total Success: 20.0% | Expected Peak Accuracy: 48.0%]: {"0": 51, "68": 6, "40": 14, "12": 21, "120": 27, "64": 55, "72": 23, "3": 3, "32": 66, "46": 25, "16": 52, "110": 10, "76": 28, "24": 21, "80": 48, "62": 12, "48": 48, "52": 9, "30": 17, "6": 2, "96": 50, "71": 1, "113": 4, "112": 57, "56": 24, "63": 3, "28": 17, "127": 1, "60": 17, "100": 3, "14": 14, "39": 3, "2": 3, "36": 5, "20": 6, "78": 12, "88": 17, "13": 1, "92": 13, "61": 2, "10": 4, "106": 4, "1": 2, "34": 4, "118": 1, "31": 3, "38": 2, "18": 4, "75": 1, "104": 13, "35": 1, "74": 4, "44": 9, "8": 16, "90": 3, "124": 18, "23": 2, "126": 16, "17": 4, "81": 3, "94": 9, "122": 1, "15": 4, "114": 2, "65": 2, "73": 3, "42": 3, "49": 3, "108": 12, "79": 3, "58": 4, "84": 4, "11": 2, "107": 1, "29": 2, "54": 3, "4": 7, "116": 3, "26": 7, "99": 3, "27": 2, "33": 3, "111": 3, "93": 1, "97": 1, "45": 2, "66": 1, "9": 2, "86": 1, "70": 2, "7": 2, "77": 1, "91": 3, "55": 2, "5": 1, "125": 1, "102": 2, "19": 1, "121": 1, "105": 1, "53": 2, "69": 1, "95": 1, "37": 2, "47": 1, "21": 1}
+Run 3 [Total Success: 21.7% | Expected Peak Accuracy: 49.8%]: {"64": 69, "78": 23, "56": 18, "14": 20, "60": 11, "12": 15, "48": 67, "62": 18, "52": 5, "96": 52, "32": 53, "122": 3, "104": 12, "40": 16, "111": 2, "112": 52, "66": 5, "88": 20, "94": 15, "110": 9, "108": 17, "80": 54, "92": 23, "30": 18, "28": 20, "90": 4, "76": 19, "16": 49, "126": 18, "49": 3, "8": 21, "22": 3, "0": 50, "105": 2, "59": 1, "46": 19, "65": 1, "42": 2, "58": 2, "124": 22, "15": 5, "72": 17, "121": 1, "81": 2, "4": 6, "34": 5, "47": 2, "79": 2, "13": 4, "100": 4, "74": 1, "125": 3, "120": 19, "37": 2, "51": 3, "98": 4, "44": 19, "18": 5, "83": 1, "61": 1, "24": 10, "82": 4, "95": 2, "97": 2, "68": 3, "2": 5, "116": 2, "127": 2, "21": 1, "106": 3, "10": 2, "70": 3, "54": 3, "89": 1, "63": 1, "118": 2, "20": 2, "23": 1, "107": 2, "123": 1, "84": 2, "50": 2, "102": 3, "7": 3, "38": 2, "17": 2, "29": 1, "19": 1, "87": 2, "41": 2, "35": 1, "26": 4, "36": 3, "109": 1, "114": 1, "39": 1, "9": 1, "71": 1}
+Run 4 [Total Success: 21.8% | Expected Peak Accuracy: 47.3%]: {"0": 71, "16": 61, "80": 62, "30": 13, "58": 4, "60": 15, "32": 56, "74": 5, "46": 10, "8": 14, "48": 48, "28": 20, "24": 22, "96": 48, "92": 18, "62": 10, "105": 1, "112": 52, "53": 1, "76": 19, "64": 73, "25": 3, "44": 18, "10": 3, "12": 14, "72": 20, "5": 2, "78": 16, "88": 16, "101": 2, "18": 3, "37": 1, "40": 22, "63": 2, "98": 2, "70": 1, "108": 9, "126": 9, "56": 20, "31": 3, "68": 8, "39": 1, "94": 15, "118": 2, "116": 4, "110": 11, "104": 22, "14": 12, "95": 4, "47": 2, "90": 4, "120": 16, "124": 18, "33": 2, "122": 1, "26": 5, "71": 2, "51": 4, "114": 5, "38": 1, "13": 1, "117": 2, "115": 1, "41": 2, "82": 2, "79": 3, "3": 3, "20": 6, "36": 3, "4": 6, "66": 3, "1": 2, "65": 1, "127": 1, "106": 3, "11": 2, "125": 1, "57": 1, "2": 3, "86": 2, "49": 1, "6": 1, "54": 1, "84": 6, "100": 3, "23": 1, "22": 3, "42": 3, "55": 1, "15": 1, "113": 3, "83": 2, "99": 3, "97": 2, "123": 1, "50": 1, "111": 1, "34": 2, "29": 1, "52": 2, "35": 1, "19": 1, "43": 2, "69": 1, "102": 2, "77": 1, "107": 1}
+Run 5 [Total Success: 20.7% | Expected Peak Accuracy: 46.9%]: {"32": 72, "84": 7, "24": 20, "112": 49, "40": 22, "14": 19, "52": 6, "98": 3, "30": 16, "94": 19, "80": 61, "10": 5, "4": 6, "118": 1, "0": 58, "22": 1, "110": 17, "64": 58, "78": 18, "96": 52, "48": 49, "72": 22, "16": 53, "62": 18, "73": 3, "126": 11, "107": 1, "60": 15, "93": 2, "20": 6, "114": 2, "56": 19, "71": 1, "122": 5, "12": 21, "108": 15, "124": 11, "26": 2, "57": 3, "104": 15, "17": 1, "11": 1, "100": 5, "42": 5, "58": 4, "7": 3, "115": 1, "9": 2, "34": 4, "92": 17, "75": 2, "65": 1, "44": 13, "36": 4, "8": 17, "121": 1, "88": 17, "70": 2, "6": 3, "116": 6, "120": 16, "50": 1, "28": 10, "2": 3, "18": 5, "23": 2, "68": 4, "95": 2, "13": 1, "90": 4, "49": 1, "46": 13, "113": 3, "1": 3, "69": 2, "47": 1, "15": 1, "33": 2, "38": 1, "76": 13, "31": 3, "82": 4, "106": 4, "74": 2, "53": 3, "77": 1, "3": 1, "43": 1, "97": 1, "27": 1, "45": 1, "19": 1, "25": 1, "117": 1, "125": 1, "79": 2, "41": 1, "91": 1, "101": 1, "61": 1, "105": 2, "87": 2, "51": 1, "111": 1, "81": 1, "66": 2, "89": 1, "99": 1}
+
+
+=======================================================
+[2026-05-16 16:59:00] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 7
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 403
+Total Gates = 840
+Gate Types Breakdown = {"sx": 379, "rz": 255, "cz": 185, "x": 10, "measure": 7, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-16 16:07:21
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.6450 +/- 0.0471
+Total Success Rate = 32.46% +/- 2.41%
+Expected Peak Success Rate = 50.27% +/- 1.12%
+Peaks yielding exact 'r' = [16, 48, 80, 112]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 33.1% | Expected Peak Accuracy: 48.7%]: {"100": 35, "32": 338, "0": 355, "16": 330, "64": 403, "81": 15, "48": 335, "112": 343, "96": 332, "80": 346, "63": 11, "84": 36, "60": 40, "12": 47, "52": 34, "108": 34, "38": 5, "28": 32, "73": 6, "33": 17, "51": 5, "125": 4, "127": 9, "41": 2, "4": 38, "88": 12, "118": 5, "90": 2, "92": 51, "20": 38, "36": 45, "8": 15, "14": 9, "126": 16, "49": 11, "34": 6, "71": 2, "68": 31, "116": 30, "104": 15, "78": 10, "109": 4, "30": 11, "17": 11, "65": 8, "91": 4, "113": 9, "31": 7, "44": 44, "120": 23, "2": 9, "124": 33, "72": 18, "18": 14, "76": 43, "9": 3, "56": 21, "94": 11, "115": 6, "110": 12, "15": 8, "35": 9, "46": 14, "82": 8, "75": 1, "105": 2, "86": 8, "54": 10, "58": 2, "101": 6, "40": 22, "39": 4, "10": 3, "47": 13, "122": 5, "21": 3, "59": 3, "62": 12, "24": 19, "66": 8, "117": 3, "123": 3, "98": 12, "93": 9, "50": 6, "106": 2, "53": 4, "61": 6, "29": 2, "69": 4, "121": 3, "70": 4, "111": 11, "119": 3, "95": 10, "79": 9, "11": 5, "37": 2, "89": 2, "102": 5, "1": 5, "45": 5, "57": 3, "107": 2, "103": 3, "83": 5, "6": 7, "77": 8, "3": 2, "97": 9, "22": 4, "5": 6, "25": 2, "114": 4, "85": 2, "19": 1, "26": 3, "13": 3, "99": 3, "42": 2, "74": 2, "67": 3, "43": 1, "23": 2, "7": 2, "55": 1}
+Run 2 [Total Success: 34.8% | Expected Peak Accuracy: 52.1%]: {"96": 280, "28": 41, "16": 383, "32": 306, "80": 357, "48": 352, "116": 40, "76": 45, "41": 4, "0": 350, "60": 48, "64": 378, "104": 18, "44": 37, "112": 335, "124": 44, "53": 5, "126": 11, "99": 6, "9": 3, "127": 5, "20": 37, "22": 6, "94": 11, "52": 42, "66": 16, "68": 44, "33": 11, "108": 36, "113": 12, "8": 12, "6": 6, "24": 19, "92": 37, "40": 14, "121": 7, "123": 2, "84": 35, "23": 5, "100": 40, "36": 34, "72": 19, "95": 6, "21": 4, "98": 15, "78": 12, "31": 11, "58": 6, "17": 15, "101": 1, "91": 1, "105": 3, "69": 5, "2": 12, "12": 34, "88": 20, "35": 12, "62": 12, "4": 31, "63": 10, "102": 5, "15": 12, "1": 13, "82": 6, "111": 8, "30": 14, "42": 3, "93": 5, "56": 16, "110": 8, "120": 16, "46": 9, "61": 13, "125": 7, "59": 3, "109": 7, "81": 16, "34": 17, "14": 4, "73": 2, "13": 6, "54": 1, "75": 3, "45": 6, "43": 6, "77": 7, "47": 10, "10": 4, "65": 13, "118": 5, "25": 3, "74": 1, "97": 8, "38": 2, "85": 4, "18": 15, "70": 7, "114": 9, "86": 5, "119": 4, "90": 3, "107": 2, "11": 1, "71": 4, "106": 2, "5": 2, "55": 3, "115": 5, "103": 1, "19": 5, "49": 10, "51": 6, "50": 9, "27": 1, "57": 4, "79": 7, "89": 2, "37": 4, "87": 2, "117": 2, "29": 5, "7": 3, "39": 2, "26": 1, "67": 2, "83": 1, "122": 1}
+Run 3 [Total Success: 34.7% | Expected Peak Accuracy: 50.3%]: {"0": 351, "64": 366, "78": 10, "80": 372, "4": 32, "112": 367, "92": 42, "48": 332, "32": 364, "19": 7, "96": 322, "100": 26, "16": 350, "44": 40, "104": 11, "50": 12, "123": 4, "127": 10, "116": 35, "36": 41, "43": 3, "95": 12, "62": 14, "109": 5, "77": 3, "113": 12, "12": 50, "40": 11, "24": 19, "117": 5, "124": 36, "6": 6, "76": 35, "73": 4, "22": 12, "118": 8, "60": 47, "108": 32, "52": 38, "49": 17, "110": 13, "94": 10, "126": 16, "57": 8, "18": 10, "68": 25, "72": 21, "59": 2, "21": 2, "84": 31, "8": 23, "63": 6, "120": 18, "99": 4, "79": 9, "54": 3, "98": 7, "111": 7, "30": 16, "56": 18, "28": 38, "14": 9, "13": 4, "82": 3, "97": 14, "51": 5, "70": 9, "17": 8, "65": 8, "86": 5, "3": 4, "35": 4, "66": 8, "2": 9, "29": 7, "26": 6, "81": 12, "20": 34, "31": 11, "58": 2, "1": 13, "67": 3, "88": 21, "47": 10, "101": 2, "41": 4, "38": 5, "53": 4, "61": 5, "87": 2, "89": 4, "114": 8, "27": 3, "93": 3, "33": 19, "7": 2, "34": 9, "122": 2, "91": 1, "46": 5, "37": 5, "83": 3, "102": 4, "107": 3, "45": 2, "39": 2, "74": 8, "115": 3, "69": 1, "71": 1, "15": 9, "10": 2, "25": 1, "105": 1, "9": 1, "103": 1, "119": 1, "125": 2, "23": 2, "5": 1, "11": 4, "106": 1, "75": 1}
+Run 4 [Total Success: 31.3% | Expected Peak Accuracy: 49.7%]: {"32": 308, "48": 318, "64": 334, "16": 336, "96": 303, "0": 355, "114": 9, "66": 9, "59": 5, "52": 54, "60": 67, "112": 290, "24": 26, "100": 32, "12": 53, "27": 3, "102": 8, "20": 50, "28": 62, "83": 1, "40": 15, "31": 10, "84": 59, "49": 13, "80": 339, "1": 12, "25": 4, "76": 57, "33": 13, "105": 4, "56": 18, "108": 35, "115": 7, "72": 7, "95": 7, "110": 9, "4": 40, "2": 9, "13": 4, "118": 5, "78": 13, "75": 2, "124": 83, "111": 12, "47": 10, "70": 9, "116": 53, "92": 43, "18": 6, "68": 49, "99": 4, "69": 5, "34": 10, "120": 21, "8": 11, "36": 55, "42": 5, "65": 10, "113": 12, "39": 4, "67": 10, "61": 5, "62": 8, "107": 6, "44": 50, "93": 5, "15": 10, "26": 4, "17": 10, "91": 5, "58": 5, "88": 11, "103": 4, "106": 2, "119": 4, "55": 4, "35": 3, "97": 10, "41": 2, "85": 5, "30": 11, "46": 12, "21": 7, "98": 9, "122": 2, "45": 7, "109": 4, "29": 8, "94": 14, "82": 5, "127": 6, "19": 3, "79": 8, "14": 7, "77": 5, "104": 13, "22": 6, "10": 2, "54": 7, "63": 3, "81": 8, "53": 7, "123": 3, "125": 1, "73": 3, "51": 5, "89": 5, "90": 2, "3": 8, "126": 5, "71": 2, "23": 3, "74": 2, "86": 5, "9": 1, "121": 2, "37": 2, "101": 3, "5": 2, "7": 1, "50": 5, "38": 5, "43": 1, "6": 3, "11": 1, "57": 1, "87": 1}
+Run 5 [Total Success: 28.4% | Expected Peak Accuracy: 50.6%]: {"60": 81, "36": 67, "108": 70, "32": 287, "85": 8, "100": 66, "109": 6, "112": 263, "92": 80, "16": 321, "12": 93, "116": 69, "106": 5, "48": 274, "0": 312, "113": 12, "46": 12, "52": 57, "80": 304, "8": 8, "20": 68, "44": 46, "96": 248, "64": 287, "62": 14, "28": 92, "31": 12, "25": 3, "35": 5, "68": 57, "4": 61, "104": 14, "124": 93, "65": 19, "18": 7, "110": 15, "120": 18, "125": 5, "76": 89, "24": 23, "84": 45, "73": 5, "47": 7, "33": 7, "102": 8, "78": 11, "98": 5, "56": 14, "42": 1, "105": 2, "81": 9, "10": 4, "97": 12, "7": 3, "40": 12, "22": 4, "61": 9, "72": 17, "82": 5, "51": 6, "11": 3, "14": 10, "95": 7, "63": 6, "6": 6, "21": 3, "126": 11, "43": 2, "101": 7, "88": 10, "17": 19, "23": 4, "53": 4, "49": 6, "45": 2, "75": 6, "30": 16, "38": 3, "34": 8, "15": 7, "27": 2, "90": 2, "69": 7, "93": 6, "9": 6, "77": 3, "66": 5, "29": 4, "91": 4, "123": 4, "127": 8, "83": 6, "67": 5, "79": 10, "13": 5, "86": 5, "114": 9, "3": 4, "118": 5, "70": 7, "50": 6, "55": 2, "103": 5, "57": 3, "99": 1, "94": 7, "117": 6, "71": 3, "1": 8, "54": 3, "2": 8, "5": 3, "115": 5, "111": 5, "89": 3, "107": 3, "58": 1, "122": 3, "119": 4, "121": 3, "37": 1, "41": 2, "59": 1, "26": 1, "39": 1, "74": 1, "19": 3}
+
+
+=======================================================
+[2026-05-16 16:59:18] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 7
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 438
+Total Gates = 844
+Gate Types Breakdown = {"sx": 381, "rz": 260, "cz": 188, "measure": 7, "x": 4, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-16 16:07:21
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.4000 +/- 0.0000
+Total Success Rate = 40.00% +/- 0.00%
+Expected Peak Success Rate = 50.00% +/- 0.00%
+Peaks yielding exact 'r' = [16, 112]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 40.0% | Expected Peak Accuracy: 50.0%]: {"104": 1, "0": 1, "112": 1, "96": 1, "16": 1}
+
+
+=======================================================
+[2026-05-16 17:09:00] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 7
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 350
+Total Gates = 652
+Gate Types Breakdown = {"sx": 291, "rz": 198, "cz": 146, "measure": 7, "x": 6, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-16 16:26:08
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.0107 +/- 0.0057
+Total Success Rate = 0.68% +/- 0.30%
+Expected Peak Success Rate = 53.63% +/- 12.34%
+Peaks yielding exact 'r' = [16, 48, 80, 112]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 1.2% | Expected Peak Accuracy: 57.1%]: {"36": 4, "95": 14, "79": 31, "103": 33, "8": 3, "97": 3, "115": 2, "85": 4, "63": 22, "23": 39, "15": 15, "25": 10, "119": 27, "71": 32, "113": 6, "70": 14, "127": 12, "31": 15, "86": 6, "55": 29, "39": 27, "117": 15, "41": 12, "6": 10, "83": 7, "30": 11, "78": 6, "65": 2, "60": 3, "61": 14, "87": 24, "82": 3, "72": 4, "11": 9, "16": 2, "67": 5, "77": 6, "5": 8, "69": 11, "27": 4, "12": 3, "42": 4, "29": 10, "45": 6, "48": 3, "14": 10, "7": 37, "101": 10, "89": 11, "96": 4, "43": 3, "102": 10, "76": 5, "13": 9, "123": 4, "58": 4, "47": 16, "98": 2, "59": 5, "34": 3, "84": 1, "40": 6, "124": 2, "111": 23, "118": 15, "53": 10, "81": 4, "125": 15, "3": 6, "56": 3, "99": 6, "46": 11, "94": 11, "107": 8, "105": 7, "126": 7, "57": 9, "75": 4, "37": 11, "74": 2, "54": 10, "4": 5, "35": 8, "51": 4, "93": 8, "28": 6, "21": 7, "19": 4, "73": 4, "109": 9, "122": 2, "24": 4, "49": 1, "9": 10, "38": 10, "33": 1, "80": 3, "108": 2, "26": 4, "88": 3, "52": 5, "2": 3, "22": 13, "121": 8, "110": 6, "62": 8, "92": 6, "100": 1, "66": 3, "0": 2, "112": 4, "10": 3, "44": 5, "91": 4, "20": 4, "68": 2, "1": 2, "50": 4, "120": 1, "114": 4, "32": 1, "64": 2, "116": 1, "106": 1, "17": 1, "90": 1}
+Run 2 [Total Success: 0.9% | Expected Peak Accuracy: 56.2%]: {"31": 20, "10": 2, "45": 14, "34": 3, "72": 4, "79": 17, "81": 7, "44": 5, "56": 7, "26": 5, "111": 20, "78": 8, "25": 13, "124": 7, "93": 8, "54": 14, "4": 2, "87": 29, "68": 7, "105": 7, "41": 13, "47": 14, "61": 8, "118": 8, "12": 1, "74": 6, "23": 38, "49": 4, "127": 23, "122": 3, "119": 34, "6": 16, "64": 2, "95": 14, "92": 4, "51": 7, "39": 25, "21": 9, "28": 5, "1": 7, "50": 3, "24": 6, "22": 15, "89": 9, "85": 11, "32": 3, "71": 37, "57": 11, "91": 12, "97": 3, "7": 29, "18": 1, "15": 15, "103": 21, "62": 14, "63": 9, "125": 12, "19": 5, "17": 4, "0": 1, "35": 4, "13": 10, "101": 11, "77": 10, "55": 21, "126": 7, "29": 22, "65": 1, "3": 8, "121": 14, "86": 10, "115": 8, "66": 2, "9": 5, "70": 11, "94": 4, "69": 9, "100": 2, "38": 6, "80": 4, "104": 3, "117": 12, "123": 11, "40": 3, "96": 1, "8": 5, "109": 14, "30": 5, "76": 2, "37": 9, "52": 3, "27": 8, "59": 2, "108": 3, "33": 3, "53": 8, "90": 5, "46": 3, "67": 4, "75": 5, "73": 4, "2": 2, "58": 3, "60": 4, "16": 2, "36": 3, "5": 7, "110": 5, "43": 9, "11": 5, "113": 2, "20": 2, "116": 4, "84": 4, "102": 3, "98": 2, "83": 4, "88": 3, "42": 2, "106": 3, "48": 2, "120": 1, "99": 2, "107": 3, "14": 2, "112": 1, "82": 1}
+Run 3 [Total Success: 0.5% | Expected Peak Accuracy: 71.4%]: {"11": 10, "23": 41, "69": 15, "41": 7, "19": 9, "71": 35, "119": 29, "46": 8, "70": 8, "95": 16, "121": 13, "67": 5, "105": 11, "103": 47, "110": 10, "101": 12, "27": 4, "63": 13, "54": 12, "21": 15, "37": 12, "87": 36, "29": 8, "25": 13, "55": 21, "49": 2, "97": 3, "3": 7, "15": 12, "109": 13, "7": 36, "45": 13, "77": 11, "34": 3, "47": 21, "61": 12, "22": 8, "68": 6, "89": 9, "102": 10, "73": 11, "39": 27, "123": 6, "53": 15, "92": 3, "80": 1, "62": 12, "111": 15, "79": 10, "100": 4, "56": 5, "116": 3, "122": 2, "42": 3, "59": 6, "13": 12, "85": 10, "31": 11, "57": 13, "113": 7, "126": 6, "10": 1, "104": 6, "9": 9, "33": 5, "86": 9, "20": 4, "1": 5, "24": 5, "78": 11, "107": 4, "76": 3, "75": 4, "12": 2, "58": 2, "72": 2, "0": 1, "98": 5, "117": 8, "66": 3, "51": 5, "115": 3, "50": 2, "125": 9, "99": 3, "83": 2, "118": 8, "127": 11, "93": 8, "38": 7, "26": 2, "74": 7, "91": 4, "108": 8, "48": 1, "30": 6, "17": 4, "40": 2, "64": 1, "52": 4, "35": 4, "94": 9, "6": 7, "14": 5, "112": 3, "65": 1, "36": 4, "88": 4, "124": 2, "5": 10, "60": 2, "4": 3, "81": 3, "43": 3, "84": 2, "8": 2, "2": 1, "28": 3, "90": 3, "18": 1, "106": 2, "44": 3, "82": 2, "114": 1}
+Run 4 [Total Success: 0.5% | Expected Peak Accuracy: 50.0%]: {"94": 15, "13": 7, "10": 2, "79": 22, "21": 17, "75": 11, "25": 14, "53": 10, "103": 29, "87": 20, "97": 3, "57": 8, "46": 7, "71": 39, "115": 11, "59": 9, "60": 7, "55": 43, "63": 16, "9": 10, "82": 2, "5": 8, "12": 4, "30": 7, "52": 6, "127": 16, "3": 3, "125": 11, "104": 4, "51": 10, "36": 2, "50": 4, "117": 11, "101": 11, "35": 6, "39": 33, "86": 11, "121": 11, "91": 4, "7": 26, "15": 24, "41": 11, "109": 9, "47": 16, "38": 8, "93": 11, "112": 2, "77": 10, "116": 10, "85": 11, "95": 14, "92": 7, "27": 4, "28": 4, "105": 5, "119": 26, "43": 3, "89": 8, "90": 4, "29": 8, "23": 34, "102": 12, "70": 8, "122": 2, "118": 7, "113": 5, "22": 12, "45": 7, "68": 5, "31": 14, "17": 3, "69": 14, "73": 11, "83": 5, "48": 2, "11": 8, "54": 9, "1": 1, "65": 5, "111": 13, "33": 2, "110": 5, "61": 8, "80": 1, "18": 3, "123": 2, "26": 5, "100": 4, "99": 4, "88": 2, "67": 5, "74": 3, "81": 4, "44": 6, "126": 7, "107": 4, "98": 2, "24": 4, "37": 13, "19": 3, "32": 2, "96": 1, "106": 3, "108": 4, "76": 6, "6": 10, "124": 3, "72": 2, "34": 2, "4": 2, "66": 2, "20": 3, "114": 3, "120": 1, "14": 4, "62": 5, "42": 3, "84": 2, "8": 2, "78": 4, "2": 3, "56": 2, "49": 2, "58": 2, "64": 2}
+Run 5 [Total Success: 0.4% | Expected Peak Accuracy: 33.3%]: {"78": 8, "55": 32, "31": 15, "87": 33, "108": 5, "72": 4, "47": 10, "30": 9, "75": 8, "62": 5, "6": 5, "58": 2, "11": 6, "90": 4, "5": 12, "25": 15, "127": 15, "57": 13, "43": 10, "7": 29, "82": 2, "119": 26, "86": 16, "63": 16, "37": 11, "77": 7, "100": 3, "61": 7, "23": 27, "15": 18, "13": 15, "76": 9, "48": 1, "44": 4, "28": 6, "126": 7, "53": 8, "111": 21, "35": 8, "39": 34, "103": 32, "3": 3, "102": 12, "64": 4, "45": 13, "81": 1, "67": 11, "71": 32, "29": 12, "118": 8, "70": 10, "105": 10, "46": 7, "38": 12, "93": 15, "88": 5, "16": 1, "121": 8, "109": 8, "117": 9, "10": 3, "73": 9, "83": 4, "89": 10, "54": 12, "22": 13, "107": 5, "101": 11, "95": 14, "1": 3, "94": 8, "56": 5, "114": 4, "69": 9, "74": 3, "123": 8, "41": 9, "8": 2, "9": 9, "116": 5, "79": 8, "115": 9, "20": 3, "113": 8, "120": 2, "125": 5, "98": 5, "12": 3, "60": 3, "26": 3, "49": 3, "85": 13, "33": 5, "21": 8, "27": 6, "17": 3, "65": 3, "59": 10, "51": 9, "99": 5, "68": 3, "19": 5, "34": 3, "14": 2, "84": 3, "2": 3, "97": 1, "52": 1, "42": 3, "36": 3, "92": 4, "18": 3, "4": 2, "91": 8, "80": 2, "0": 1, "40": 3, "110": 3, "106": 4, "124": 2, "122": 1, "32": 3, "50": 1, "24": 1}
+
+
+=======================================================
+[2026-05-16 17:11:03] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 7
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 368
+Total Gates = 681
+Gate Types Breakdown = {"sx": 290, "rz": 226, "cz": 140, "x": 14, "measure": 7, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-16 16:26:08
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.0265 +/- 0.0027
+Total Success Rate = 1.26% +/- 0.26%
+Expected Peak Success Rate = 46.35% +/- 6.57%
+Peaks yielding exact 'r' = [16, 48, 80, 112]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 1.0% | Expected Peak Accuracy: 44.4%]: {"76": 20, "95": 85, "87": 115, "47": 62, "57": 16, "91": 53, "75": 45, "23": 135, "33": 11, "102": 45, "7": 111, "71": 124, "63": 71, "34": 11, "73": 15, "123": 36, "117": 38, "111": 58, "70": 46, "21": 61, "127": 55, "60": 24, "61": 35, "118": 45, "106": 16, "72": 30, "66": 7, "74": 22, "15": 57, "104": 20, "103": 131, "108": 25, "68": 25, "79": 73, "126": 21, "110": 29, "59": 55, "27": 48, "112": 10, "119": 128, "5": 49, "40": 18, "90": 15, "8": 9, "37": 47, "51": 15, "22": 35, "62": 42, "39": 118, "14": 28, "77": 36, "125": 31, "4": 18, "94": 33, "86": 46, "12": 20, "45": 28, "78": 24, "120": 26, "13": 29, "31": 78, "38": 44, "81": 7, "6": 37, "55": 100, "1": 8, "69": 57, "29": 40, "89": 14, "101": 52, "10": 14, "99": 9, "11": 41, "44": 20, "53": 46, "32": 16, "92": 23, "121": 14, "96": 12, "43": 35, "9": 14, "20": 25, "46": 29, "58": 22, "3": 17, "93": 48, "67": 16, "109": 40, "54": 39, "30": 25, "88": 12, "41": 15, "42": 22, "83": 13, "17": 2, "0": 12, "85": 46, "116": 16, "26": 15, "28": 18, "52": 19, "107": 40, "100": 18, "50": 4, "25": 9, "124": 14, "114": 5, "98": 8, "97": 6, "24": 12, "35": 9, "56": 11, "105": 13, "18": 5, "19": 13, "36": 12, "65": 6, "16": 6, "84": 20, "64": 10, "115": 6, "2": 4, "48": 14, "80": 10, "113": 3, "82": 7, "122": 10, "49": 8}
+Run 2 [Total Success: 1.2% | Expected Peak Accuracy: 43.5%]: {"44": 21, "109": 24, "43": 39, "110": 25, "61": 27, "75": 39, "100": 24, "71": 116, "19": 8, "30": 32, "104": 24, "77": 33, "21": 44, "123": 29, "111": 74, "87": 124, "27": 46, "11": 43, "114": 9, "127": 84, "86": 34, "93": 40, "107": 52, "29": 29, "106": 25, "18": 5, "46": 33, "54": 39, "39": 114, "69": 53, "103": 141, "38": 39, "119": 127, "126": 44, "121": 16, "102": 48, "95": 79, "79": 69, "68": 19, "10": 10, "22": 44, "55": 112, "24": 31, "7": 112, "99": 12, "120": 26, "5": 35, "94": 37, "101": 41, "96": 22, "125": 34, "47": 78, "12": 18, "124": 22, "98": 7, "85": 28, "58": 12, "66": 11, "117": 34, "8": 18, "6": 47, "45": 52, "14": 28, "15": 64, "63": 84, "34": 10, "73": 14, "90": 20, "91": 30, "31": 71, "53": 33, "23": 127, "60": 18, "48": 19, "33": 9, "118": 45, "88": 21, "62": 44, "52": 15, "36": 10, "3": 7, "108": 27, "0": 16, "89": 18, "40": 18, "28": 20, "26": 8, "92": 28, "78": 38, "70": 33, "37": 49, "17": 4, "13": 23, "115": 7, "65": 10, "81": 5, "1": 7, "59": 32, "76": 24, "16": 9, "20": 16, "4": 20, "35": 8, "72": 15, "25": 14, "83": 7, "56": 30, "113": 4, "105": 18, "122": 15, "80": 14, "50": 7, "32": 13, "84": 14, "57": 7, "116": 14, "97": 10, "2": 12, "112": 8, "42": 11, "82": 7, "67": 6, "41": 8, "74": 13, "49": 10, "64": 14, "9": 16, "51": 6}
+Run 3 [Total Success: 1.7% | Expected Peak Accuracy: 57.6%]: {"61": 35, "72": 17, "76": 27, "102": 46, "85": 45, "125": 26, "22": 39, "55": 101, "37": 45, "47": 66, "32": 13, "0": 14, "108": 34, "35": 10, "30": 31, "82": 6, "126": 31, "109": 33, "63": 69, "13": 24, "79": 65, "23": 106, "71": 109, "78": 48, "111": 65, "52": 12, "8": 28, "119": 107, "95": 85, "11": 39, "1": 13, "53": 45, "87": 107, "69": 44, "21": 40, "92": 27, "105": 15, "33": 10, "127": 71, "31": 81, "43": 41, "27": 34, "77": 29, "106": 13, "123": 43, "70": 40, "107": 43, "94": 40, "103": 111, "117": 38, "96": 11, "54": 51, "68": 11, "46": 30, "97": 4, "7": 99, "44": 20, "5": 42, "121": 13, "112": 18, "91": 45, "10": 21, "12": 25, "15": 71, "45": 32, "93": 43, "101": 53, "39": 122, "16": 13, "84": 19, "29": 27, "26": 19, "74": 15, "59": 27, "62": 40, "80": 18, "120": 20, "50": 8, "38": 32, "75": 43, "90": 23, "20": 17, "17": 5, "124": 19, "67": 16, "81": 6, "42": 19, "122": 12, "86": 38, "40": 33, "4": 13, "24": 30, "34": 6, "65": 8, "110": 37, "99": 14, "14": 35, "118": 65, "28": 37, "113": 6, "60": 28, "100": 14, "83": 8, "116": 22, "41": 12, "66": 4, "51": 16, "18": 9, "48": 19, "56": 25, "104": 26, "36": 11, "6": 47, "19": 13, "3": 15, "64": 12, "114": 5, "73": 10, "9": 13, "89": 13, "25": 15, "2": 8, "88": 20, "98": 8, "58": 12, "57": 8, "115": 8, "49": 3}
+Run 4 [Total Success: 1.0% | Expected Peak Accuracy: 37.8%]: {"107": 37, "118": 44, "85": 54, "43": 31, "53": 40, "95": 86, "29": 24, "101": 49, "40": 25, "119": 117, "103": 106, "55": 89, "89": 17, "22": 42, "2": 7, "62": 33, "83": 8, "108": 21, "6": 45, "13": 38, "27": 41, "39": 116, "121": 12, "111": 72, "87": 127, "14": 33, "11": 32, "47": 75, "91": 31, "125": 26, "46": 36, "64": 15, "19": 11, "20": 22, "100": 27, "123": 39, "102": 46, "94": 29, "120": 28, "69": 40, "15": 75, "127": 76, "48": 19, "7": 121, "50": 9, "71": 101, "84": 15, "37": 50, "77": 35, "106": 17, "92": 24, "23": 122, "79": 62, "72": 32, "24": 32, "126": 39, "60": 30, "117": 34, "93": 26, "63": 81, "109": 26, "30": 31, "122": 13, "73": 16, "10": 13, "5": 42, "31": 92, "21": 30, "67": 8, "76": 26, "59": 30, "80": 9, "65": 13, "58": 22, "38": 47, "1": 4, "78": 43, "42": 14, "12": 28, "9": 19, "56": 31, "36": 14, "17": 12, "34": 10, "54": 41, "86": 45, "41": 9, "16": 3, "96": 22, "70": 43, "124": 19, "35": 13, "25": 10, "113": 6, "52": 14, "8": 33, "61": 38, "3": 8, "90": 14, "75": 25, "45": 34, "26": 19, "88": 20, "74": 14, "44": 21, "4": 22, "115": 12, "110": 30, "51": 11, "116": 16, "97": 4, "114": 4, "18": 6, "57": 7, "32": 13, "28": 17, "49": 6, "99": 12, "105": 14, "0": 19, "81": 5, "104": 30, "68": 15, "98": 7, "82": 5, "112": 11, "66": 10, "33": 5}
+Run 5 [Total Success: 1.4% | Expected Peak Accuracy: 48.4%]: {"21": 44, "119": 103, "109": 27, "39": 98, "5": 41, "72": 30, "7": 99, "64": 20, "55": 110, "83": 4, "4": 22, "58": 26, "121": 20, "74": 12, "105": 23, "111": 62, "47": 70, "115": 10, "78": 34, "20": 17, "87": 119, "46": 34, "8": 23, "86": 59, "79": 73, "100": 22, "76": 28, "0": 18, "94": 44, "63": 83, "89": 15, "61": 42, "40": 32, "88": 31, "120": 28, "60": 31, "50": 11, "92": 29, "27": 28, "95": 84, "103": 116, "28": 30, "9": 13, "101": 47, "70": 44, "25": 19, "18": 6, "77": 40, "93": 35, "24": 16, "56": 40, "37": 39, "14": 26, "91": 33, "110": 33, "68": 16, "16": 10, "118": 42, "112": 15, "45": 33, "71": 101, "125": 38, "123": 32, "30": 29, "96": 16, "85": 36, "31": 68, "11": 37, "13": 29, "10": 15, "116": 15, "34": 12, "124": 23, "54": 46, "23": 112, "99": 10, "82": 9, "127": 61, "44": 29, "75": 32, "22": 52, "38": 40, "117": 46, "6": 49, "69": 55, "52": 11, "67": 13, "108": 24, "29": 38, "62": 29, "48": 16, "80": 18, "84": 17, "53": 34, "12": 22, "104": 26, "122": 21, "43": 33, "66": 6, "15": 63, "59": 27, "57": 14, "35": 13, "51": 11, "42": 18, "126": 31, "3": 10, "102": 57, "107": 41, "33": 3, "1": 5, "106": 14, "26": 14, "114": 7, "113": 6, "41": 20, "81": 7, "17": 10, "73": 6, "36": 13, "90": 10, "32": 9, "97": 6, "2": 8, "98": 4, "49": 3, "65": 1, "19": 6}
+
+
+=======================================================
+[2026-05-16 17:11:23] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 7
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 381
+Total Gates = 648
+Gate Types Breakdown = {"sx": 291, "rz": 190, "cz": 149, "x": 7, "measure": 7, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-16 16:26:08
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.0000 +/- 0.0000
+Total Success Rate = 0.00% +/- 0.00%
+Expected Peak Success Rate = 0.00% +/- 0.00%
+Peaks yielding exact 'r' = []
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 0.0% | Expected Peak Accuracy: 0.0%]: {"107": 1, "63": 1, "101": 1, "123": 1, "108": 1}
+
+
+=======================================================
+[2026-05-16 17:31:48] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 7
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 466
+Total Gates = 869
+Gate Types Breakdown = {"sx": 402, "rz": 259, "cz": 192, "measure": 7, "x": 5, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-16 16:24:49
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.5709 +/- 0.0223
+Total Success Rate = 27.81% +/- 2.15%
+Expected Peak Success Rate = 48.45% +/- 2.47%
+Peaks yielding exact 'r' = [16, 48, 80, 112]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 30.0% | Expected Peak Accuracy: 49.2%]: {"64": 93, "97": 15, "48": 88, "34": 6, "32": 76, "16": 93, "78": 3, "50": 8, "0": 77, "30": 4, "112": 57, "46": 4, "1": 8, "80": 69, "54": 4, "98": 6, "90": 4, "88": 6, "2": 8, "60": 6, "96": 71, "108": 2, "31": 9, "20": 6, "81": 9, "113": 12, "47": 6, "6": 1, "15": 6, "95": 9, "44": 7, "65": 9, "40": 9, "114": 4, "52": 4, "110": 4, "94": 6, "104": 10, "43": 4, "24": 6, "77": 2, "127": 6, "123": 2, "57": 1, "66": 8, "72": 6, "73": 2, "107": 2, "63": 9, "21": 2, "86": 1, "124": 3, "92": 5, "28": 8, "111": 12, "7": 2, "82": 5, "8": 7, "76": 3, "115": 2, "56": 9, "119": 1, "10": 2, "14": 1, "103": 1, "91": 2, "116": 2, "79": 2, "29": 2, "126": 1, "17": 7, "67": 1, "49": 5, "12": 5, "33": 7, "26": 1, "120": 6, "84": 4, "36": 3, "125": 2, "122": 3, "100": 3, "102": 1, "18": 5, "13": 2, "38": 1, "70": 1, "71": 1, "101": 1, "109": 2, "42": 1, "5": 2, "105": 3, "45": 2, "35": 1, "89": 1, "85": 2, "118": 1, "87": 1, "75": 1, "27": 1, "68": 2, "25": 1, "39": 1, "51": 1, "62": 2}
+Run 2 [Total Success: 30.0% | Expected Peak Accuracy: 52.1%]: {"64": 63, "79": 4, "16": 73, "40": 6, "47": 8, "80": 86, "1": 7, "90": 4, "0": 63, "97": 5, "32": 78, "31": 4, "46": 3, "63": 5, "66": 10, "10": 1, "35": 1, "119": 2, "109": 2, "96": 78, "99": 5, "84": 6, "48": 74, "112": 74, "4": 5, "33": 2, "81": 18, "24": 12, "17": 11, "71": 2, "49": 3, "124": 4, "95": 7, "42": 3, "73": 1, "20": 1, "127": 6, "121": 2, "70": 1, "15": 6, "75": 3, "12": 4, "11": 4, "113": 8, "28": 5, "82": 13, "56": 8, "85": 2, "91": 5, "44": 6, "72": 7, "6": 2, "62": 6, "88": 7, "2": 8, "86": 3, "65": 6, "83": 1, "111": 8, "51": 2, "78": 5, "14": 4, "102": 1, "41": 3, "68": 4, "21": 1, "122": 4, "120": 11, "76": 4, "34": 9, "108": 2, "104": 6, "114": 11, "58": 1, "125": 6, "61": 1, "105": 4, "98": 6, "39": 1, "8": 3, "110": 5, "126": 4, "3": 1, "52": 4, "9": 1, "13": 2, "18": 9, "92": 4, "89": 3, "54": 2, "94": 8, "74": 1, "116": 2, "26": 2, "50": 4, "53": 2, "115": 1, "60": 4, "57": 2, "23": 2, "36": 3, "7": 1, "27": 1, "123": 2, "37": 1, "103": 1, "45": 1, "25": 3, "19": 1, "93": 2, "106": 1, "59": 2, "100": 1}
+Run 3 [Total Success: 28.5% | Expected Peak Accuracy: 49.0%]: {"64": 92, "105": 5, "2": 11, "96": 70, "40": 10, "18": 9, "16": 79, "48": 72, "34": 9, "11": 2, "120": 14, "33": 13, "83": 2, "49": 11, "80": 76, "32": 66, "66": 8, "62": 5, "112": 65, "104": 6, "14": 2, "95": 12, "92": 6, "0": 76, "57": 2, "8": 8, "21": 1, "3": 1, "44": 4, "63": 7, "114": 8, "79": 6, "28": 4, "27": 3, "76": 5, "98": 12, "123": 1, "84": 3, "94": 5, "4": 3, "91": 2, "31": 8, "45": 1, "108": 5, "47": 7, "50": 11, "53": 2, "65": 1, "127": 6, "106": 4, "24": 6, "126": 3, "25": 2, "15": 4, "58": 2, "110": 3, "88": 8, "54": 2, "78": 3, "29": 4, "82": 2, "51": 4, "17": 10, "1": 7, "59": 2, "13": 4, "97": 11, "111": 3, "74": 1, "72": 5, "93": 5, "89": 4, "73": 5, "87": 2, "52": 2, "81": 5, "113": 5, "43": 1, "107": 2, "9": 3, "70": 2, "41": 3, "26": 1, "61": 2, "109": 1, "124": 3, "12": 4, "5": 1, "125": 4, "20": 4, "42": 2, "100": 2, "86": 1, "56": 3, "121": 2, "7": 1, "122": 2, "119": 3, "55": 1, "99": 1, "102": 1, "68": 2, "46": 3, "35": 4, "67": 1, "36": 1, "39": 2, "30": 2, "118": 1, "90": 1, "77": 1, "60": 1}
+Run 4 [Total Success: 24.8% | Expected Peak Accuracy: 44.6%]: {"16": 69, "45": 3, "32": 71, "65": 8, "96": 77, "66": 11, "0": 67, "18": 4, "33": 10, "51": 4, "52": 4, "82": 8, "80": 69, "64": 101, "98": 9, "54": 1, "88": 9, "48": 57, "17": 7, "62": 4, "106": 2, "97": 14, "47": 15, "112": 59, "12": 7, "42": 4, "25": 3, "31": 9, "57": 2, "8": 8, "114": 9, "28": 4, "104": 14, "56": 7, "108": 3, "49": 9, "60": 5, "119": 1, "113": 6, "72": 7, "1": 7, "13": 4, "68": 3, "116": 3, "27": 1, "10": 2, "44": 5, "111": 8, "46": 3, "4": 3, "79": 6, "125": 5, "14": 7, "50": 6, "109": 5, "55": 2, "26": 3, "15": 5, "70": 3, "81": 17, "19": 2, "2": 10, "29": 2, "84": 4, "73": 2, "95": 3, "120": 10, "121": 3, "41": 3, "91": 2, "34": 5, "36": 3, "126": 3, "24": 6, "61": 3, "122": 4, "110": 1, "63": 6, "75": 1, "105": 5, "89": 2, "69": 3, "39": 1, "94": 5, "30": 1, "40": 3, "38": 1, "77": 4, "107": 2, "102": 1, "99": 1, "92": 1, "67": 1, "59": 3, "9": 4, "127": 1, "123": 1, "23": 1, "78": 5, "35": 1, "115": 1, "76": 4, "5": 2, "118": 3, "103": 1, "3": 1, "11": 2, "74": 1, "58": 3, "83": 2, "71": 2, "20": 1, "6": 1, "87": 1}
+Run 5 [Total Success: 25.8% | Expected Peak Accuracy: 47.4%]: {"16": 57, "112": 62, "2": 13, "32": 68, "96": 63, "64": 79, "80": 71, "122": 4, "126": 4, "8": 12, "0": 83, "66": 14, "81": 10, "120": 6, "33": 15, "56": 9, "47": 7, "116": 3, "48": 74, "63": 8, "31": 7, "45": 2, "30": 4, "127": 7, "68": 5, "111": 11, "44": 7, "59": 4, "20": 4, "24": 5, "34": 7, "82": 6, "25": 3, "4": 4, "79": 9, "86": 1, "39": 1, "9": 4, "12": 6, "95": 5, "124": 4, "114": 10, "98": 11, "36": 5, "87": 1, "88": 7, "110": 4, "75": 3, "93": 2, "13": 4, "92": 8, "113": 6, "72": 10, "62": 2, "97": 13, "27": 2, "89": 1, "104": 12, "83": 2, "7": 2, "94": 3, "18": 7, "74": 2, "53": 1, "17": 7, "57": 4, "58": 4, "52": 2, "49": 6, "119": 2, "73": 4, "23": 4, "125": 4, "51": 3, "106": 1, "65": 6, "40": 6, "54": 1, "29": 2, "103": 1, "26": 1, "1": 6, "85": 1, "11": 1, "42": 2, "108": 4, "60": 2, "14": 3, "50": 5, "102": 1, "115": 1, "37": 2, "105": 2, "123": 2, "19": 2, "91": 1, "55": 1, "6": 4, "100": 3, "10": 3, "77": 1, "101": 1, "71": 2, "22": 1, "35": 1, "107": 2, "109": 3, "43": 1, "78": 4, "41": 2, "28": 2, "15": 3, "61": 2, "76": 1, "38": 2, "46": 1, "121": 1, "3": 1, "67": 1, "90": 1, "118": 1}
+
+
+=======================================================
+[2026-05-16 17:40:54] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 7
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 413
+Total Gates = 755
+Gate Types Breakdown = {"sx": 347, "rz": 222, "cz": 166, "x": 9, "measure": 7, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-16 16:24:49
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.6219 +/- 0.0038
+Total Success Rate = 31.35% +/- 0.79%
+Expected Peak Success Rate = 50.37% +/- 1.05%
+Peaks yielding exact 'r' = [16, 48, 80, 112]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 31.8% | Expected Peak Accuracy: 50.7%]: {"24": 52, "16": 333, "98": 14, "8": 46, "32": 319, "112": 313, "96": 303, "0": 336, "79": 29, "104": 28, "48": 306, "100": 14, "50": 18, "64": 310, "95": 28, "15": 35, "80": 350, "17": 25, "114": 24, "94": 10, "31": 30, "4": 18, "113": 27, "93": 7, "20": 17, "119": 9, "85": 14, "88": 34, "103": 10, "71": 11, "2": 16, "120": 34, "66": 21, "6": 14, "47": 23, "33": 23, "22": 5, "19": 2, "23": 15, "1": 15, "118": 3, "34": 19, "12": 11, "102": 4, "101": 4, "63": 18, "56": 42, "49": 26, "81": 31, "52": 7, "89": 2, "111": 26, "55": 8, "7": 12, "126": 8, "83": 5, "116": 18, "30": 5, "40": 43, "127": 26, "37": 12, "124": 9, "21": 9, "28": 13, "115": 5, "27": 4, "10": 2, "41": 3, "108": 14, "61": 9, "3": 4, "99": 8, "72": 38, "97": 17, "110": 15, "67": 4, "29": 7, "14": 14, "90": 9, "69": 6, "84": 10, "106": 2, "87": 12, "13": 3, "26": 6, "86": 9, "82": 18, "65": 23, "62": 13, "60": 9, "39": 14, "5": 2, "78": 15, "44": 11, "25": 2, "59": 2, "123": 5, "76": 9, "117": 6, "122": 7, "53": 8, "43": 6, "107": 1, "70": 8, "92": 12, "38": 7, "36": 9, "74": 7, "105": 1, "68": 8, "58": 4, "75": 7, "11": 4, "35": 5, "18": 21, "125": 7, "51": 8, "46": 8, "45": 7, "9": 3, "42": 1, "57": 1, "73": 3, "77": 4, "109": 3, "54": 5, "91": 2}
+Run 2 [Total Success: 30.3% | Expected Peak Accuracy: 48.9%]: {"112": 293, "64": 323, "32": 342, "108": 11, "0": 326, "113": 25, "33": 25, "48": 319, "72": 51, "80": 321, "16": 310, "104": 33, "66": 16, "40": 58, "28": 10, "53": 10, "96": 309, "50": 25, "47": 38, "35": 7, "59": 3, "78": 8, "100": 14, "8": 46, "81": 25, "17": 25, "116": 11, "62": 11, "95": 29, "98": 19, "110": 15, "1": 14, "18": 20, "24": 42, "2": 18, "103": 8, "111": 42, "119": 7, "120": 34, "55": 9, "37": 10, "97": 29, "88": 51, "20": 13, "71": 11, "126": 13, "56": 31, "114": 17, "31": 30, "11": 2, "38": 18, "44": 12, "36": 18, "73": 5, "63": 31, "23": 11, "109": 3, "30": 12, "46": 12, "52": 12, "102": 2, "34": 27, "127": 30, "94": 17, "101": 8, "84": 19, "121": 2, "14": 12, "41": 1, "6": 11, "67": 5, "90": 2, "15": 29, "7": 11, "124": 4, "79": 32, "99": 8, "65": 24, "118": 9, "60": 5, "12": 6, "76": 8, "4": 11, "9": 7, "13": 7, "68": 11, "77": 4, "70": 8, "10": 4, "22": 8, "82": 18, "49": 19, "21": 6, "107": 4, "39": 8, "83": 7, "106": 2, "69": 9, "19": 4, "115": 5, "57": 3, "45": 6, "42": 4, "51": 3, "74": 2, "91": 3, "54": 10, "25": 3, "29": 6, "27": 1, "87": 11, "43": 1, "92": 6, "105": 5, "93": 2, "85": 3, "3": 1, "117": 3, "61": 1, "5": 3, "89": 3, "86": 5, "58": 1, "125": 1, "75": 2}
+Run 3 [Total Success: 31.6% | Expected Peak Accuracy: 51.0%]: {"24": 46, "32": 315, "80": 322, "34": 25, "96": 291, "48": 326, "16": 341, "97": 18, "66": 19, "42": 3, "112": 305, "0": 315, "64": 322, "62": 14, "8": 39, "72": 48, "111": 30, "92": 7, "33": 27, "104": 42, "20": 15, "63": 33, "38": 9, "49": 26, "40": 43, "1": 15, "126": 8, "52": 9, "31": 29, "15": 26, "21": 7, "39": 12, "18": 22, "79": 37, "93": 9, "78": 9, "82": 22, "120": 41, "98": 24, "114": 27, "113": 27, "14": 14, "17": 27, "88": 50, "47": 24, "3": 5, "65": 31, "5": 10, "12": 8, "36": 22, "68": 8, "81": 22, "70": 6, "35": 6, "29": 4, "71": 8, "100": 15, "76": 8, "56": 38, "95": 25, "69": 3, "84": 23, "50": 21, "46": 16, "60": 15, "119": 14, "30": 15, "28": 12, "23": 12, "110": 7, "45": 6, "85": 6, "53": 7, "108": 12, "99": 6, "2": 21, "54": 7, "75": 3, "44": 10, "22": 10, "4": 14, "7": 5, "13": 4, "86": 8, "83": 3, "27": 2, "77": 5, "116": 16, "117": 4, "118": 5, "19": 10, "127": 24, "87": 5, "6": 10, "102": 2, "51": 3, "124": 7, "58": 4, "55": 9, "125": 3, "121": 2, "57": 5, "89": 3, "94": 10, "91": 2, "106": 1, "103": 9, "61": 6, "90": 4, "115": 5, "123": 1, "9": 3, "74": 5, "26": 3, "67": 4, "43": 2, "37": 8, "59": 4, "109": 5, "105": 1, "25": 1, "107": 1, "101": 1, "41": 1, "73": 2, "10": 1, "11": 1}
+Run 4 [Total Success: 30.6% | Expected Peak Accuracy: 49.5%]: {"32": 345, "64": 321, "96": 311, "112": 333, "63": 29, "16": 318, "0": 300, "80": 309, "79": 28, "51": 4, "31": 39, "62": 11, "48": 292, "14": 14, "50": 26, "33": 16, "9": 5, "65": 18, "55": 15, "36": 23, "2": 16, "21": 5, "24": 47, "98": 20, "17": 40, "4": 13, "95": 28, "116": 17, "111": 29, "8": 36, "124": 8, "52": 10, "120": 39, "7": 8, "73": 2, "76": 9, "127": 32, "20": 21, "119": 7, "117": 4, "114": 17, "23": 9, "28": 11, "22": 9, "113": 20, "34": 18, "108": 12, "88": 52, "40": 35, "44": 10, "81": 23, "72": 45, "49": 21, "25": 2, "74": 7, "56": 42, "67": 8, "46": 11, "97": 9, "84": 21, "37": 11, "68": 7, "47": 35, "57": 2, "41": 3, "39": 7, "101": 8, "15": 33, "6": 10, "109": 5, "92": 9, "104": 34, "29": 4, "61": 9, "70": 7, "71": 8, "87": 11, "66": 12, "10": 2, "100": 14, "38": 8, "82": 21, "18": 20, "3": 6, "30": 12, "60": 7, "86": 10, "126": 16, "42": 3, "12": 11, "115": 4, "11": 4, "69": 9, "26": 5, "110": 14, "13": 4, "122": 4, "19": 9, "5": 8, "27": 4, "99": 10, "58": 6, "94": 14, "83": 5, "125": 2, "45": 5, "123": 4, "54": 4, "53": 2, "103": 6, "78": 13, "1": 13, "118": 8, "43": 7, "35": 8, "75": 6, "102": 5, "77": 8, "59": 3, "107": 3, "106": 5, "91": 3, "85": 6, "105": 3, "121": 1, "93": 5, "90": 1}
+Run 5 [Total Success: 32.5% | Expected Peak Accuracy: 51.8%]: {"16": 339, "79": 30, "56": 50, "96": 291, "80": 372, "104": 28, "33": 21, "112": 296, "48": 323, "25": 2, "0": 296, "64": 351, "54": 8, "62": 15, "72": 54, "8": 50, "47": 42, "97": 16, "32": 299, "26": 5, "58": 2, "23": 12, "120": 43, "116": 13, "113": 18, "106": 4, "65": 23, "127": 32, "55": 12, "122": 3, "15": 31, "17": 29, "68": 15, "126": 13, "24": 44, "118": 11, "73": 7, "100": 19, "49": 17, "13": 8, "111": 23, "12": 9, "2": 16, "41": 4, "81": 19, "63": 25, "124": 8, "82": 24, "18": 28, "1": 16, "101": 10, "40": 41, "109": 9, "69": 7, "44": 12, "5": 3, "45": 3, "59": 2, "114": 21, "95": 26, "39": 14, "52": 14, "20": 21, "119": 10, "88": 35, "11": 3, "36": 16, "78": 14, "84": 22, "92": 10, "50": 21, "30": 14, "27": 2, "31": 22, "22": 3, "117": 3, "74": 3, "37": 6, "71": 10, "6": 6, "3": 6, "43": 5, "34": 25, "46": 14, "108": 9, "29": 3, "98": 24, "86": 5, "14": 9, "38": 10, "85": 5, "125": 4, "94": 6, "4": 17, "19": 5, "66": 22, "99": 6, "51": 3, "57": 1, "110": 10, "42": 3, "115": 6, "123": 1, "83": 4, "76": 10, "70": 7, "35": 6, "53": 6, "28": 5, "7": 4, "93": 2, "9": 2, "60": 6, "10": 2, "61": 4, "87": 9, "103": 5, "105": 3, "67": 3, "90": 2, "77": 4, "102": 4, "21": 3, "121": 4, "91": 1, "75": 1, "107": 1}
+
+
+=======================================================
+[2026-05-16 17:41:17] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 7
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 480
+Total Gates = 821
+Gate Types Breakdown = {"sx": 370, "rz": 251, "cz": 183, "measure": 7, "x": 6, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-16 16:24:49
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.1000 +/- 0.0000
+Total Success Rate = 20.00% +/- 0.00%
+Expected Peak Success Rate = 50.00% +/- 0.00%
+Peaks yielding exact 'r' = [16]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 20.0% | Expected Peak Accuracy: 50.0%]: {"16": 1, "56": 1, "47": 1, "45": 1, "64": 1}
+
+
+=======================================================
+[2026-05-16 19:08:32] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 8
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 500
+Total Gates = 965
+Gate Types Breakdown = {"sx": 448, "rz": 277, "cz": 220, "x": 8, "measure": 8, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-16 18:24:17
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.3819 +/- 0.0220
+Total Success Rate = 19.38% +/- 1.34%
+Expected Peak Success Rate = 50.42% +/- 2.25%
+Peaks yielding exact 'r' = [32, 96, 160, 224]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 17.6% | Expected Peak Accuracy: 46.5%]: {"159": 4, "120": 2, "192": 51, "68": 14, "224": 47, "108": 2, "228": 18, "0": 50, "194": 6, "250": 2, "65": 4, "128": 45, "136": 8, "32": 46, "33": 2, "36": 20, "253": 4, "116": 10, "209": 1, "66": 5, "25": 2, "64": 61, "4": 15, "124": 6, "158": 2, "148": 10, "24": 6, "225": 6, "140": 3, "30": 3, "220": 7, "96": 46, "189": 6, "215": 3, "248": 9, "223": 4, "196": 13, "144": 5, "95": 6, "100": 13, "8": 5, "99": 2, "62": 2, "230": 5, "239": 3, "16": 7, "52": 11, "49": 1, "164": 14, "156": 7, "28": 9, "160": 41, "60": 3, "252": 4, "244": 7, "212": 11, "219": 2, "182": 2, "168": 8, "153": 1, "122": 3, "188": 8, "254": 2, "229": 4, "84": 6, "198": 2, "38": 1, "87": 4, "221": 2, "20": 6, "39": 1, "34": 7, "222": 3, "163": 1, "80": 2, "183": 1, "35": 3, "135": 1, "48": 5, "180": 4, "145": 2, "166": 4, "56": 6, "157": 3, "58": 2, "240": 4, "138": 3, "71": 1, "130": 6, "200": 6, "176": 2, "132": 12, "161": 1, "232": 4, "53": 2, "127": 2, "214": 2, "155": 2, "31": 5, "17": 1, "42": 1, "255": 3, "165": 2, "193": 6, "178": 2, "184": 5, "29": 2, "12": 2, "77": 1, "226": 4, "55": 4, "94": 1, "172": 4, "218": 2, "1": 5, "167": 2, "61": 5, "40": 4, "51": 1, "152": 4, "88": 3, "69": 3, "208": 4, "123": 1, "57": 1, "44": 2, "92": 9, "46": 1, "5": 3, "97": 3, "104": 4, "125": 4, "195": 1, "231": 1, "185": 1, "67": 2, "186": 2, "162": 3, "204": 2, "216": 3, "98": 2, "93": 1, "86": 1, "91": 1, "21": 1, "85": 3, "118": 1, "217": 2, "121": 1, "75": 2, "63": 1, "117": 1, "191": 2, "2": 1, "112": 1, "197": 1, "7": 2, "114": 1, "151": 1, "103": 1, "81": 1, "79": 1, "139": 1, "23": 1, "190": 1, "251": 2, "78": 1, "6": 1, "9": 1, "37": 1, "19": 2, "177": 2, "101": 1, "72": 2, "106": 1, "243": 1, "149": 1, "90": 1, "133": 1, "203": 1, "129": 1, "26": 2, "47": 1, "137": 1, "142": 1, "241": 1, "247": 1, "50": 1, "199": 1, "143": 1, "246": 1}
+Run 2 [Total Success: 18.3% | Expected Peak Accuracy: 52.7%]: {"164": 12, "181": 4, "215": 4, "195": 2, "228": 23, "184": 5, "64": 46, "160": 43, "248": 7, "68": 24, "192": 47, "24": 4, "178": 1, "194": 4, "70": 5, "96": 55, "161": 5, "22": 3, "104": 10, "18": 2, "182": 3, "196": 18, "52": 7, "32": 56, "221": 5, "92": 13, "217": 2, "128": 43, "65": 3, "172": 3, "61": 1, "200": 2, "40": 3, "216": 6, "224": 33, "94": 4, "66": 4, "152": 3, "28": 11, "100": 16, "252": 9, "204": 2, "166": 7, "232": 2, "80": 7, "0": 32, "156": 8, "29": 4, "255": 4, "98": 5, "84": 10, "244": 4, "117": 4, "148": 7, "212": 10, "60": 8, "4": 20, "6": 5, "130": 3, "132": 21, "188": 11, "51": 1, "124": 5, "222": 3, "101": 2, "162": 5, "230": 1, "154": 1, "220": 8, "113": 1, "197": 5, "102": 2, "199": 1, "157": 6, "213": 4, "36": 18, "1": 1, "223": 3, "86": 3, "225": 2, "169": 1, "57": 3, "116": 7, "72": 6, "103": 3, "218": 1, "253": 5, "180": 6, "12": 2, "190": 6, "191": 3, "21": 1, "122": 1, "34": 3, "185": 2, "46": 1, "229": 2, "30": 1, "239": 1, "88": 3, "97": 3, "109": 1, "176": 3, "56": 8, "208": 4, "240": 3, "233": 2, "219": 1, "165": 1, "246": 3, "48": 5, "35": 2, "8": 4, "168": 3, "206": 1, "235": 1, "38": 1, "159": 4, "186": 3, "82": 2, "53": 2, "125": 4, "33": 4, "241": 1, "5": 3, "37": 1, "250": 1, "145": 3, "42": 1, "20": 5, "67": 2, "2": 1, "131": 1, "138": 1, "63": 2, "118": 1, "25": 3, "158": 1, "254": 1, "105": 2, "193": 1, "198": 2, "136": 1, "115": 1, "135": 3, "205": 1, "137": 1, "17": 2, "167": 1, "16": 4, "112": 2, "144": 4, "39": 1, "247": 1, "214": 2, "187": 1, "245": 1, "183": 1, "226": 1, "81": 1, "69": 4, "149": 1, "242": 1, "114": 2, "140": 2, "3": 1, "55": 1, "44": 1, "31": 1, "143": 1, "189": 3, "243": 1, "19": 1, "83": 1, "151": 2, "95": 1, "134": 1, "141": 2, "62": 2, "99": 1, "54": 1, "126": 1, "129": 2, "127": 1, "13": 1, "23": 1, "108": 1, "174": 1, "177": 1, "110": 1, "133": 1}
+Run 3 [Total Success: 19.4% | Expected Peak Accuracy: 50.6%]: {"164": 21, "64": 56, "160": 55, "32": 57, "192": 47, "148": 10, "224": 44, "232": 2, "96": 43, "149": 3, "92": 9, "136": 1, "255": 2, "4": 19, "1": 2, "190": 3, "56": 5, "226": 4, "58": 1, "254": 2, "228": 18, "152": 6, "7": 4, "220": 6, "173": 1, "132": 20, "53": 2, "244": 10, "128": 50, "20": 7, "219": 1, "156": 9, "0": 41, "223": 3, "95": 4, "213": 2, "196": 22, "8": 2, "100": 12, "34": 7, "197": 6, "222": 1, "93": 7, "97": 6, "157": 1, "146": 1, "129": 5, "85": 2, "116": 16, "144": 3, "62": 2, "240": 6, "212": 4, "28": 9, "36": 18, "66": 4, "90": 3, "84": 6, "33": 5, "39": 4, "183": 1, "205": 1, "159": 7, "70": 3, "60": 8, "88": 7, "180": 13, "185": 2, "57": 1, "188": 14, "124": 6, "16": 3, "253": 2, "215": 2, "17": 2, "108": 1, "221": 4, "194": 6, "225": 1, "161": 2, "184": 4, "48": 7, "112": 5, "3": 1, "217": 1, "191": 3, "245": 4, "12": 2, "131": 1, "207": 1, "31": 4, "98": 4, "2": 4, "172": 2, "193": 5, "126": 5, "38": 1, "68": 16, "24": 2, "25": 1, "52": 5, "248": 6, "162": 7, "178": 1, "171": 1, "61": 6, "242": 1, "119": 2, "49": 1, "89": 1, "182": 1, "67": 2, "120": 4, "229": 4, "246": 3, "55": 2, "41": 1, "252": 6, "127": 5, "208": 2, "134": 1, "76": 2, "189": 1, "230": 7, "133": 2, "42": 1, "26": 1, "165": 1, "166": 1, "251": 1, "125": 4, "145": 2, "99": 2, "186": 2, "236": 1, "216": 3, "40": 4, "247": 1, "63": 3, "151": 2, "118": 1, "200": 2, "27": 1, "102": 2, "154": 2, "150": 3, "114": 1, "168": 1, "80": 3, "37": 1, "249": 1, "130": 6, "81": 1, "104": 1, "23": 1, "65": 2, "71": 1, "135": 1, "167": 1, "72": 1, "11": 1, "122": 1, "140": 1, "79": 1, "103": 1, "44": 1, "137": 1}
+Run 4 [Total Success: 20.3% | Expected Peak Accuracy: 49.8%]: {"64": 75, "100": 10, "192": 51, "28": 6, "156": 7, "193": 5, "88": 8, "232": 7, "160": 45, "65": 5, "159": 9, "92": 7, "224": 51, "37": 5, "164": 13, "0": 49, "91": 1, "32": 64, "176": 4, "96": 48, "48": 5, "162": 5, "128": 35, "199": 4, "12": 1, "116": 4, "81": 1, "2": 5, "229": 2, "129": 9, "248": 9, "194": 8, "163": 1, "177": 1, "24": 5, "98": 5, "235": 1, "97": 3, "104": 2, "189": 1, "196": 14, "210": 4, "5": 1, "152": 13, "216": 7, "220": 6, "124": 5, "130": 1, "151": 6, "147": 2, "35": 1, "4": 14, "157": 1, "225": 3, "218": 1, "6": 2, "214": 4, "80": 5, "72": 8, "40": 9, "253": 2, "94": 1, "112": 5, "191": 3, "103": 4, "84": 7, "241": 1, "136": 3, "20": 9, "240": 3, "197": 4, "126": 4, "31": 4, "144": 11, "255": 3, "33": 6, "95": 4, "208": 3, "66": 2, "120": 4, "101": 2, "180": 4, "148": 4, "63": 3, "230": 5, "99": 2, "212": 7, "119": 1, "205": 1, "244": 6, "1": 2, "223": 3, "132": 5, "174": 1, "252": 5, "222": 2, "188": 2, "52": 2, "123": 1, "113": 3, "169": 1, "127": 4, "226": 8, "178": 3, "221": 4, "184": 4, "149": 1, "108": 4, "190": 1, "93": 3, "161": 7, "183": 2, "43": 1, "102": 4, "36": 10, "228": 9, "121": 1, "247": 3, "60": 2, "238": 2, "213": 3, "68": 10, "34": 10, "154": 1, "56": 7, "219": 1, "69": 3, "85": 2, "86": 1, "168": 2, "90": 1, "71": 3, "87": 3, "53": 1, "134": 2, "141": 1, "51": 1, "39": 1, "201": 2, "8": 4, "22": 2, "26": 2, "198": 1, "47": 1, "140": 2, "166": 3, "231": 1, "55": 2, "233": 1, "44": 2, "29": 1, "70": 1, "109": 1, "21": 1, "254": 2, "42": 1, "83": 1, "245": 4, "200": 4, "74": 1, "165": 2, "181": 1, "77": 2, "38": 1, "54": 2, "125": 2, "16": 1, "7": 1, "158": 2, "145": 1, "209": 1, "133": 1, "45": 1, "23": 1, "227": 1, "17": 1, "57": 1, "186": 1, "18": 1, "117": 1, "138": 1, "195": 1, "25": 1, "215": 1}
+Run 5 [Total Success: 21.3% | Expected Peak Accuracy: 52.5%]: {"159": 6, "216": 10, "192": 43, "120": 6, "64": 63, "32": 54, "166": 5, "132": 17, "0": 48, "160": 64, "224": 47, "116": 3, "213": 3, "100": 21, "188": 12, "196": 12, "96": 53, "157": 3, "204": 3, "36": 16, "108": 3, "252": 9, "95": 2, "8": 3, "226": 6, "221": 5, "128": 43, "68": 19, "99": 4, "140": 3, "7": 2, "212": 4, "186": 2, "223": 8, "215": 1, "208": 5, "193": 3, "180": 7, "70": 5, "162": 8, "66": 2, "5": 1, "219": 1, "1": 9, "91": 2, "51": 2, "179": 1, "247": 1, "114": 1, "38": 1, "172": 3, "220": 5, "34": 6, "167": 1, "156": 4, "155": 3, "24": 8, "72": 7, "59": 1, "230": 4, "130": 7, "33": 5, "48": 7, "86": 1, "29": 4, "37": 3, "63": 3, "255": 3, "183": 3, "20": 6, "74": 1, "93": 2, "152": 8, "88": 5, "148": 9, "244": 4, "237": 1, "17": 3, "245": 2, "60": 5, "168": 5, "40": 3, "228": 17, "113": 1, "57": 2, "250": 2, "133": 4, "191": 4, "254": 1, "222": 2, "102": 2, "28": 8, "129": 5, "2": 3, "164": 11, "139": 1, "124": 3, "189": 1, "134": 2, "85": 2, "90": 1, "23": 1, "202": 1, "61": 2, "92": 5, "118": 2, "240": 2, "18": 1, "197": 4, "81": 3, "150": 4, "253": 2, "12": 2, "52": 4, "122": 3, "176": 1, "231": 1, "184": 3, "87": 3, "4": 10, "98": 1, "246": 2, "84": 4, "49": 1, "69": 3, "181": 3, "117": 1, "39": 2, "115": 1, "31": 2, "65": 4, "161": 5, "200": 2, "249": 2, "21": 2, "153": 1, "225": 3, "149": 1, "177": 1, "56": 2, "248": 6, "3": 1, "50": 1, "205": 1, "15": 1, "47": 1, "127": 2, "251": 2, "55": 3, "76": 1, "145": 1, "97": 1, "185": 1, "144": 4, "210": 1, "234": 1, "126": 1, "136": 3, "22": 1, "201": 1, "141": 1, "151": 2, "104": 1, "209": 1, "16": 1, "206": 1, "35": 4, "163": 2, "112": 2, "101": 1, "44": 1, "143": 1, "198": 3, "79": 1, "71": 1, "11": 1, "6": 2, "232": 1, "158": 2, "194": 1, "27": 1, "229": 1, "42": 1, "165": 2, "46": 1, "10": 1}
+
+
+=======================================================
+[2026-05-16 19:09:22] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 8
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 518
+Total Gates = 979
+Gate Types Breakdown = {"sx": 449, "rz": 292, "cz": 215, "x": 11, "measure": 8, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-16 18:24:17
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.4898 +/- 0.0098
+Total Success Rate = 23.58% +/- 0.66%
+Expected Peak Success Rate = 48.04% +/- 0.42%
+Peaks yielding exact 'r' = [32, 96, 160, 224]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 24.4% | Expected Peak Accuracy: 48.6%]: {"128": 258, "160": 244, "66": 29, "63": 43, "192": 282, "226": 27, "0": 229, "33": 16, "131": 14, "158": 22, "116": 8, "224": 268, "120": 9, "96": 251, "177": 4, "35": 12, "68": 21, "64": 288, "2": 28, "32": 237, "247": 4, "75": 3, "219": 10, "98": 21, "159": 37, "112": 9, "155": 12, "110": 2, "43": 2, "85": 2, "210": 5, "136": 15, "228": 18, "3": 10, "124": 7, "79": 4, "161": 19, "94": 32, "196": 19, "62": 32, "129": 23, "189": 6, "65": 13, "191": 43, "126": 30, "209": 4, "30": 29, "127": 39, "1": 17, "255": 53, "125": 6, "92": 8, "34": 22, "152": 7, "180": 8, "20": 9, "144": 13, "82": 9, "146": 4, "244": 5, "216": 8, "130": 24, "164": 17, "211": 3, "45": 4, "6": 4, "223": 44, "225": 23, "77": 3, "190": 42, "80": 6, "61": 12, "206": 3, "162": 32, "72": 9, "140": 3, "193": 21, "194": 35, "187": 11, "132": 11, "222": 30, "16": 5, "97": 20, "56": 10, "251": 11, "147": 2, "178": 5, "18": 7, "208": 14, "202": 2, "227": 13, "123": 4, "36": 8, "218": 4, "8": 17, "252": 8, "95": 36, "148": 6, "84": 9, "31": 32, "249": 2, "100": 9, "58": 8, "93": 4, "28": 10, "104": 6, "188": 10, "212": 6, "27": 13, "242": 2, "182": 5, "195": 10, "240": 13, "254": 19, "67": 15, "59": 10, "133": 2, "99": 4, "139": 3, "184": 8, "246": 2, "151": 6, "91": 8, "90": 8, "38": 4, "239": 3, "250": 11, "119": 6, "153": 2, "29": 8, "198": 2, "231": 4, "60": 4, "236": 4, "50": 2, "11": 3, "232": 8, "118": 2, "51": 5, "176": 14, "78": 1, "200": 5, "111": 4, "237": 2, "204": 6, "174": 3, "41": 6, "105": 3, "47": 6, "145": 1, "48": 17, "201": 4, "115": 2, "220": 8, "199": 2, "185": 5, "248": 8, "71": 2, "138": 6, "168": 10, "217": 3, "221": 5, "165": 3, "24": 13, "88": 11, "26": 11, "9": 2, "163": 6, "15": 2, "55": 2, "186": 8, "19": 7, "215": 2, "4": 8, "230": 2, "142": 2, "122": 10, "23": 2, "49": 4, "21": 2, "57": 5, "13": 2, "44": 1, "235": 2, "157": 9, "76": 2, "213": 2, "114": 2, "25": 2, "167": 3, "73": 1, "109": 1, "253": 7, "234": 6, "214": 6, "81": 1, "175": 1, "154": 8, "102": 4, "40": 12, "52": 2, "245": 1, "207": 5, "229": 3, "205": 2, "89": 3, "12": 1, "169": 3, "170": 1, "197": 2, "106": 3, "103": 3, "137": 2, "121": 1, "101": 3, "69": 1, "42": 3, "171": 2, "173": 1, "233": 2, "166": 3, "108": 1, "135": 1, "10": 5, "83": 1, "150": 3, "14": 2, "156": 2, "5": 2, "134": 2, "172": 1, "113": 3, "70": 1, "22": 3, "107": 1, "149": 1, "37": 1, "181": 2, "203": 1, "17": 1, "7": 1, "183": 2, "143": 1, "117": 1, "87": 2, "53": 1}
+Run 2 [Total Success: 23.8% | Expected Peak Accuracy: 48.0%]: {"94": 36, "48": 10, "96": 239, "76": 3, "224": 272, "122": 15, "160": 224, "32": 240, "0": 243, "192": 306, "130": 19, "64": 256, "226": 21, "35": 3, "164": 17, "63": 40, "132": 11, "158": 35, "127": 34, "128": 251, "26": 10, "222": 31, "124": 9, "91": 10, "152": 8, "90": 13, "225": 22, "65": 29, "104": 12, "221": 8, "200": 20, "58": 9, "47": 7, "215": 3, "190": 37, "1": 24, "62": 26, "255": 47, "2": 20, "112": 14, "186": 10, "151": 5, "240": 10, "66": 37, "16": 13, "34": 21, "3": 7, "24": 14, "189": 9, "102": 7, "182": 3, "129": 20, "210": 8, "126": 30, "219": 11, "30": 32, "100": 13, "175": 2, "93": 7, "108": 1, "68": 13, "125": 5, "227": 11, "36": 13, "193": 29, "134": 4, "196": 28, "12": 3, "161": 24, "220": 17, "50": 3, "202": 8, "195": 6, "80": 9, "159": 35, "114": 5, "95": 53, "27": 8, "113": 2, "194": 29, "31": 46, "146": 4, "145": 3, "119": 2, "154": 10, "60": 13, "136": 7, "209": 4, "251": 8, "28": 12, "98": 28, "253": 8, "156": 5, "61": 4, "33": 18, "101": 3, "228": 10, "223": 49, "25": 2, "171": 5, "118": 3, "131": 9, "183": 1, "252": 7, "178": 4, "115": 4, "170": 4, "148": 6, "17": 3, "235": 1, "197": 5, "176": 14, "153": 2, "20": 2, "157": 5, "254": 38, "165": 6, "162": 21, "6": 6, "41": 1, "135": 1, "46": 3, "5": 5, "248": 10, "59": 8, "4": 15, "29": 3, "99": 14, "204": 2, "18": 2, "11": 2, "55": 2, "138": 3, "111": 7, "213": 3, "167": 1, "208": 11, "217": 2, "218": 8, "88": 8, "168": 6, "250": 10, "174": 3, "207": 3, "249": 5, "142": 4, "214": 4, "191": 38, "39": 3, "144": 5, "187": 13, "71": 4, "78": 6, "67": 10, "141": 2, "79": 3, "121": 4, "54": 7, "106": 3, "206": 2, "85": 5, "133": 4, "188": 8, "87": 3, "74": 7, "72": 7, "232": 9, "230": 3, "246": 2, "216": 7, "92": 8, "203": 3, "97": 18, "8": 12, "37": 2, "56": 6, "198": 8, "155": 6, "184": 5, "140": 1, "40": 7, "82": 4, "123": 7, "116": 3, "83": 5, "107": 2, "14": 4, "81": 2, "244": 3, "84": 2, "13": 4, "120": 2, "77": 1, "110": 3, "247": 3, "143": 3, "49": 4, "7": 2, "22": 4, "179": 3, "172": 3, "236": 2, "69": 4, "201": 3, "211": 2, "44": 4, "169": 2, "149": 2, "42": 2, "103": 1, "15": 3, "243": 1, "51": 2, "53": 2, "57": 1, "139": 3, "238": 2, "86": 2, "147": 1, "52": 2, "10": 2, "231": 2, "212": 4, "245": 1, "180": 1, "70": 3, "166": 1, "205": 1, "23": 2, "185": 1, "9": 1, "19": 2, "242": 1, "38": 2, "137": 1, "117": 1, "239": 2, "75": 1, "237": 1, "73": 1, "163": 1, "241": 1}
+Run 3 [Total Success: 24.0% | Expected Peak Accuracy: 48.4%]: {"96": 251, "160": 252, "40": 5, "229": 3, "191": 46, "0": 262, "64": 246, "128": 252, "120": 8, "254": 32, "30": 35, "63": 53, "49": 2, "224": 261, "195": 6, "180": 5, "7": 1, "192": 289, "144": 12, "222": 29, "241": 3, "219": 10, "32": 220, "88": 11, "95": 54, "94": 38, "187": 8, "23": 3, "255": 52, "66": 34, "127": 44, "221": 5, "200": 13, "216": 7, "1": 24, "164": 17, "152": 8, "29": 5, "130": 26, "58": 15, "97": 32, "162": 24, "223": 42, "124": 10, "248": 8, "5": 6, "72": 9, "126": 24, "232": 7, "142": 3, "156": 11, "234": 5, "190": 29, "159": 44, "251": 8, "37": 5, "31": 39, "213": 3, "98": 24, "235": 6, "185": 2, "123": 9, "59": 12, "165": 3, "176": 13, "60": 9, "48": 14, "129": 23, "206": 4, "189": 7, "12": 4, "132": 26, "36": 18, "35": 6, "238": 5, "131": 10, "65": 31, "75": 3, "89": 3, "198": 4, "102": 5, "226": 35, "203": 6, "11": 2, "24": 8, "112": 11, "161": 18, "179": 3, "233": 3, "39": 3, "6": 2, "2": 23, "196": 12, "158": 30, "253": 3, "33": 18, "111": 4, "252": 8, "194": 23, "184": 10, "118": 3, "244": 3, "140": 2, "26": 5, "107": 2, "143": 2, "61": 5, "91": 4, "228": 14, "220": 6, "99": 13, "67": 8, "136": 7, "155": 8, "22": 3, "16": 8, "183": 1, "151": 1, "76": 4, "210": 2, "135": 3, "214": 6, "240": 12, "193": 21, "4": 15, "8": 6, "157": 9, "27": 8, "202": 2, "115": 5, "45": 1, "34": 31, "106": 7, "53": 2, "231": 2, "168": 10, "150": 3, "246": 3, "92": 8, "146": 3, "90": 10, "218": 11, "55": 4, "170": 4, "215": 3, "113": 3, "114": 5, "186": 7, "80": 12, "225": 19, "227": 7, "57": 3, "177": 3, "86": 5, "138": 4, "68": 14, "85": 2, "212": 4, "209": 2, "62": 32, "78": 2, "87": 2, "9": 1, "121": 4, "239": 6, "145": 3, "148": 7, "167": 2, "20": 4, "163": 7, "28": 7, "100": 15, "82": 2, "207": 4, "230": 2, "42": 6, "122": 10, "174": 2, "141": 3, "14": 1, "217": 1, "154": 6, "250": 9, "10": 4, "245": 2, "208": 6, "13": 1, "54": 6, "188": 9, "173": 1, "119": 2, "81": 1, "172": 4, "247": 2, "51": 3, "116": 3, "104": 10, "197": 3, "204": 3, "84": 4, "73": 1, "153": 3, "178": 3, "134": 5, "242": 4, "47": 2, "117": 2, "56": 4, "201": 2, "74": 3, "125": 4, "3": 4, "175": 4, "77": 2, "166": 1, "71": 2, "69": 2, "52": 3, "139": 1, "243": 2, "182": 3, "181": 2, "38": 3, "15": 2, "249": 3, "21": 1, "110": 1, "101": 1, "18": 3, "43": 1, "93": 2, "103": 1, "147": 1, "205": 2, "17": 1, "50": 1, "171": 1, "70": 2, "133": 1, "105": 3, "109": 1, "199": 2, "41": 1, "19": 1, "236": 1}
+Run 4 [Total Success: 22.6% | Expected Peak Accuracy: 47.5%]: {"32": 199, "64": 273, "96": 265, "0": 248, "181": 4, "190": 31, "128": 238, "93": 11, "126": 31, "136": 11, "168": 15, "192": 266, "143": 6, "208": 10, "224": 259, "67": 8, "127": 43, "76": 4, "95": 43, "94": 22, "62": 22, "158": 32, "30": 26, "47": 5, "228": 8, "194": 29, "68": 15, "131": 10, "72": 15, "2": 24, "254": 30, "191": 41, "222": 33, "31": 39, "97": 35, "90": 9, "155": 6, "100": 18, "160": 203, "108": 1, "29": 10, "7": 1, "174": 3, "16": 11, "28": 9, "124": 8, "185": 6, "159": 51, "180": 1, "196": 9, "105": 3, "63": 43, "8": 11, "177": 3, "200": 10, "107": 4, "223": 48, "122": 5, "240": 9, "113": 7, "27": 13, "249": 6, "99": 5, "132": 17, "154": 4, "255": 40, "193": 44, "65": 30, "41": 3, "252": 6, "123": 11, "91": 9, "4": 14, "176": 10, "130": 20, "110": 2, "25": 3, "98": 23, "20": 3, "184": 7, "234": 5, "86": 6, "166": 7, "152": 14, "83": 4, "239": 7, "1": 31, "179": 2, "175": 3, "225": 39, "88": 13, "112": 12, "251": 8, "164": 16, "153": 2, "157": 15, "162": 22, "11": 4, "170": 4, "198": 7, "26": 6, "80": 10, "238": 1, "12": 1, "149": 4, "56": 6, "182": 5, "156": 9, "129": 38, "24": 11, "226": 21, "248": 13, "221": 11, "40": 3, "140": 3, "34": 21, "163": 8, "195": 4, "214": 5, "84": 3, "14": 6, "253": 6, "186": 10, "3": 14, "178": 3, "59": 6, "120": 8, "161": 33, "250": 11, "22": 1, "187": 10, "74": 1, "92": 6, "121": 3, "213": 2, "69": 5, "39": 4, "49": 6, "33": 37, "44": 3, "118": 2, "89": 4, "55": 4, "79": 4, "48": 6, "15": 2, "246": 6, "189": 8, "206": 5, "165": 11, "21": 3, "66": 23, "9": 4, "202": 2, "219": 9, "216": 10, "58": 3, "114": 5, "218": 6, "50": 4, "211": 1, "210": 2, "82": 4, "60": 5, "70": 3, "6": 4, "125": 5, "207": 5, "111": 6, "197": 6, "241": 3, "73": 4, "101": 3, "57": 5, "19": 4, "244": 2, "5": 8, "169": 4, "147": 2, "188": 10, "232": 11, "139": 2, "237": 1, "36": 13, "245": 2, "235": 3, "18": 3, "227": 5, "109": 2, "10": 1, "145": 2, "46": 4, "35": 7, "220": 6, "61": 9, "229": 3, "215": 2, "37": 2, "116": 2, "171": 3, "119": 4, "45": 4, "38": 8, "104": 9, "17": 3, "53": 1, "212": 3, "217": 4, "138": 3, "242": 1, "199": 4, "71": 1, "85": 1, "144": 7, "141": 3, "117": 1, "78": 2, "204": 1, "43": 3, "142": 2, "183": 3, "52": 3, "102": 1, "243": 4, "13": 3, "173": 2, "231": 2, "172": 1, "75": 3, "87": 1, "134": 1, "148": 2, "137": 3, "54": 1, "150": 2, "203": 2, "247": 1, "77": 1, "103": 2, "233": 3, "133": 2, "209": 3, "146": 2, "135": 1, "115": 1, "230": 1, "151": 1}
+Run 5 [Total Success: 23.1% | Expected Peak Accuracy: 47.7%]: {"184": 12, "64": 274, "95": 51, "128": 236, "122": 7, "32": 211, "192": 282, "85": 3, "228": 17, "89": 3, "191": 38, "126": 35, "232": 14, "99": 11, "96": 261, "35": 5, "77": 3, "160": 216, "90": 14, "132": 14, "224": 257, "219": 17, "33": 23, "56": 6, "176": 11, "65": 16, "158": 40, "144": 15, "253": 11, "62": 32, "148": 2, "101": 2, "157": 6, "23": 3, "127": 48, "123": 4, "94": 36, "164": 14, "88": 10, "248": 8, "135": 4, "189": 6, "216": 10, "206": 4, "195": 13, "0": 243, "80": 18, "237": 1, "223": 35, "3": 9, "163": 11, "255": 44, "34": 27, "103": 2, "38": 4, "48": 9, "46": 3, "159": 32, "9": 5, "30": 32, "66": 36, "68": 28, "211": 2, "102": 6, "104": 8, "114": 4, "250": 3, "178": 3, "27": 5, "146": 3, "63": 62, "226": 26, "193": 26, "31": 45, "208": 12, "171": 2, "84": 1, "97": 18, "202": 3, "162": 25, "1": 17, "194": 17, "180": 4, "172": 8, "187": 8, "161": 15, "40": 9, "222": 39, "130": 30, "61": 5, "238": 4, "92": 8, "252": 10, "152": 10, "235": 6, "98": 29, "106": 8, "91": 10, "28": 7, "4": 16, "36": 17, "11": 5, "220": 7, "129": 16, "14": 6, "52": 2, "93": 7, "37": 6, "124": 10, "233": 1, "151": 6, "51": 2, "169": 4, "254": 29, "210": 1, "177": 1, "230": 5, "7": 2, "167": 2, "100": 7, "185": 1, "112": 9, "74": 4, "190": 35, "26": 10, "196": 23, "15": 1, "108": 5, "179": 4, "156": 5, "2": 22, "247": 5, "227": 7, "197": 1, "174": 3, "72": 9, "42": 5, "131": 11, "244": 3, "225": 17, "182": 6, "213": 2, "109": 3, "105": 3, "175": 3, "8": 14, "22": 4, "251": 7, "125": 9, "142": 2, "83": 4, "116": 1, "168": 7, "143": 2, "229": 2, "117": 3, "58": 11, "214": 4, "73": 2, "199": 3, "165": 3, "201": 3, "136": 11, "198": 7, "118": 6, "240": 14, "45": 1, "133": 3, "188": 9, "186": 10, "120": 7, "154": 7, "16": 7, "60": 7, "49": 1, "236": 3, "29": 1, "203": 3, "67": 11, "21": 2, "242": 3, "241": 4, "150": 6, "212": 4, "79": 3, "44": 2, "24": 9, "155": 8, "12": 5, "53": 2, "20": 3, "78": 3, "215": 2, "59": 6, "234": 6, "110": 6, "82": 7, "18": 7, "139": 1, "218": 6, "50": 2, "39": 5, "221": 4, "239": 4, "115": 1, "246": 3, "217": 3, "209": 2, "138": 4, "69": 3, "204": 2, "145": 2, "55": 3, "6": 3, "200": 10, "5": 2, "134": 4, "245": 2, "207": 5, "87": 4, "76": 2, "137": 2, "121": 1, "25": 4, "153": 2, "70": 3, "10": 2, "231": 3, "57": 2, "17": 1, "86": 6, "140": 2, "47": 1, "43": 4, "181": 3, "71": 2, "243": 1, "173": 2, "141": 1, "41": 1, "75": 1, "81": 1, "13": 1, "107": 1, "54": 2, "170": 1, "205": 1}
+
+
+=======================================================
+[2026-05-16 19:09:40] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 8
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 494
+Total Gates = 937
+Gate Types Breakdown = {"sx": 430, "rz": 279, "cz": 202, "x": 14, "measure": 8, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_pittsburgh
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-16 18:24:17
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.1457 +/- 0.0000
+Total Success Rate = 60.00% +/- 0.00%
+Expected Peak Success Rate = 100.00% +/- 0.00%
+Peaks yielding exact 'r' = [32, 160]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 60.0% | Expected Peak Accuracy: 100.0%]: {"160": 2, "162": 1, "32": 1, "7": 1}
+
+
+=======================================================
+[2026-05-16 19:10:42] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 8
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 438
+Total Gates = 788
+Gate Types Breakdown = {"sx": 346, "rz": 246, "cz": 174, "x": 10, "measure": 8, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-16 17:42:59
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.0362 +/- 0.0087
+Total Success Rate = 1.68% +/- 0.51%
+Expected Peak Success Rate = 42.40% +/- 4.27%
+Peaks yielding exact 'r' = [32, 96, 160, 224]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 2.1% | Expected Peak Accuracy: 46.8%]: {"57": 1, "240": 4, "184": 5, "81": 2, "45": 2, "148": 5, "222": 20, "40": 3, "182": 3, "188": 17, "41": 1, "13": 3, "238": 17, "198": 3, "91": 5, "14": 18, "174": 12, "172": 6, "254": 19, "93": 5, "250": 8, "146": 8, "2": 3, "53": 2, "163": 2, "220": 9, "237": 2, "143": 5, "218": 3, "110": 12, "102": 3, "192": 3, "190": 25, "3": 1, "226": 6, "142": 12, "22": 4, "242": 4, "112": 8, "206": 17, "152": 3, "16": 8, "187": 5, "126": 20, "160": 5, "98": 6, "63": 6, "56": 3, "170": 2, "122": 8, "0": 7, "46": 9, "155": 4, "94": 21, "158": 23, "207": 3, "252": 11, "162": 6, "123": 5, "84": 6, "86": 5, "30": 31, "156": 10, "29": 1, "96": 6, "154": 15, "92": 10, "64": 8, "62": 30, "130": 2, "200": 4, "178": 7, "78": 9, "15": 6, "214": 5, "66": 3, "27": 4, "90": 12, "42": 1, "17": 2, "88": 3, "28": 10, "60": 13, "83": 4, "124": 12, "225": 1, "18": 4, "48": 6, "159": 7, "150": 4, "106": 3, "128": 7, "34": 6, "173": 2, "230": 1, "120": 3, "175": 3, "55": 2, "76": 7, "1": 3, "138": 2, "74": 1, "232": 3, "100": 1, "208": 2, "103": 2, "79": 3, "58": 5, "67": 3, "223": 6, "239": 3, "179": 3, "8": 5, "95": 3, "210": 3, "43": 2, "186": 3, "133": 1, "246": 7, "236": 2, "127": 7, "99": 3, "23": 3, "191": 5, "111": 10, "167": 1, "164": 1, "32": 11, "151": 1, "77": 3, "215": 5, "195": 1, "38": 3, "87": 5, "132": 3, "251": 2, "9": 1, "243": 4, "6": 2, "44": 1, "228": 2, "231": 1, "168": 1, "248": 3, "25": 1, "26": 7, "171": 1, "59": 3, "253": 4, "116": 2, "50": 3, "204": 4, "136": 4, "129": 1, "19": 1, "52": 3, "247": 3, "227": 3, "117": 2, "176": 2, "161": 2, "75": 1, "194": 7, "244": 1, "217": 2, "144": 5, "219": 4, "125": 2, "183": 3, "140": 3, "211": 2, "196": 1, "180": 1, "20": 2, "85": 2, "221": 5, "165": 1, "80": 5, "68": 4, "21": 1, "108": 1, "147": 4, "12": 3, "35": 2, "54": 1, "89": 2, "134": 2, "47": 5, "212": 2, "235": 3, "82": 1, "65": 1, "255": 4, "31": 3, "72": 1, "37": 1, "157": 3, "7": 1, "202": 2, "11": 2, "118": 3, "4": 1, "131": 2, "49": 1, "70": 1, "114": 1, "153": 1, "241": 1, "149": 1, "145": 1, "201": 1, "61": 1, "104": 1, "169": 1, "119": 1, "189": 2, "109": 1, "209": 1}
+Run 2 [Total Success: 1.1% | Expected Peak Accuracy: 36.7%]: {"223": 10, "127": 10, "130": 5, "6": 2, "139": 1, "203": 3, "210": 12, "31": 12, "225": 2, "92": 15, "191": 11, "200": 2, "78": 12, "112": 4, "94": 18, "138": 4, "134": 4, "107": 2, "215": 6, "176": 1, "222": 23, "54": 6, "26": 9, "158": 21, "155": 5, "214": 11, "252": 16, "108": 4, "69": 2, "28": 15, "20": 4, "174": 9, "110": 7, "60": 14, "52": 4, "14": 16, "122": 5, "86": 4, "32": 3, "80": 4, "194": 8, "49": 2, "96": 2, "146": 7, "0": 5, "202": 5, "58": 10, "22": 6, "142": 21, "13": 1, "114": 4, "254": 22, "53": 2, "62": 17, "76": 4, "55": 2, "206": 11, "190": 20, "109": 4, "2": 6, "24": 5, "12": 6, "218": 10, "59": 3, "4": 1, "88": 5, "34": 1, "183": 3, "121": 3, "46": 10, "36": 2, "198": 3, "172": 1, "181": 3, "30": 24, "132": 3, "156": 12, "143": 5, "106": 5, "16": 7, "220": 13, "9": 4, "116": 1, "144": 4, "140": 1, "168": 2, "236": 1, "123": 3, "45": 2, "124": 10, "111": 6, "40": 2, "150": 4, "56": 3, "239": 3, "242": 1, "44": 2, "72": 3, "102": 1, "244": 6, "224": 3, "230": 2, "126": 17, "182": 5, "117": 1, "238": 6, "98": 3, "166": 2, "19": 3, "178": 5, "113": 1, "91": 8, "82": 4, "18": 3, "151": 3, "93": 2, "180": 5, "29": 5, "237": 5, "64": 6, "234": 3, "97": 2, "188": 13, "219": 4, "240": 3, "192": 4, "128": 4, "189": 3, "207": 4, "247": 3, "229": 1, "221": 4, "27": 3, "118": 3, "90": 7, "228": 2, "104": 2, "57": 1, "147": 3, "71": 2, "154": 6, "67": 3, "119": 2, "152": 4, "95": 7, "83": 3, "209": 1, "250": 7, "99": 3, "10": 5, "251": 7, "159": 6, "21": 1, "167": 1, "85": 2, "42": 2, "204": 3, "103": 2, "216": 3, "79": 4, "120": 1, "8": 2, "157": 5, "61": 3, "212": 4, "74": 3, "187": 2, "133": 1, "186": 5, "248": 3, "243": 3, "47": 2, "148": 2, "171": 1, "162": 1, "232": 3, "195": 4, "84": 3, "50": 3, "87": 1, "141": 1, "77": 1, "89": 4, "48": 3, "170": 3, "63": 2, "160": 3, "217": 2, "233": 1, "255": 5, "193": 1, "35": 2, "25": 1, "205": 1, "129": 1, "105": 1, "213": 2, "3": 3, "65": 3, "15": 2, "175": 3, "246": 2, "43": 1, "149": 1, "253": 3, "23": 4, "81": 2, "66": 1, "38": 1, "199": 1, "249": 3, "125": 2, "201": 1, "163": 1, "7": 1, "196": 1, "179": 1, "173": 1, "227": 2, "169": 1, "33": 1, "184": 1, "177": 1, "208": 1}
+Run 3 [Total Success: 1.1% | Expected Peak Accuracy: 37.9%]: {"79": 3, "95": 8, "208": 7, "146": 6, "126": 19, "52": 4, "158": 24, "172": 3, "130": 10, "106": 11, "35": 4, "66": 6, "203": 2, "174": 8, "2": 6, "20": 2, "142": 13, "112": 4, "99": 2, "60": 13, "220": 10, "188": 20, "27": 2, "214": 4, "242": 8, "38": 3, "29": 7, "26": 9, "59": 5, "62": 20, "110": 6, "28": 16, "94": 23, "92": 12, "237": 3, "187": 3, "227": 4, "190": 21, "80": 6, "150": 6, "238": 14, "246": 6, "140": 1, "147": 3, "148": 6, "122": 6, "127": 4, "240": 6, "202": 4, "160": 5, "51": 3, "108": 7, "86": 3, "120": 3, "252": 7, "42": 5, "13": 2, "151": 5, "64": 2, "254": 15, "96": 4, "16": 7, "15": 5, "23": 4, "156": 18, "206": 10, "215": 6, "31": 5, "21": 2, "175": 2, "97": 1, "155": 6, "98": 6, "157": 4, "102": 2, "118": 7, "124": 13, "49": 2, "154": 8, "115": 2, "30": 15, "32": 1, "123": 4, "57": 2, "177": 2, "207": 5, "186": 8, "192": 5, "78": 11, "74": 3, "10": 3, "0": 9, "222": 15, "232": 3, "233": 2, "213": 2, "218": 12, "185": 2, "58": 7, "67": 3, "63": 9, "77": 2, "90": 10, "198": 2, "255": 8, "236": 4, "72": 1, "212": 2, "14": 13, "81": 2, "250": 12, "180": 3, "210": 4, "249": 3, "191": 5, "223": 4, "184": 4, "50": 5, "163": 4, "121": 3, "71": 2, "199": 2, "173": 2, "44": 3, "56": 2, "159": 3, "36": 1, "176": 5, "219": 4, "216": 4, "107": 3, "179": 5, "194": 3, "253": 3, "46": 12, "53": 3, "83": 2, "84": 3, "136": 4, "181": 1, "12": 8, "251": 1, "143": 5, "47": 3, "22": 5, "196": 1, "19": 1, "229": 1, "93": 2, "54": 4, "162": 3, "45": 4, "48": 7, "189": 1, "197": 1, "182": 2, "248": 2, "8": 2, "247": 2, "25": 2, "235": 2, "164": 1, "204": 5, "244": 3, "55": 4, "24": 4, "168": 1, "114": 4, "239": 5, "113": 2, "87": 3, "144": 3, "221": 2, "119": 2, "228": 1, "234": 3, "224": 1, "11": 3, "3": 1, "109": 1, "6": 1, "138": 4, "41": 1, "65": 1, "131": 1, "152": 5, "88": 2, "205": 1, "211": 2, "141": 3, "34": 4, "161": 1, "18": 1, "82": 4, "76": 2, "132": 2, "69": 3, "33": 1, "169": 2, "61": 2, "129": 1, "209": 1, "116": 1, "170": 2, "231": 1, "195": 1, "139": 2, "225": 1, "17": 1, "241": 2, "217": 1, "200": 2, "149": 1, "91": 1, "128": 2, "7": 1, "125": 1, "104": 1, "117": 1, "171": 1, "100": 1, "183": 1, "1": 1}
+Run 4 [Total Success: 2.2% | Expected Peak Accuracy: 44.2%]: {"255": 7, "126": 14, "118": 5, "158": 25, "162": 5, "204": 7, "60": 15, "63": 5, "23": 3, "22": 7, "18": 2, "94": 21, "96": 5, "190": 16, "156": 17, "134": 2, "80": 4, "222": 19, "62": 25, "28": 21, "93": 2, "240": 6, "184": 3, "64": 7, "52": 4, "30": 20, "26": 7, "151": 3, "100": 2, "47": 5, "254": 12, "236": 6, "140": 4, "200": 2, "251": 3, "14": 10, "253": 4, "242": 1, "108": 5, "119": 5, "124": 16, "203": 4, "142": 7, "91": 11, "226": 2, "68": 2, "202": 5, "20": 7, "27": 6, "55": 5, "192": 11, "112": 2, "217": 2, "122": 6, "7": 4, "75": 2, "15": 6, "212": 4, "125": 2, "44": 3, "209": 2, "12": 5, "129": 2, "58": 6, "78": 11, "214": 7, "19": 4, "34": 4, "40": 3, "101": 1, "172": 7, "223": 7, "43": 3, "50": 3, "188": 16, "174": 7, "182": 6, "46": 11, "179": 6, "123": 2, "99": 2, "252": 13, "225": 2, "199": 1, "57": 1, "191": 4, "95": 3, "92": 23, "81": 1, "206": 8, "159": 9, "88": 7, "250": 6, "218": 7, "120": 3, "246": 3, "219": 3, "234": 3, "220": 20, "238": 7, "241": 1, "207": 3, "72": 1, "189": 4, "42": 4, "110": 8, "164": 4, "224": 6, "231": 1, "175": 4, "227": 3, "130": 4, "170": 4, "24": 7, "144": 9, "116": 4, "155": 4, "208": 1, "215": 3, "213": 1, "31": 9, "194": 1, "59": 4, "216": 5, "61": 5, "154": 8, "147": 4, "86": 3, "6": 1, "90": 3, "76": 8, "10": 4, "114": 2, "13": 1, "230": 2, "84": 4, "141": 3, "2": 3, "157": 3, "79": 3, "148": 7, "249": 2, "0": 5, "138": 4, "247": 5, "146": 3, "211": 1, "128": 6, "178": 5, "104": 4, "152": 8, "8": 3, "32": 8, "196": 2, "186": 2, "127": 6, "54": 6, "97": 1, "221": 2, "11": 2, "48": 2, "210": 5, "107": 1, "233": 1, "153": 3, "56": 1, "36": 2, "106": 4, "135": 1, "85": 1, "51": 1, "49": 1, "121": 2, "176": 7, "150": 5, "145": 1, "235": 3, "74": 3, "69": 2, "160": 4, "89": 1, "201": 2, "87": 2, "29": 2, "131": 2, "149": 3, "65": 1, "163": 1, "70": 1, "248": 2, "173": 2, "183": 1, "244": 2, "35": 1, "198": 2, "16": 5, "111": 2, "3": 1, "180": 2, "232": 1, "103": 1, "66": 3, "117": 2, "245": 1, "239": 1, "171": 1, "113": 1, "67": 1, "205": 2, "82": 1, "143": 2, "187": 1, "83": 1, "102": 1, "243": 1, "71": 2}
+Run 5 [Total Success: 1.9% | Expected Peak Accuracy: 46.3%]: {"241": 1, "186": 13, "254": 16, "30": 24, "158": 27, "218": 5, "246": 5, "252": 13, "190": 25, "148": 9, "76": 4, "110": 13, "94": 19, "136": 3, "125": 4, "22": 7, "62": 21, "98": 3, "191": 10, "207": 8, "212": 6, "222": 19, "156": 16, "188": 11, "255": 5, "75": 4, "78": 9, "134": 4, "150": 6, "111": 6, "60": 16, "128": 6, "16": 5, "145": 1, "107": 1, "143": 7, "50": 3, "127": 8, "243": 2, "120": 4, "238": 13, "154": 8, "54": 7, "162": 7, "192": 5, "226": 2, "25": 2, "200": 3, "179": 3, "87": 6, "144": 3, "250": 5, "126": 23, "142": 18, "0": 5, "116": 3, "183": 4, "74": 2, "223": 8, "31": 8, "249": 3, "28": 14, "46": 4, "2": 4, "14": 14, "114": 3, "176": 5, "63": 8, "80": 6, "92": 12, "34": 9, "82": 3, "84": 6, "239": 5, "26": 6, "251": 5, "216": 5, "4": 1, "175": 6, "72": 1, "96": 8, "90": 4, "168": 3, "18": 3, "206": 10, "55": 4, "19": 2, "146": 4, "118": 4, "59": 4, "159": 7, "130": 5, "187": 6, "52": 6, "181": 1, "58": 6, "56": 4, "20": 4, "45": 2, "79": 2, "40": 3, "169": 1, "244": 4, "108": 9, "253": 2, "38": 2, "248": 1, "122": 7, "166": 4, "174": 11, "153": 3, "220": 15, "86": 5, "44": 4, "124": 10, "215": 3, "160": 5, "210": 2, "99": 3, "202": 3, "221": 4, "77": 3, "185": 1, "7": 1, "123": 5, "85": 3, "61": 3, "189": 5, "152": 2, "88": 3, "147": 2, "21": 2, "66": 5, "15": 7, "112": 2, "102": 1, "205": 2, "178": 3, "43": 3, "48": 2, "95": 9, "214": 5, "137": 1, "27": 4, "67": 1, "184": 1, "172": 5, "164": 1, "140": 3, "139": 2, "242": 1, "167": 1, "182": 3, "64": 6, "196": 1, "115": 2, "224": 2, "106": 2, "65": 4, "24": 3, "227": 2, "32": 4, "199": 1, "93": 2, "81": 1, "151": 3, "29": 3, "12": 2, "240": 2, "180": 2, "91": 5, "121": 2, "204": 4, "119": 2, "155": 2, "113": 2, "3": 3, "173": 1, "171": 2, "194": 2, "219": 2, "170": 3, "228": 1, "17": 1, "141": 2, "53": 2, "236": 2, "132": 1, "97": 2, "47": 4, "57": 3, "209": 1, "195": 2, "138": 2, "235": 1, "73": 1, "117": 2, "39": 1, "198": 2, "208": 2, "69": 1, "177": 1, "42": 1, "157": 1, "233": 1, "104": 1, "13": 1, "135": 1, "213": 1, "129": 1, "161": 1, "10": 1, "211": 1, "71": 1}
+
+
+=======================================================
+[2026-05-16 19:12:47] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 8
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 434
+Total Gates = 753
+Gate Types Breakdown = {"sx": 329, "rz": 237, "cz": 165, "x": 10, "measure": 8, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-16 17:42:59
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.0109 +/- 0.0011
+Total Success Rate = 0.57% +/- 0.10%
+Expected Peak Success Rate = 49.09% +/- 11.53%
+Peaks yielding exact 'r' = [32, 96, 160, 224]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 0.4% | Expected Peak Accuracy: 34.0%]: {"184": 22, "147": 28, "116": 22, "187": 30, "119": 71, "191": 37, "172": 8, "223": 29, "122": 10, "52": 21, "107": 6, "166": 4, "250": 18, "80": 9, "21": 24, "121": 11, "248": 9, "25": 12, "183": 87, "87": 78, "67": 5, "79": 31, "150": 32, "246": 31, "215": 91, "247": 89, "54": 38, "63": 53, "151": 94, "71": 18, "245": 30, "175": 23, "12": 12, "53": 23, "90": 17, "203": 12, "239": 18, "86": 34, "132": 7, "29": 27, "50": 8, "118": 27, "39": 24, "26": 33, "19": 19, "237": 11, "75": 13, "91": 25, "59": 26, "190": 14, "189": 27, "11": 12, "114": 10, "85": 18, "207": 22, "214": 35, "31": 47, "55": 77, "113": 10, "46": 12, "182": 26, "156": 17, "124": 14, "219": 24, "35": 9, "217": 16, "41": 4, "139": 5, "94": 17, "178": 12, "28": 27, "162": 6, "137": 7, "255": 23, "61": 20, "125": 25, "149": 28, "47": 25, "131": 6, "169": 6, "221": 22, "108": 9, "127": 37, "174": 13, "22": 39, "83": 25, "120": 20, "3": 5, "133": 9, "211": 22, "16": 7, "244": 11, "158": 16, "73": 6, "27": 29, "111": 30, "181": 24, "66": 4, "103": 17, "24": 22, "216": 19, "23": 104, "235": 7, "76": 11, "243": 23, "159": 53, "154": 18, "62": 11, "173": 10, "117": 29, "142": 16, "153": 19, "195": 5, "93": 25, "92": 24, "176": 10, "77": 7, "188": 24, "32": 6, "205": 21, "218": 10, "70": 2, "43": 10, "15": 24, "109": 8, "89": 6, "254": 13, "84": 13, "97": 3, "222": 6, "143": 35, "180": 22, "123": 24, "57": 11, "5": 4, "146": 10, "198": 9, "1": 3, "196": 13, "100": 8, "157": 27, "252": 26, "145": 8, "165": 11, "104": 5, "140": 8, "14": 10, "231": 19, "110": 16, "95": 46, "0": 5, "179": 32, "194": 2, "88": 12, "253": 26, "202": 3, "36": 6, "38": 8, "56": 20, "45": 11, "18": 7, "186": 15, "60": 14, "167": 14, "34": 5, "8": 7, "51": 16, "234": 10, "206": 17, "251": 25, "192": 4, "7": 20, "135": 14, "20": 15, "199": 12, "212": 12, "9": 3, "69": 6, "128": 16, "171": 15, "238": 10, "148": 22, "155": 31, "101": 11, "81": 3, "141": 10, "152": 25, "213": 26, "126": 10, "115": 14, "30": 11, "160": 7, "204": 5, "58": 15, "138": 2, "6": 9, "220": 19, "164": 7, "136": 5, "227": 4, "49": 4, "185": 10, "78": 9, "65": 1, "105": 4, "2": 1, "170": 3, "134": 6, "42": 2, "106": 6, "99": 3, "112": 3, "44": 12, "102": 4, "226": 4, "228": 5, "129": 6, "200": 6, "96": 1, "64": 6, "68": 10, "233": 5, "168": 6, "208": 11, "48": 4, "82": 8, "72": 5, "144": 7, "40": 5, "163": 5, "37": 5, "232": 7, "242": 3, "130": 3, "4": 3, "193": 4, "201": 5, "236": 3, "225": 2, "10": 3, "197": 5, "209": 3, "74": 3, "240": 5, "210": 4, "177": 2, "229": 3, "33": 2, "241": 5, "98": 4, "13": 4, "249": 3, "17": 4, "224": 2, "230": 2}
+Run 2 [Total Success: 0.5% | Expected Peak Accuracy: 43.1%]: {"255": 33, "95": 34, "43": 13, "251": 35, "151": 93, "233": 5, "248": 18, "52": 23, "54": 27, "167": 19, "204": 13, "229": 14, "94": 16, "216": 18, "127": 37, "122": 14, "119": 77, "62": 11, "253": 28, "168": 6, "7": 19, "206": 16, "115": 20, "91": 23, "213": 21, "235": 6, "175": 22, "143": 29, "79": 22, "223": 38, "56": 18, "121": 9, "125": 33, "252": 21, "191": 50, "219": 32, "31": 37, "63": 45, "87": 82, "224": 8, "176": 3, "15": 31, "111": 25, "139": 12, "41": 7, "100": 8, "89": 12, "250": 14, "243": 21, "152": 19, "59": 28, "23": 83, "164": 9, "86": 37, "9": 2, "140": 15, "215": 95, "199": 18, "83": 34, "124": 18, "155": 33, "19": 22, "12": 11, "51": 23, "93": 31, "148": 23, "188": 19, "214": 39, "11": 9, "108": 10, "22": 29, "82": 11, "237": 6, "0": 10, "60": 24, "137": 5, "16": 7, "147": 23, "156": 18, "185": 11, "153": 14, "28": 18, "135": 16, "8": 9, "78": 16, "171": 12, "24": 23, "55": 74, "149": 31, "75": 8, "138": 9, "181": 37, "242": 12, "64": 5, "71": 22, "40": 7, "112": 6, "5": 16, "29": 24, "107": 12, "142": 9, "154": 18, "173": 8, "61": 39, "186": 21, "211": 15, "103": 12, "247": 67, "201": 5, "44": 2, "76": 11, "197": 9, "90": 18, "85": 23, "88": 14, "158": 9, "73": 6, "20": 12, "183": 84, "6": 8, "53": 24, "207": 22, "18": 12, "187": 35, "57": 9, "221": 23, "157": 25, "246": 32, "46": 12, "129": 5, "239": 25, "141": 8, "203": 15, "254": 14, "4": 9, "123": 20, "200": 8, "67": 4, "159": 45, "48": 4, "92": 19, "209": 6, "241": 5, "230": 4, "104": 8, "194": 3, "66": 3, "117": 22, "47": 27, "13": 12, "198": 5, "208": 6, "231": 16, "165": 10, "21": 28, "84": 21, "133": 10, "116": 17, "34": 5, "182": 25, "196": 12, "39": 19, "205": 7, "74": 9, "190": 5, "27": 30, "210": 11, "118": 23, "189": 25, "144": 1, "106": 3, "238": 7, "37": 7, "218": 9, "245": 27, "150": 28, "113": 9, "244": 23, "80": 7, "38": 5, "225": 3, "77": 12, "126": 11, "30": 13, "33": 2, "212": 15, "49": 4, "145": 5, "180": 28, "174": 10, "227": 7, "68": 10, "14": 7, "35": 4, "72": 11, "32": 7, "109": 8, "128": 10, "178": 10, "120": 13, "192": 4, "160": 4, "26": 15, "222": 10, "146": 7, "65": 4, "110": 6, "50": 12, "81": 6, "105": 3, "17": 7, "3": 7, "98": 5, "249": 6, "228": 7, "69": 9, "132": 4, "220": 14, "184": 15, "134": 8, "240": 4, "25": 13, "58": 10, "202": 5, "130": 5, "10": 6, "177": 7, "161": 2, "114": 11, "170": 3, "217": 5, "179": 18, "169": 3, "232": 6, "172": 10, "1": 3, "131": 5, "70": 4, "166": 6, "36": 5, "101": 3, "102": 5, "136": 5, "99": 3, "195": 6, "42": 2, "45": 8, "163": 3, "96": 3, "234": 2, "236": 3, "162": 4, "226": 2, "97": 1, "2": 1}
+Run 3 [Total Success: 0.6% | Expected Peak Accuracy: 46.0%]: {"18": 11, "53": 35, "112": 9, "156": 17, "23": 112, "222": 16, "142": 11, "247": 74, "244": 20, "55": 87, "46": 12, "64": 6, "102": 4, "31": 38, "63": 39, "127": 40, "178": 9, "232": 12, "131": 5, "117": 32, "179": 35, "146": 10, "182": 32, "77": 11, "147": 32, "151": 111, "7": 20, "150": 39, "165": 14, "28": 17, "52": 24, "87": 80, "213": 30, "181": 33, "180": 20, "122": 11, "51": 24, "248": 19, "128": 8, "69": 8, "231": 17, "161": 4, "71": 17, "91": 16, "68": 9, "177": 5, "140": 9, "119": 94, "189": 32, "187": 24, "215": 88, "212": 19, "217": 9, "43": 7, "194": 7, "243": 23, "163": 10, "158": 12, "211": 17, "67": 6, "118": 33, "143": 19, "84": 28, "230": 10, "110": 10, "21": 25, "83": 30, "223": 42, "155": 24, "159": 45, "228": 9, "56": 21, "114": 8, "70": 7, "164": 7, "214": 34, "170": 3, "37": 7, "183": 97, "75": 8, "113": 4, "134": 12, "39": 10, "149": 19, "199": 16, "135": 17, "92": 16, "171": 13, "15": 23, "61": 17, "11": 11, "239": 20, "27": 26, "207": 35, "5": 4, "45": 11, "29": 29, "57": 6, "95": 23, "200": 9, "47": 18, "198": 7, "123": 22, "20": 30, "2": 8, "58": 17, "173": 8, "193": 4, "13": 8, "206": 11, "9": 3, "96": 3, "233": 6, "152": 24, "80": 5, "115": 24, "50": 14, "175": 32, "116": 17, "4": 7, "99": 5, "246": 30, "32": 8, "24": 25, "133": 7, "204": 11, "107": 15, "88": 24, "186": 17, "192": 5, "30": 15, "254": 10, "81": 7, "86": 40, "48": 5, "245": 25, "90": 15, "219": 19, "36": 7, "184": 15, "208": 6, "250": 10, "154": 20, "34": 4, "148": 24, "59": 20, "16": 12, "216": 10, "168": 7, "190": 20, "14": 6, "220": 10, "241": 7, "22": 33, "94": 15, "3": 9, "19": 34, "240": 5, "229": 8, "26": 14, "235": 6, "144": 8, "121": 13, "105": 4, "49": 6, "132": 5, "17": 5, "205": 9, "72": 11, "6": 10, "136": 6, "166": 8, "103": 20, "130": 2, "153": 9, "120": 20, "224": 8, "93": 19, "255": 29, "111": 24, "106": 5, "203": 11, "82": 12, "44": 10, "238": 9, "38": 7, "185": 18, "74": 4, "42": 6, "209": 6, "191": 42, "79": 18, "195": 6, "172": 2, "101": 7, "162": 1, "202": 3, "249": 4, "253": 20, "157": 24, "10": 5, "139": 12, "40": 7, "125": 28, "167": 16, "225": 2, "85": 23, "251": 29, "73": 7, "242": 12, "226": 4, "60": 15, "78": 9, "109": 12, "210": 10, "234": 4, "89": 6, "124": 15, "25": 6, "221": 22, "104": 3, "137": 9, "252": 8, "126": 6, "54": 25, "197": 11, "33": 1, "176": 5, "237": 5, "100": 6, "218": 9, "236": 8, "188": 16, "169": 5, "227": 2, "76": 6, "108": 2, "62": 5, "12": 6, "35": 2, "174": 5, "0": 8, "8": 5, "196": 3, "66": 4, "145": 5, "141": 4, "138": 4, "41": 2, "160": 4, "97": 2, "65": 1, "129": 1}
+Run 4 [Total Success: 0.7% | Expected Peak Accuracy: 54.0%]: {"2": 7, "28": 15, "190": 15, "67": 7, "30": 16, "147": 28, "210": 10, "154": 14, "101": 4, "55": 103, "86": 33, "151": 101, "183": 94, "27": 21, "142": 9, "6": 8, "31": 57, "136": 5, "54": 28, "25": 14, "254": 9, "158": 14, "29": 21, "111": 18, "119": 76, "53": 25, "203": 8, "22": 34, "134": 6, "196": 7, "250": 20, "169": 7, "168": 6, "87": 105, "213": 16, "189": 21, "126": 8, "194": 4, "247": 81, "61": 33, "207": 23, "16": 9, "85": 23, "211": 18, "88": 20, "188": 27, "229": 9, "209": 3, "155": 24, "13": 9, "95": 43, "246": 33, "215": 72, "47": 32, "221": 23, "66": 7, "23": 83, "237": 9, "143": 33, "93": 30, "165": 9, "140": 9, "124": 21, "44": 5, "15": 37, "245": 23, "42": 6, "32": 5, "252": 27, "243": 28, "135": 22, "12": 13, "191": 45, "51": 27, "121": 10, "255": 36, "118": 27, "77": 9, "7": 19, "92": 15, "166": 9, "233": 4, "58": 15, "239": 21, "152": 24, "24": 17, "21": 32, "91": 32, "192": 10, "182": 30, "184": 19, "249": 10, "127": 43, "206": 8, "181": 30, "159": 51, "220": 17, "218": 17, "214": 29, "175": 28, "123": 15, "63": 46, "11": 12, "82": 4, "244": 19, "205": 6, "231": 14, "73": 7, "153": 12, "217": 5, "104": 10, "62": 18, "173": 10, "59": 18, "8": 5, "138": 7, "116": 24, "65": 5, "212": 20, "149": 28, "148": 15, "200": 10, "50": 12, "132": 9, "125": 30, "224": 10, "19": 33, "94": 15, "139": 5, "72": 7, "236": 9, "46": 9, "156": 16, "83": 20, "240": 12, "157": 25, "69": 8, "26": 15, "145": 9, "228": 13, "180": 18, "57": 9, "120": 10, "38": 5, "84": 18, "110": 12, "216": 22, "117": 26, "167": 21, "219": 19, "39": 10, "179": 24, "60": 16, "79": 21, "248": 9, "0": 6, "150": 27, "223": 47, "45": 9, "141": 8, "204": 9, "202": 3, "78": 12, "71": 13, "109": 7, "37": 6, "172": 10, "227": 4, "160": 9, "20": 23, "197": 12, "68": 9, "174": 9, "242": 6, "18": 13, "52": 18, "17": 6, "193": 4, "35": 4, "163": 2, "115": 15, "128": 3, "241": 6, "235": 14, "238": 11, "199": 18, "48": 6, "89": 12, "80": 6, "177": 7, "133": 7, "5": 8, "112": 7, "108": 10, "74": 6, "146": 10, "36": 8, "187": 32, "49": 5, "107": 12, "90": 12, "178": 9, "222": 9, "14": 9, "43": 9, "98": 3, "103": 21, "130": 4, "81": 7, "253": 21, "186": 12, "4": 8, "251": 20, "195": 5, "97": 4, "76": 4, "176": 4, "64": 4, "122": 10, "208": 1, "33": 1, "171": 10, "70": 6, "99": 4, "198": 7, "232": 5, "113": 6, "185": 8, "56": 19, "102": 5, "144": 6, "9": 3, "75": 7, "1": 2, "40": 7, "96": 3, "114": 6, "10": 7, "230": 3, "105": 5, "137": 3, "131": 6, "164": 7, "234": 2, "100": 1, "106": 3, "162": 2, "129": 4, "3": 5, "161": 1, "225": 1, "201": 1, "170": 1}
+Run 5 [Total Success: 0.7% | Expected Peak Accuracy: 68.3%]: {"243": 27, "86": 42, "151": 109, "55": 113, "96": 7, "154": 13, "39": 13, "125": 30, "167": 13, "148": 12, "244": 18, "119": 109, "54": 43, "127": 27, "221": 20, "95": 35, "190": 12, "189": 24, "215": 99, "78": 13, "186": 16, "61": 17, "23": 120, "47": 26, "42": 3, "40": 16, "143": 44, "32": 7, "184": 26, "216": 20, "74": 6, "251": 31, "122": 17, "14": 6, "30": 7, "207": 30, "82": 7, "91": 23, "115": 24, "87": 87, "38": 10, "93": 24, "246": 39, "238": 9, "22": 43, "199": 17, "92": 13, "187": 28, "175": 23, "245": 27, "234": 7, "249": 6, "247": 73, "24": 26, "150": 32, "85": 22, "135": 19, "15": 24, "63": 42, "239": 19, "19": 33, "208": 8, "71": 16, "152": 21, "183": 111, "159": 43, "157": 31, "51": 16, "179": 18, "223": 35, "67": 8, "217": 11, "149": 30, "124": 12, "165": 12, "110": 15, "142": 14, "168": 9, "103": 19, "248": 19, "126": 8, "72": 9, "252": 10, "21": 33, "83": 23, "117": 27, "250": 16, "88": 21, "120": 21, "60": 11, "155": 21, "33": 2, "166": 8, "62": 10, "211": 28, "200": 5, "31": 32, "191": 41, "20": 31, "25": 16, "111": 21, "255": 31, "144": 11, "254": 7, "118": 41, "153": 12, "185": 13, "94": 17, "97": 4, "172": 6, "213": 24, "133": 10, "12": 9, "50": 7, "69": 5, "136": 13, "57": 11, "214": 35, "182": 32, "229": 9, "116": 14, "52": 24, "49": 4, "212": 21, "45": 10, "7": 14, "197": 6, "44": 10, "209": 2, "210": 10, "53": 38, "46": 13, "253": 20, "77": 8, "204": 7, "27": 28, "220": 19, "173": 8, "56": 22, "146": 11, "76": 9, "192": 4, "174": 13, "79": 18, "75": 6, "123": 14, "128": 4, "104": 11, "37": 7, "181": 27, "180": 19, "29": 28, "232": 7, "140": 10, "121": 13, "28": 9, "18": 6, "158": 12, "194": 4, "59": 15, "203": 4, "84": 13, "141": 10, "105": 4, "6": 6, "13": 11, "114": 9, "68": 5, "241": 6, "4": 7, "224": 2, "16": 5, "205": 10, "222": 7, "147": 29, "178": 5, "228": 3, "99": 4, "107": 11, "80": 6, "233": 2, "138": 7, "156": 9, "48": 12, "225": 1, "206": 8, "169": 6, "171": 7, "131": 4, "89": 3, "218": 12, "237": 8, "98": 2, "8": 13, "100": 6, "134": 9, "130": 2, "58": 16, "70": 7, "188": 11, "170": 3, "11": 9, "160": 12, "90": 11, "235": 3, "113": 9, "201": 4, "2": 5, "161": 4, "163": 6, "176": 6, "231": 7, "137": 3, "5": 8, "26": 20, "242": 9, "36": 5, "227": 3, "41": 8, "236": 7, "230": 6, "64": 3, "10": 3, "1": 5, "3": 5, "35": 4, "196": 4, "219": 14, "164": 6, "162": 3, "73": 4, "195": 4, "43": 7, "17": 4, "112": 3, "132": 5, "139": 5, "177": 5, "106": 6, "240": 2, "108": 4, "129": 2, "226": 4, "109": 3, "66": 2, "81": 2, "65": 2, "145": 5, "193": 1, "102": 3, "0": 2, "34": 1, "101": 5, "9": 4, "198": 2}
+
+
+=======================================================
+[2026-05-16 19:13:07] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 8
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 390
+Total Gates = 755
+Gate Types Breakdown = {"sx": 346, "rz": 221, "cz": 170, "measure": 8, "x": 6, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_miami
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-16 17:42:59
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.0000 +/- 0.0000
+Total Success Rate = 0.00% +/- 0.00%
+Expected Peak Success Rate = 0.00% +/- 0.00%
+Peaks yielding exact 'r' = []
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 0.0% | Expected Peak Accuracy: 0.0%]: {"63": 1, "241": 1, "111": 1, "79": 1, "62": 1}
+
+
+=======================================================
+[2026-05-16 19:14:10] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 8
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 511
+Total Gates = 1001
+Gate Types Breakdown = {"sx": 467, "rz": 288, "cz": 229, "measure": 8, "x": 5, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 5
+Shots per Run = 1024
+Backend Calibration Date = 2026-05-16 18:35:18
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.5484 +/- 0.0424
+Total Success Rate = 27.81% +/- 2.30%
+Expected Peak Success Rate = 50.58% +/- 2.10%
+Peaks yielding exact 'r' = [32, 96, 160, 224]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 25.8% | Expected Peak Accuracy: 49.7%]: {"96": 72, "128": 64, "192": 74, "129": 9, "160": 64, "224": 51, "64": 62, "97": 4, "32": 77, "104": 12, "24": 22, "144": 12, "232": 4, "120": 13, "152": 22, "241": 4, "0": 67, "136": 10, "208": 9, "56": 16, "2": 1, "159": 2, "225": 3, "228": 4, "114": 2, "124": 3, "35": 3, "76": 1, "16": 8, "184": 19, "68": 2, "197": 2, "248": 15, "40": 12, "33": 3, "176": 10, "41": 3, "1": 6, "63": 4, "25": 3, "62": 3, "52": 2, "84": 7, "9": 1, "107": 1, "164": 6, "121": 3, "240": 6, "65": 6, "216": 18, "72": 10, "230": 1, "44": 1, "112": 5, "88": 25, "200": 8, "246": 1, "92": 1, "178": 1, "100": 4, "220": 1, "212": 2, "149": 1, "8": 19, "153": 1, "161": 2, "36": 5, "253": 1, "132": 2, "168": 6, "19": 1, "116": 3, "148": 4, "80": 4, "61": 2, "167": 2, "180": 2, "162": 4, "203": 1, "158": 1, "193": 3, "226": 2, "54": 2, "95": 1, "130": 1, "126": 3, "244": 3, "18": 1, "217": 1, "30": 1, "69": 2, "247": 1, "188": 2, "196": 4, "83": 1, "113": 1, "245": 1, "190": 2, "201": 1, "20": 2, "4": 2, "82": 1, "252": 1, "151": 1, "50": 1, "66": 1, "194": 1, "81": 1, "131": 1, "137": 1, "28": 2, "14": 1, "249": 1, "187": 1, "135": 1, "133": 2, "48": 2, "3": 1, "98": 1, "105": 1, "115": 1, "34": 1, "58": 1, "185": 2, "146": 1, "89": 1, "150": 2, "7": 1, "236": 1, "186": 1, "122": 1, "12": 1, "87": 1, "55": 1, "109": 1}
+Run 2 [Total Success: 25.1% | Expected Peak Accuracy: 51.4%]: {"64": 51, "192": 68, "180": 5, "3": 1, "96": 69, "69": 1, "208": 14, "0": 57, "128": 67, "32": 65, "248": 17, "74": 2, "91": 1, "16": 12, "225": 4, "226": 3, "84": 7, "160": 68, "152": 20, "216": 12, "56": 19, "89": 2, "163": 4, "24": 18, "88": 20, "72": 5, "224": 55, "176": 8, "48": 5, "156": 2, "148": 1, "9": 1, "33": 8, "162": 1, "232": 7, "200": 11, "18": 1, "220": 2, "159": 2, "133": 2, "49": 1, "40": 16, "54": 1, "136": 8, "246": 3, "80": 9, "172": 1, "231": 2, "144": 12, "193": 7, "196": 3, "120": 24, "218": 1, "77": 1, "97": 6, "30": 2, "67": 2, "188": 1, "112": 8, "171": 2, "1": 4, "86": 1, "132": 7, "104": 7, "44": 2, "7": 1, "168": 8, "21": 1, "237": 1, "255": 1, "118": 3, "212": 4, "130": 2, "8": 6, "92": 2, "70": 1, "123": 1, "138": 1, "227": 1, "62": 4, "190": 2, "14": 2, "34": 4, "81": 2, "58": 2, "65": 4, "184": 13, "254": 2, "178": 1, "122": 2, "221": 2, "20": 5, "66": 3, "129": 4, "240": 5, "90": 2, "116": 1, "228": 1, "126": 1, "164": 1, "146": 1, "35": 2, "145": 1, "252": 2, "108": 2, "31": 2, "147": 1, "161": 3, "244": 1, "177": 1, "55": 1, "19": 2, "217": 1, "100": 2, "157": 1, "10": 1, "73": 1, "25": 1, "4": 3, "52": 2, "114": 2, "99": 1, "124": 1, "28": 2, "117": 1, "186": 2, "149": 1, "210": 1, "201": 1, "243": 1, "194": 1, "26": 1, "47": 2, "219": 1, "2": 3, "151": 1, "251": 1, "119": 1, "121": 1, "36": 4, "143": 1, "78": 1, "154": 1, "23": 1, "131": 1, "247": 2, "182": 1, "22": 2, "137": 1, "197": 1, "169": 1, "236": 1, "249": 1, "57": 1, "234": 1, "105": 1, "158": 1}
+Run 3 [Total Success: 29.7% | Expected Peak Accuracy: 53.3%]: {"0": 61, "164": 5, "64": 67, "160": 83, "120": 10, "161": 4, "192": 72, "72": 7, "52": 2, "96": 85, "32": 69, "152": 15, "128": 66, "33": 7, "60": 3, "248": 13, "97": 6, "131": 2, "224": 67, "216": 14, "232": 6, "73": 2, "10": 1, "129": 10, "14": 1, "144": 7, "168": 13, "180": 6, "184": 13, "100": 4, "28": 3, "241": 3, "50": 2, "48": 8, "151": 2, "227": 1, "162": 4, "240": 6, "136": 8, "24": 12, "8": 13, "25": 1, "80": 8, "245": 1, "109": 1, "142": 1, "191": 2, "210": 1, "158": 4, "4": 2, "212": 4, "255": 3, "56": 17, "193": 2, "176": 5, "77": 1, "95": 1, "198": 3, "254": 2, "155": 1, "99": 1, "1": 5, "149": 1, "130": 3, "228": 2, "188": 1, "186": 1, "217": 1, "88": 12, "196": 5, "47": 1, "84": 2, "200": 8, "148": 6, "68": 4, "208": 5, "114": 2, "203": 1, "239": 1, "35": 3, "81": 2, "20": 1, "26": 1, "66": 1, "62": 2, "253": 1, "92": 1, "211": 2, "49": 3, "70": 1, "197": 2, "16": 5, "94": 2, "150": 3, "167": 2, "135": 1, "177": 2, "122": 2, "127": 2, "159": 1, "156": 4, "65": 1, "236": 1, "166": 1, "218": 1, "2": 3, "124": 2, "118": 1, "104": 2, "214": 2, "225": 2, "57": 1, "112": 4, "174": 1, "7": 1, "185": 1, "36": 4, "103": 1, "6": 1, "187": 1, "40": 3, "199": 1, "34": 2, "82": 1, "222": 2, "172": 1, "44": 1, "134": 1, "132": 3, "63": 2, "179": 2, "221": 1, "38": 1, "19": 1, "98": 1, "219": 1, "157": 1, "12": 1, "230": 1, "250": 1, "5": 1, "91": 2, "229": 1, "190": 1, "178": 2, "31": 1, "146": 1, "29": 1, "58": 1, "41": 1, "201": 1, "116": 1, "15": 1, "220": 1}
+Run 4 [Total Success: 27.3% | Expected Peak Accuracy: 47.1%]: {"130": 4, "96": 63, "121": 1, "136": 12, "160": 68, "32": 85, "64": 62, "192": 75, "240": 4, "0": 91, "74": 2, "224": 64, "128": 87, "16": 7, "1": 5, "60": 2, "24": 21, "144": 8, "36": 9, "98": 3, "200": 6, "216": 9, "212": 1, "35": 2, "252": 1, "41": 1, "56": 7, "225": 6, "65": 2, "8": 7, "139": 1, "167": 1, "126": 2, "250": 1, "97": 1, "193": 6, "104": 3, "72": 13, "99": 1, "195": 1, "196": 6, "117": 1, "146": 1, "59": 1, "67": 3, "152": 10, "63": 3, "80": 8, "163": 1, "220": 2, "246": 2, "123": 1, "177": 2, "248": 14, "76": 1, "184": 15, "92": 3, "168": 6, "85": 3, "48": 9, "88": 12, "232": 7, "194": 3, "164": 5, "132": 9, "94": 1, "133": 1, "244": 3, "161": 3, "5": 1, "131": 2, "112": 6, "217": 1, "66": 3, "124": 2, "120": 11, "109": 1, "239": 1, "214": 2, "241": 3, "162": 2, "176": 4, "73": 1, "79": 1, "178": 1, "180": 5, "166": 1, "247": 1, "165": 1, "118": 2, "190": 1, "255": 1, "233": 1, "89": 2, "140": 1, "100": 2, "18": 1, "143": 1, "105": 2, "93": 1, "173": 1, "40": 9, "44": 2, "25": 1, "50": 2, "228": 3, "147": 1, "95": 1, "129": 2, "31": 2, "84": 2, "19": 1, "175": 1, "17": 1, "137": 1, "188": 1, "90": 2, "222": 2, "7": 1, "208": 3, "30": 1, "108": 1, "125": 1, "57": 2, "62": 3, "28": 1, "52": 1, "34": 2, "68": 2, "81": 2, "158": 2, "229": 1, "82": 3, "4": 2, "114": 1, "227": 1, "87": 1, "154": 1, "191": 1, "122": 1, "27": 1, "254": 1, "86": 1, "42": 1, "223": 1, "150": 1, "77": 1, "242": 1, "159": 1}
+Run 5 [Total Success: 31.2% | Expected Peak Accuracy: 51.4%]: {"52": 2, "54": 3, "160": 88, "224": 78, "64": 81, "33": 10, "56": 10, "80": 10, "128": 71, "192": 81, "92": 5, "96": 78, "182": 3, "98": 3, "158": 2, "184": 8, "120": 14, "232": 4, "155": 1, "32": 75, "0": 69, "24": 15, "73": 2, "152": 10, "117": 3, "255": 2, "68": 6, "22": 1, "129": 3, "142": 1, "18": 3, "240": 11, "216": 11, "228": 2, "27": 1, "70": 1, "4": 1, "144": 7, "88": 9, "156": 3, "147": 4, "34": 2, "86": 1, "195": 2, "212": 2, "226": 2, "209": 3, "16": 7, "208": 10, "30": 2, "95": 2, "84": 3, "168": 9, "248": 6, "154": 2, "112": 8, "200": 7, "72": 9, "167": 1, "104": 3, "97": 3, "220": 2, "81": 2, "2": 2, "126": 3, "161": 7, "66": 3, "140": 1, "100": 3, "50": 1, "193": 4, "203": 1, "40": 6, "225": 6, "17": 1, "222": 2, "69": 2, "65": 2, "116": 2, "90": 3, "178": 1, "44": 1, "8": 2, "130": 2, "136": 4, "20": 3, "254": 1, "172": 1, "53": 1, "198": 1, "218": 1, "253": 1, "196": 1, "78": 1, "13": 1, "101": 1, "48": 8, "83": 2, "164": 2, "1": 4, "190": 3, "148": 2, "201": 1, "51": 1, "176": 6, "121": 2, "94": 1, "204": 1, "99": 1, "205": 1, "179": 1, "36": 2, "6": 1, "223": 1, "106": 1, "246": 1, "132": 4, "252": 1, "58": 1, "19": 1, "133": 1, "37": 1, "231": 1, "55": 1, "25": 1, "31": 1, "35": 1, "183": 1, "124": 1, "76": 1, "162": 2, "57": 1, "145": 1, "243": 1, "180": 1, "114": 2, "153": 1, "93": 1, "122": 1, "131": 1, "3": 1}
+
+
+=======================================================
+[2026-05-16 19:15:42] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 8
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 462
+Total Gates = 936
+Gate Types Breakdown = {"sx": 428, "rz": 286, "cz": 200, "x": 10, "measure": 8, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 5
+Shots per Run = 4096
+Backend Calibration Date = 2026-05-16 19:05:22
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.2252 +/- 0.2248
+Total Success Rate = 11.22% +/- 11.16%
+Expected Peak Success Rate = 49.91% +/- 0.42%
+Peaks yielding exact 'r' = [32, 96, 160, 224]
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 2.1% | Expected Peak Accuracy: 50.6%]: {"108": 138, "124": 99, "96": 22, "28": 100, "76": 123, "196": 149, "198": 10, "195": 12, "132": 151, "100": 151, "228": 142, "222": 12, "60": 77, "158": 13, "220": 86, "36": 155, "109": 7, "172": 128, "236": 110, "244": 7, "140": 142, "92": 94, "252": 94, "29": 2, "44": 127, "10": 5, "46": 10, "206": 8, "12": 126, "52": 12, "227": 5, "84": 12, "224": 20, "4": 143, "141": 8, "225": 2, "164": 177, "180": 12, "68": 166, "194": 7, "14": 16, "188": 77, "125": 4, "238": 11, "64": 13, "32": 27, "174": 10, "148": 9, "34": 9, "5": 10, "192": 26, "175": 4, "191": 9, "88": 5, "200": 5, "24": 3, "234": 6, "250": 2, "204": 111, "254": 12, "156": 94, "251": 7, "86": 2, "199": 8, "139": 8, "255": 4, "102": 5, "94": 20, "163": 7, "155": 3, "127": 4, "110": 12, "212": 17, "221": 4, "167": 1, "30": 18, "136": 5, "66": 11, "45": 10, "67": 5, "111": 2, "116": 14, "63": 7, "230": 4, "0": 18, "75": 4, "128": 29, "173": 9, "61": 10, "122": 2, "70": 4, "152": 6, "11": 5, "104": 4, "237": 3, "142": 13, "131": 12, "144": 4, "77": 5, "37": 4, "160": 19, "48": 7, "190": 9, "16": 7, "126": 7, "35": 4, "233": 1, "223": 5, "112": 6, "189": 9, "207": 6, "6": 6, "129": 5, "133": 5, "40": 4, "8": 5, "203": 5, "59": 3, "130": 6, "226": 6, "117": 2, "33": 3, "149": 1, "162": 8, "50": 4, "134": 8, "166": 7, "89": 3, "157": 9, "62": 8, "193": 3, "74": 4, "78": 13, "41": 1, "26": 3, "171": 8, "18": 1, "235": 4, "208": 6, "183": 2, "3": 4, "246": 3, "185": 2, "72": 3, "153": 2, "168": 6, "240": 3, "2": 4, "98": 5, "205": 8, "147": 2, "42": 3, "184": 5, "93": 4, "83": 4, "186": 1, "159": 8, "39": 2, "210": 2, "123": 1, "15": 3, "135": 4, "31": 3, "22": 1, "187": 2, "38": 6, "202": 4, "253": 4, "87": 1, "13": 5, "69": 2, "99": 3, "20": 10, "80": 2, "170": 2, "101": 6, "90": 3, "176": 3, "43": 3, "178": 1, "25": 2, "231": 5, "65": 1, "47": 3, "106": 3, "85": 1, "120": 2, "197": 2, "232": 4, "27": 5, "150": 2, "107": 4, "82": 2, "105": 3, "165": 6, "242": 1, "219": 4, "103": 1, "229": 2, "21": 3, "95": 3, "143": 2, "211": 1, "218": 1, "247": 1, "57": 1, "51": 1, "138": 3, "119": 1, "53": 2, "114": 1, "19": 1, "239": 2, "79": 2, "181": 1, "146": 2, "49": 2, "118": 1, "91": 2, "54": 2, "137": 2, "182": 1, "97": 2, "56": 1, "121": 1, "55": 1}
+Run 2 [Total Success: 2.2% | Expected Peak Accuracy: 50.0%]: {"62": 17, "172": 124, "124": 83, "4": 159, "108": 108, "12": 134, "164": 188, "36": 158, "191": 9, "30": 19, "196": 169, "92": 95, "206": 11, "60": 77, "220": 80, "141": 5, "76": 130, "100": 155, "44": 125, "236": 103, "204": 127, "116": 8, "142": 6, "59": 1, "178": 1, "132": 128, "192": 22, "1": 2, "28": 92, "156": 82, "107": 8, "68": 170, "254": 20, "138": 1, "190": 18, "228": 144, "128": 17, "140": 124, "70": 8, "117": 2, "222": 19, "134": 7, "9": 3, "189": 11, "111": 7, "65": 2, "252": 82, "56": 2, "110": 16, "47": 4, "158": 20, "104": 3, "112": 4, "188": 103, "96": 22, "193": 1, "216": 2, "147": 4, "126": 13, "224": 28, "99": 11, "131": 6, "24": 2, "130": 6, "94": 23, "77": 5, "0": 25, "227": 5, "101": 4, "72": 4, "251": 3, "11": 5, "146": 2, "3": 4, "105": 2, "201": 3, "29": 4, "75": 9, "205": 6, "249": 1, "160": 16, "230": 9, "91": 4, "212": 3, "38": 10, "80": 6, "203": 4, "166": 8, "186": 2, "82": 1, "78": 20, "195": 8, "173": 4, "136": 2, "64": 27, "157": 3, "48": 7, "226": 7, "32": 25, "237": 6, "198": 7, "235": 7, "244": 5, "93": 8, "139": 5, "67": 8, "6": 9, "162": 21, "202": 5, "14": 16, "16": 6, "5": 1, "238": 10, "13": 8, "175": 6, "253": 5, "208": 2, "137": 1, "123": 3, "149": 1, "165": 3, "161": 2, "2": 8, "35": 9, "63": 9, "34": 12, "214": 3, "168": 3, "69": 4, "37": 4, "88": 3, "84": 7, "46": 8, "102": 7, "148": 7, "43": 8, "22": 2, "255": 8, "125": 6, "41": 4, "98": 7, "240": 8, "31": 3, "176": 9, "40": 4, "20": 5, "171": 7, "86": 3, "155": 4, "71": 1, "174": 7, "167": 5, "74": 2, "127": 4, "223": 8, "66": 9, "197": 5, "95": 3, "109": 3, "200": 4, "54": 3, "87": 3, "8": 2, "120": 5, "45": 6, "184": 2, "232": 2, "97": 2, "207": 4, "50": 1, "250": 2, "106": 5, "10": 2, "144": 3, "194": 7, "58": 4, "53": 1, "26": 1, "229": 3, "121": 1, "52": 6, "199": 4, "170": 3, "221": 5, "15": 1, "83": 2, "242": 4, "247": 3, "219": 2, "61": 9, "248": 1, "159": 1, "42": 3, "245": 1, "234": 5, "103": 2, "239": 1, "143": 2, "231": 1, "135": 1, "210": 2, "79": 1, "90": 3, "122": 1, "218": 1, "180": 4, "21": 2, "182": 1, "51": 3, "183": 2, "27": 1, "33": 2, "133": 6, "246": 1, "185": 1, "187": 1, "89": 1, "57": 2, "181": 1, "153": 1, "163": 2, "23": 1, "215": 1, "85": 1, "211": 1}
+Run 3 [Total Success: 23.2% | Expected Peak Accuracy: 49.3%]: {"224": 215, "192": 260, "232": 39, "24": 22, "32": 269, "40": 39, "1": 11, "96": 221, "208": 24, "104": 33, "2": 29, "159": 10, "228": 29, "252": 28, "0": 238, "66": 24, "160": 245, "92": 37, "69": 2, "98": 28, "144": 24, "4": 32, "255": 9, "128": 233, "72": 36, "100": 48, "112": 24, "200": 35, "108": 19, "97": 11, "226": 19, "123": 2, "49": 3, "64": 247, "34": 19, "241": 3, "8": 37, "63": 8, "188": 25, "116": 6, "202": 6, "225": 13, "44": 26, "85": 3, "59": 3, "28": 32, "191": 8, "235": 2, "9": 7, "194": 23, "120": 21, "36": 36, "234": 3, "167": 3, "70": 2, "124": 29, "80": 18, "132": 44, "181": 2, "130": 24, "220": 24, "236": 15, "117": 2, "179": 2, "176": 25, "171": 6, "56": 20, "164": 39, "168": 46, "74": 9, "68": 38, "204": 14, "227": 9, "172": 17, "152": 26, "156": 23, "209": 4, "251": 4, "102": 3, "140": 20, "162": 21, "95": 7, "30": 3, "3": 8, "19": 2, "214": 4, "153": 3, "73": 1, "18": 3, "170": 9, "62": 3, "48": 18, "244": 3, "16": 15, "12": 16, "248": 18, "126": 5, "129": 8, "75": 3, "136": 30, "237": 2, "65": 8, "10": 7, "52": 6, "143": 5, "20": 8, "38": 2, "114": 5, "31": 10, "113": 5, "196": 44, "186": 7, "161": 13, "201": 3, "60": 36, "222": 4, "218": 4, "33": 12, "141": 2, "154": 3, "6": 3, "138": 7, "240": 23, "26": 10, "163": 4, "195": 7, "147": 1, "239": 5, "105": 3, "155": 7, "230": 2, "35": 5, "122": 5, "107": 4, "91": 3, "193": 10, "50": 2, "76": 26, "57": 7, "131": 8, "182": 2, "43": 3, "148": 5, "99": 3, "51": 2, "119": 5, "41": 3, "7": 4, "83": 1, "210": 3, "173": 2, "42": 10, "58": 4, "229": 2, "207": 2, "180": 6, "190": 1, "250": 4, "199": 4, "212": 8, "93": 1, "47": 3, "175": 1, "203": 2, "215": 2, "45": 1, "127": 4, "221": 4, "233": 1, "184": 13, "110": 1, "211": 2, "213": 1, "90": 5, "89": 2, "157": 3, "223": 6, "254": 3, "134": 3, "27": 3, "88": 16, "82": 7, "169": 6, "216": 18, "146": 4, "17": 2, "13": 1, "54": 2, "94": 3, "106": 8, "15": 2, "67": 4, "178": 3, "217": 1, "109": 1, "121": 4, "219": 2, "103": 4, "177": 3, "139": 2, "238": 2, "242": 4, "125": 1, "249": 1, "111": 1, "246": 1, "135": 1, "101": 1, "137": 3, "174": 2, "25": 2, "84": 3, "187": 3, "166": 2, "247": 1, "245": 1, "22": 1, "46": 1, "197": 2, "189": 1, "183": 2, "71": 2, "61": 1, "231": 2, "185": 2, "118": 1, "5": 1, "145": 3, "29": 2, "87": 1, "79": 2, "198": 4, "206": 2, "39": 2, "14": 1, "78": 1, "165": 1, "21": 1, "53": 1}
+Run 4 [Total Success: 26.5% | Expected Peak Accuracy: 50.0%]: {"128": 277, "0": 261, "32": 300, "104": 23, "224": 253, "96": 254, "64": 285, "222": 4, "192": 262, "68": 34, "160": 277, "92": 37, "196": 35, "158": 4, "194": 25, "44": 19, "134": 1, "228": 49, "236": 18, "188": 24, "98": 38, "100": 39, "36": 31, "97": 12, "132": 38, "195": 4, "252": 24, "233": 3, "135": 4, "66": 27, "172": 14, "191": 9, "80": 20, "41": 5, "28": 29, "12": 25, "156": 31, "185": 2, "40": 29, "78": 4, "193": 9, "60": 26, "124": 21, "144": 25, "238": 2, "48": 26, "62": 5, "221": 3, "133": 2, "164": 46, "130": 26, "112": 25, "162": 29, "216": 7, "30": 3, "31": 6, "75": 4, "136": 23, "8": 23, "226": 32, "249": 3, "45": 1, "72": 23, "56": 10, "170": 7, "225": 12, "129": 11, "153": 2, "201": 10, "16": 23, "106": 7, "108": 24, "140": 23, "208": 21, "165": 1, "176": 23, "206": 1, "13": 1, "26": 4, "159": 8, "4": 44, "33": 12, "200": 13, "27": 5, "184": 9, "204": 24, "207": 4, "59": 3, "168": 20, "65": 11, "245": 2, "2": 30, "109": 2, "220": 25, "58": 2, "24": 8, "70": 2, "198": 3, "95": 10, "255": 9, "205": 8, "74": 4, "35": 3, "120": 7, "217": 3, "250": 3, "43": 5, "11": 3, "203": 3, "209": 2, "5": 3, "76": 25, "49": 2, "240": 20, "91": 4, "51": 1, "143": 4, "94": 8, "232": 17, "88": 8, "29": 2, "244": 3, "126": 4, "138": 7, "55": 2, "113": 5, "87": 2, "183": 1, "215": 3, "254": 6, "223": 8, "212": 7, "248": 10, "152": 7, "3": 3, "114": 2, "239": 1, "227": 6, "246": 2, "199": 1, "148": 5, "186": 6, "161": 4, "131": 6, "99": 5, "38": 5, "177": 1, "63": 6, "9": 3, "1": 9, "187": 2, "146": 4, "34": 23, "17": 4, "173": 2, "90": 5, "69": 1, "175": 1, "67": 7, "243": 2, "181": 1, "154": 5, "73": 2, "169": 2, "202": 4, "52": 3, "182": 2, "163": 4, "234": 3, "229": 3, "83": 1, "84": 5, "46": 2, "211": 2, "178": 2, "110": 1, "145": 2, "214": 1, "218": 6, "127": 3, "139": 2, "81": 4, "137": 1, "142": 1, "167": 3, "82": 6, "189": 2, "122": 3, "10": 4, "23": 1, "107": 1, "150": 1, "37": 2, "247": 2, "155": 1, "219": 7, "210": 2, "19": 1, "253": 4, "251": 4, "147": 1, "149": 1, "242": 2, "123": 1, "102": 3, "71": 1, "85": 1, "118": 2, "241": 1, "42": 3, "50": 1, "105": 2, "166": 3, "237": 1, "22": 1, "18": 1, "231": 1, "47": 2, "180": 5, "121": 1, "171": 4, "235": 3, "14": 1, "20": 1, "103": 1, "190": 1, "141": 1, "151": 1, "57": 1}
+Run 5 [Total Success: 2.1% | Expected Peak Accuracy: 49.7%]: {"5": 4, "255": 8, "12": 132, "108": 134, "236": 128, "248": 5, "52": 12, "162": 9, "164": 192, "36": 172, "187": 2, "202": 5, "140": 117, "59": 2, "220": 102, "245": 2, "137": 2, "44": 130, "156": 105, "168": 8, "132": 145, "102": 10, "32": 27, "60": 98, "196": 166, "204": 114, "172": 127, "28": 100, "67": 9, "61": 9, "165": 6, "34": 13, "218": 4, "54": 2, "222": 13, "206": 7, "20": 13, "152": 5, "124": 73, "228": 133, "147": 1, "76": 132, "188": 82, "31": 8, "138": 1, "68": 152, "169": 3, "238": 12, "154": 4, "100": 133, "38": 5, "173": 7, "35": 6, "195": 5, "189": 7, "139": 3, "65": 2, "92": 96, "64": 28, "200": 4, "252": 89, "33": 2, "72": 4, "247": 5, "4": 139, "180": 8, "242": 3, "30": 6, "99": 3, "75": 4, "70": 6, "94": 10, "128": 19, "179": 5, "254": 16, "88": 3, "130": 2, "149": 2, "192": 20, "2": 9, "163": 6, "185": 1, "103": 3, "116": 6, "43": 3, "0": 18, "190": 14, "171": 5, "150": 2, "47": 5, "160": 18, "126": 12, "40": 10, "83": 1, "98": 8, "148": 9, "224": 18, "146": 2, "141": 7, "136": 5, "97": 2, "45": 5, "143": 5, "46": 6, "96": 21, "198": 11, "226": 2, "159": 5, "123": 4, "229": 6, "221": 6, "205": 11, "13": 5, "227": 9, "109": 5, "234": 2, "203": 7, "158": 13, "55": 2, "77": 7, "18": 1, "144": 4, "231": 1, "223": 5, "95": 6, "71": 4, "244": 10, "3": 6, "66": 7, "93": 5, "184": 6, "84": 9, "186": 3, "62": 13, "86": 2, "117": 1, "112": 9, "237": 6, "157": 4, "120": 6, "125": 3, "78": 7, "104": 11, "41": 1, "80": 4, "8": 4, "118": 3, "22": 3, "107": 2, "208": 5, "235": 7, "181": 2, "127": 5, "183": 4, "253": 5, "6": 9, "110": 7, "106": 2, "133": 4, "194": 5, "240": 6, "191": 5, "161": 4, "122": 2, "17": 1, "176": 7, "197": 3, "212": 13, "142": 11, "251": 2, "27": 3, "207": 6, "15": 4, "56": 5, "73": 2, "69": 4, "155": 2, "243": 2, "16": 8, "209": 2, "14": 8, "74": 3, "170": 2, "57": 1, "25": 1, "178": 3, "24": 4, "111": 4, "10": 4, "87": 4, "217": 2, "53": 1, "174": 6, "21": 3, "48": 4, "199": 1, "50": 1, "85": 1, "250": 2, "79": 2, "42": 3, "49": 1, "135": 2, "246": 3, "26": 1, "175": 2, "182": 3, "82": 3, "1": 2, "131": 5, "211": 2, "214": 1, "151": 1, "232": 2, "37": 5, "230": 2, "11": 2, "101": 1, "134": 3, "166": 6, "239": 1, "115": 1, "219": 2, "91": 1, "39": 1, "129": 1, "63": 4, "210": 1, "249": 1, "113": 1, "225": 1, "9": 1, "23": 1, "58": 1}
+
+
+=======================================================
+[2026-05-16 19:16:02] EXECUTION BATCH - N = 255
+=======================================================
+
+=== Algorithm and Circuit ===
+Order (r) = 8
+Executed QFT Bits (x_bits_on_circuit) = 8
+Ideal QFT Bits (ideal_qft_size) = 16
+Transpiler Optimization Level = 3
+Transpiler Seed = 42
+Transpiled Depth = 573
+Total Gates = 979
+Gate Types Breakdown = {"sx": 458, "rz": 266, "cz": 232, "x": 11, "measure": 8, "barrier": 4}
+
+=== Hardware and Execution ===
+Backend = ibm_boston
+Number of Runs = 1
+Shots per Run = 5
+Backend Calibration Date = 2026-05-16 19:05:22
+
+=== Statistical & Post-Processing Results ===
+Hellinger Fidelity = 0.1457 +/- 0.0000
+Total Success Rate = 0.00% +/- 0.00%
+Expected Peak Success Rate = 0.00% +/- 0.00%
+Peaks yielding exact 'r' = []
+
+=== Counts Distribution (Raw Data) ===
+Run 1 [Total Success: 0.0% | Expected Peak Accuracy: 0.0%]: {"64": 2, "158": 1, "0": 1, "8": 1}
+
+
