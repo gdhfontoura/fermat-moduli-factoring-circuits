@@ -1,9 +1,3 @@
-Aqui está a versão do `README.md` combinando as suas alterações (novo título, ordem dos autores) com todas as adições recentes do projeto (o script orquestrador, as novas métricas e o sistema de checkpoint).
-
-Arrumei também o link de clone do repositório para refletir o novo nome (`fermat-moduli-factoring-circuits`).
-
-Pode copiar e colar o bloco abaixo:
-
 ```markdown
 # fermat-moduli-factoring-circuits - Experimental Baseline for Shor's Order-Finding on NISQ Hardware
 
@@ -14,7 +8,7 @@ This project provides a transparent, reproducible baseline for evaluating the im
 ## Repository Structure
 
 * `factoring_51.ipynb` to `factoring_771.ipynb`: Self-contained Jupyter Notebooks. Each file constructs the explicit modular exponentiation circuit, runs the Inverse Quantum Fourier Transform (IQFT), and executes the classical continued fractions post-processing for its respective modulus.
-* `orquestrador.py`: The core automation script using `papermill`. It dynamically injects parameters (such as `QFT_SIZE`, `SHOTS_PER_RUN`, and `BACKEND_NAME`) into the notebooks, executing a sweeping matrix of tests across different IBM Quantum backends until the noise threshold is reached.
+* `pipeline.py`: The core automation script using `papermill`. It dynamically injects parameters (such as `QFT_SIZE`, `SHOTS_PER_RUN`, and `BACKEND_NAME`) into the notebooks, executing a sweeping matrix of tests across different IBM Quantum backends until the noise threshold is reached.
 * `execs_*.txt`: Automated log files generated during execution. These files contain a historical record of all hardware runs, capturing transpiled circuit depth, exact gate counts (e.g., `cx`, `rz`), backend calibration timestamps, Hellinger fidelities, and dual success rates (Total and Expected Peak).
 * `execution_checkpoint.json`: A dynamically generated state-saver file that allows the automation to resume exactly where it left off in case of API timeouts or network failures.
 * `requirements.txt`: Pinned Python dependencies to guarantee transpiler and environment reproducibility (Qiskit 1.0+, IBM Runtime, and Papermill).
@@ -67,7 +61,7 @@ IBM_QUANTUM_TOKEN=your_token_here
 To run the full suite of experiments across multiple backends and QFT sizes, simply execute the orchestrator. It will automatically handle batching, scaling, and logging.
 
 ```bash
-python orquestrador.py
+python pipeline.py
 
 ```
 
